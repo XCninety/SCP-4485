@@ -1,0 +1,2686 @@
+[[include :scp-wiki:component:black-highlighter-theme-dev]]
+[[include :scp-wiki:theme:the-foundation-theme]]
+
+[[module css]]
+:root {
+    --rating-module-text-color: var(--swatch-menutxt-light-color);
+    --rating-module-button-color:  var(--swatch-menutxt-light-color);
+}
+
+#page-content > div:nth-child(1) {
+    padding: 0.5rem 0.5rem 0 0.5rem;
+}
+
+.page-rate-widget-box {
+    margin: 0;
+    background:
+     linear-gradient(0deg,
+     rgba(var(--swatch-primary-darkest),.55) 0,
+     rgba(var(--swatch-primary-darkest),.45)) !important;
+}
+[[/module]]
+
+[[module css]]
+@import url("https://use.typekit.net/put0nby.css");
+
+.warning-container iframe {
+    min-height: 9.375rem;
+}
+
+.page-title {
+    margin-top: 1rem;
+    min-height: 4rem;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: -webkit-calc(100% - 1em - 0.5rem);
+    width: -moz-calc(100% - 1em - 0.5rem);
+    width: calc(100% - 1em - 0.5rem);
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -moz-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -moz-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    border: initial;
+    font-size: 3em;
+    line-height: 1;
+    text-align: center;
+    color: rgb(var(--white-monochrome));
+    background-color: rgb(var(--swatch-primary));
+    padding: 0.5em;
+    border: 0.25rem solid rgb(var(--white-monochrome));
+    position: relative;
+    z-index: 1;
+    font-family: var(--title-font);
+    font-weight: 900;
+}
+
+.page-title::before {
+    content: " ";
+    pointer-events: none;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-image: url(https://nu-scptheme.github.io/Black-Highlighter/img/logo.svg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    -webkit-background-size: 100% 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+    background-color: rgb(var(--swatch-primary));
+    z-index: -1;
+    opacity: 0.25;
+}
+
+.warning-container,
+.warning-container * {
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+}
+
+.warning-container {
+    width: 90%;
+    margin: 0 auto;
+    background-color: rgb(var(--dark-gray-monochrome));
+    color: rgb(var(--swatch-text-light));
+    font-weight: 900;
+    border: 0.5em solid rgb(var(--swatch-primary-darkest));
+}
+
+.warning-container .warning-top {
+    font-size: 200%;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -moz-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -moz-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    padding: 1rem;
+    font-family: var(--title-font);
+    background-color: rgb(var(--swatch-primary));
+    background-image: url("http://scptestwiki.wikidot.com/local--files/members:wt-framing-theme/cons_circle.svg");
+    -webkit-background-size: 50% 50%;
+    -moz-background-size: 50%;
+    -o-background-size: 50%;
+    background-size: 50%;
+    background-attachment: fixed;
+    background-position: 50% 50%;
+}
+
+.warning-container .warning-body {
+    font-weight: 600;
+    padding: 1rem;
+    margin: 1rem;
+    line-height: 1.5;
+    font-size: 115%;
+    font-family: var(--mono-font);
+    background-color: rgb(var(--swatch-primary-darkest),0.25);
+}
+
+.collapsible-block {
+    width: 100%;
+}
+
+.collapsible-block-folded > a,
+.collapsible-block-unfolded-link > a {
+    display: -webkit-inline-box;
+    display: -webkit-inline-flex;
+    display: -moz-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    width: 100%;
+    height: 100%;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -moz-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -moz-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    color: rgb(var(--white-monochrome));
+    font-weight: 900;
+    font-size: 1.25em;
+    background: rgb(var(--gray-monochrome));
+    -webkit-border-bottom-left-radius: 0.5em;
+    -moz-border-radius-bottomleft: 0.5em;
+    border-bottom-left-radius: 0.5em;
+    -webkit-border-bottom-right-radius: 0.5em;
+    -moz-border-radius-bottomright: 0.5em;
+    border-bottom-right-radius: 0.5em;
+}
+
+table.wiki-content-table {
+    width: 100%;
+    font-size: 1.5em;
+    text-align: center;
+    margin: 0 auto;
+}
+
+table.wiki-content-table,
+table.wiki-content-table * {
+    border-color: rgb(var(--black-monochrome)) !important;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+table.wiki-content-table tr:last-of-type {
+    width: 100%;
+    display: -webkit-inline-box;
+    display: -webkit-inline-flex;
+    display: -moz-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -webkit-box-align: stretch;
+    -webkit-align-items: stretch;
+    -moz-box-align: stretch;
+    -ms-flex-align: stretch;
+    align-items: stretch;
+    margin: 0;
+    font-weight: 700;
+}
+
+table.wiki-content-table td {
+    display: -webkit-inline-box;
+    display: -webkit-inline-flex;
+    display: -moz-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -moz-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -moz-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    margin: 0;
+    -webkit-box-flex: 2;
+    -webkit-flex-grow: 2;
+    -moz-box-flex: 2;
+    -ms-flex-positive: 2;
+    flex-grow: 2;
+    -webkit-flex-basis: 50%;
+    -ms-flex-preferred-size: 50%;
+    flex-basis: 50%;
+    background-color: rgb(var(--swatch-primary-darkest));
+    color: rgb(var(--white-monochrome));
+    text-transform: uppercase;
+    line-height: 1;
+    text-align: center;
+}
+
+table.wiki-content-table td * {
+    width: 100%;
+}
+
+table.wiki-content-table td span:nth-of-type(even) {
+    font-family: var(--mono-font);
+    font-size: 0.75em;
+}
+
+/* Doc 3 GoI Entry */
+
+div.database_container,
+div.database_container * {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+
+div.database_container {
+    width: 100%;
+    background-color: rgb(var(--swatch-primary-darkest));
+    color: rgb(var(--white-monochrome));
+    position: relative;
+}
+
+div.database_main {
+    background-color: rgb(var(--black-monochrome), 0.5);
+    margin: 1rem;
+    padding: 1rem;
+    display: -ms-grid;
+    display: grid;
+        grid-template-areas:
+     "title"
+     "top"
+     "main";
+    -ms-grid-columns: 100%;
+    grid-template-columns: 100%;
+    position: relative;
+    left: 0;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    -webkit-hyphens: auto;
+    -ms-hyphens: auto;
+    -moz-hyphens: auto;
+    hyphens: auto;
+}
+
+div.database_main .cell[data-label] {
+    padding: 2.55em 0.5em 0.5em 0.5em;
+    border: 0.0625rem #CCCCCC solid;
+    border: 0.0625rem rgb(var(--swatch-border-color)) solid;
+    position: relative;
+}
+
+div.database_main .cell[data-label]::before {
+    content: attr(data-label) "\A";
+    -webkit-hyphens: none;
+    -moz-hyphens: none;
+    -ms-hyphens: none;
+    hyphens: none;
+    /* label + newline */
+    white-space: normal;
+    /* makes newline work */
+    font-family: var(--mono-font);
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -moz-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: start;
+    -webkit-justify-content: flex-start;
+    -moz-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    font-size: 1em;
+    text-transform: uppercase;
+    width: -webkit-calc(100% - 0.7em);
+    width: -moz-calc(100% - 0.7em);
+    width: calc(100% - 0.7em);
+    position: absolute;
+    margin-bottom: 1em;
+    top: 0;
+    left: 0;
+    background: #aaa;
+    background: rgb(var(--swatch-primary-darkest));
+    color: #fcfcfc;
+    color: rgb(var(--swatch-menutxt-light-color));
+    padding-left: 0.7em;
+    padding-top: 0.35em;
+    padding-bottom: 0.3em;
+    font-weight: 900;
+}
+
+div.database_main > .database_title {
+    -ms-grid-row: 1;
+    -ms-grid-column: 1;
+    grid-area: title;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    font-size: 2em;
+    font-weight: 900;
+    text-align: center;
+    width: 100%;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -moz-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -moz-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    font-family: var(--header-font);
+    letter-spacing: 0.025em;
+    background: rgb(var(--swatch-primary-darkest));
+    -webkit-border-top-right-radius: 0.5rem;
+    -moz-border-radius-topright: 0.5rem;
+    border-top-right-radius: 0.5rem;
+    -webkit-border-top-left-radius: 0.5rem;
+    -moz-border-radius-topleft: 0.5rem;
+    border-top-left-radius: 0.5rem;
+    color: rgb(var(--white-monochrome));
+    border-bottom: 0.5rem double;
+    margin-top: 0.5rem;
+}
+
+div.database_main > .database_table.top {
+    -ms-grid-row: 2;
+    -ms-grid-column: 1;
+    grid-area: top;
+    display: -ms-grid;
+    display: grid;
+        grid-template-areas:
+     "group-name group-name"
+     "aliases logotype"
+     "leadership logotype";
+    -ms-grid-columns: -webkit-calc(100% / 3) -webkit-calc((100% / 3) * 2);
+    -ms-grid-columns: -moz-calc(100% / 3) -moz-calc((100% / 3) * 2);
+    -ms-grid-columns: calc(100% / 3) calc((100% / 3) * 2);
+    grid-template-columns: -webkit-calc(100% / 3) -webkit-calc((100% / 3) * 2);
+    grid-template-columns: -moz-calc(100% / 3) -moz-calc((100% / 3) * 2);
+    grid-template-columns: calc(100% / 3) calc((100% / 3) * 2);
+    padding: 1rem;
+    background-color: rgba(var(--black-monochrome));
+}
+
+
+div.database_main > .database_table.top > .cell:nth-of-type(1) {
+    -ms-grid-row: 1;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 2;
+    grid-area: group-name;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 2;
+    grid-column: 1 / span 2;
+    font-size: 2rem;
+    text-align: center;
+    padding: 2.3rem 0.5rem 0.5rem 0.5rem;
+    font-weight: 900;
+}
+
+div.database_main > .database_table.top > .cell:nth-of-type(1)::before {
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -moz-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    font-size: 1rem;
+    padding: 0.35rem 0.7rem 0.3rem;
+    width: -webkit-calc(100% - 1.4rem);
+    width: -moz-calc(100% - 1.4rem);
+    width: calc(100% - 1.4rem);
+}
+
+div.database_main > .database_table.top > .cell:nth-of-type(2) {
+    -ms-grid-row: 2;
+    -ms-grid-column: 1;
+    grid-area: aliases;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+    grid-column: 1 / span 1;
+}
+
+div.database_main > .database_table.top > .cell:nth-of-type(3) {
+    -ms-grid-row: 3;
+    -ms-grid-column: 1;
+    grid-area: leadership;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+    grid-column: 1 / span 1;
+}
+
+div.database_main > .database_table.top > .hansarp_logo {
+    -ms-grid-row: 2;
+    -ms-grid-row-span: 2;
+    -ms-grid-column: 2;
+    height: 3rem;
+    grid-area: logotype;
+    display: -ms-grid;
+    display: grid;
+        grid-template-areas:
+     "image caption"
+     "image caption";
+    -ms-grid-column: 2;
+    grid-column: 2;
+    height: 100%;
+    width: auto;
+    margin-left: 2rem;
+}
+
+div.database_main > .database_table.top > .hansarp_logo > .cell:first-of-type {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 2;
+    -ms-grid-column: 1;
+    grid-area: image;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    position: relative;
+    width: 9rem;
+    height: 9rem;
+    justify-self: end;
+    border: 0.5rem double rgba(var(--white-monochrome));
+}
+
+div.database_main > .database_table.top > .hansarp_logo > .cell:first-of-type > img {
+    background-color: rgba(var(--white-monochrome), 0.85);
+    padding: 0.5em;
+}
+
+div.database_main > .database_table.top > .hansarp_logo > .cell:last-of-type {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 2;
+    -ms-grid-column: 2;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -moz-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    grid-area: caption;
+    height: 5rem;
+    justify-self: start;
+    -webkit-align-self: center;
+    -ms-flex-item-align: center;
+    align-self: center;
+    padding: 1em 1em 1em 4em;
+    margin-left: -3em;
+    background-color: rgb(var(--swatch-primary-darkest));
+    font-family: var(--mono-font);
+    font-size: 1rem;
+    font-weight: 900;
+    hyphens: none;
+}
+
+
+div.database_main > .database_table.main {
+    -ms-grid-row: 3;
+    -ms-grid-column: 1;
+    grid-area: main;
+    display: -ms-grid;
+    display: grid;
+}
+
+div.database_main > .database_table.main > .locations {
+    display: -ms-grid;
+    display: grid;
+        grid-template-areas:
+     "primary addtl limited";
+    -ms-grid-columns: 40% 40% 20%;
+    grid-template-columns: 40% 40% 20%;
+    margin-top: 1rem;
+}
+
+div.database_main > .database_table.main > .locations > .cell {
+    position: relative;
+}
+
+div.database_main > .database_table.main > .locations > .cell::before {
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -moz-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    font-size: 1rem;
+    padding: 0.35rem 0.7rem 0.3rem;
+    width: -webkit-calc(100% - 1.4rem);
+    width: -moz-calc(100% - 1.4rem);
+    width: calc(100% - 1.4rem);
+    text-align: center;
+}
+
+div.database_main > .database_table.main > .locations > .cell:nth-of-type(1) {
+    -ms-grid-row: 1;
+    -ms-grid-column: 1;
+    grid-area: primary;
+}
+
+div.database_main > .database_table.main > .locations > .cell:nth-of-type(2) {
+    -ms-grid-row: 1;
+    -ms-grid-column: 2;
+    grid-area: addtl;
+}
+
+div.database_main > .database_table.main > .locations > .cell:nth-of-type(3) {
+    -ms-grid-row: 1;
+    -ms-grid-column: 3;
+    grid-area: limited;
+}
+
+div.database_main > .database_table.main > .locations > .cell > ul {
+    list-style: none;
+    list-style-position: outside;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    position: relative;
+    margin: 1.5rem 0 0 0;
+    padding: 0;
+}
+
+div.database_main > .database_table.main > .locations > .cell > ul > li {
+    width: 100%;
+    padding: 0.25rem 0 0.25rem 0.25rem;
+}
+
+div.database_main > .database_table.main > .locations > .cell > ul > li:not(:first-of-type) {
+    border-top: 0.125rem dashed rgba(var(--swatch-primary))
+}
+
+div.database_main .main_content {
+    margin-top: 1rem;
+    background-color: rgba(var(--swatch-primary), 0.15);
+}
+
+div.database_main .main_content .cell::before {
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -moz-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    font-size: 1rem;
+    padding: 0.35rem 0.7rem 0.3rem;
+    width: -webkit-calc(100% - 1.4rem);
+    width: -moz-calc(100% - 1.4rem);
+    width: calc(100% - 1.4rem);
+    text-align: center;
+}
+
+div.database_main .main_content .cell div {
+    font-size: 1.1rem;
+    line-height: 1.75;
+    padding: 0 2em;
+}
+
+/* Doc 4 Artifacts */
+
+div.collapsible-block:nth-child(5) > div:nth-child(2) > div:nth-child(2) > p:nth-child(1) {
+    margin: 0;
+}
+
+.responsive_table {
+    background-color: rgba(var(--swatch-primary-darkest));
+    padding: 1rem;
+}
+
+.responsive_table br {
+    display: none;
+}
+
+.responsive_table .table_data,
+.responsive_table .table_header_data {
+    vertical-align: top;
+    text-align: left;
+    margin: -0.0625rem 0 0 -0.0625rem;
+    position: relative;
+}
+
+.responsive_table .table_row {
+    display: -ms-grid;
+    display: grid;
+        grid-template-areas:
+     "ID  Title Title Title "
+     "Date Subject Subject Subject "
+     "Location Subject Subject Subject "
+     "Current Current Current Current ";
+    -ms-grid-columns: 25% 75%;
+    grid-template-columns: 25% 75%;
+    padding: 0.375em;
+    border: 0.0625rem #CCCCCC solid;
+    border: 0.0625rem rgb(var(--swatch-border-color)) solid;
+    margin-bottom: 1.250em;
+    position: relative;
+    background-color: rgba(var(--black-monochrome),0.5);
+}
+
+.responsive_table .table_data {
+    padding: 1.95em 0.5em 0.5em 0.5em;
+    border: 0.0625rem #CCCCCC solid;
+    border: 0.0625rem rgb(var(--swatch-border-color)) solid;
+    position: relative;
+    background-color: rgb(var(--white-monochrome));
+}
+
+.responsive_table .table_row div:nth-of-type(1) {
+    -ms-grid-row: 1;
+    -ms-grid-column: 1;
+    grid-area: ID;
+}
+
+.responsive_table .table_row div:nth-of-type(4) {
+    -ms-grid-row: 3;
+    -ms-grid-column: 1;
+    grid-area: Location;
+}
+
+.responsive_table .table_row div:nth-of-type(2) {
+    -ms-grid-row: 2;
+    -ms-grid-column: 1;
+    grid-area: Date;
+}
+
+.responsive_table .table_row div:nth-of-type(3) {
+    -ms-grid-row: 1;
+    -ms-grid-column: 2;
+    -ms-grid-column-span: 3;
+    grid-area: Title;
+}
+
+.responsive_table .table_row div:nth-of-type(5) {
+    -ms-grid-row: 2;
+    -ms-grid-row-span: 2;
+    -ms-grid-column: 2;
+    -ms-grid-column-span: 3;
+    grid-area: Subject;
+}
+
+.responsive_table .table_row div:nth-of-type(6) {
+    -ms-grid-row: 4;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 4;
+    grid-area: Current;
+}
+
+/* Add labels */
+.responsive_table .table_data::before {
+    content: attr(data-label) "\A";
+    /* label + newline */
+    white-space: pre;
+    /* makes newline work */
+    font-size: 0.750em;
+    text-transform: uppercase;
+    width: -webkit-calc(100% - 0.7em);
+    width: -moz-calc(100% - 0.7em);
+    width: calc(100% - 0.7em);
+    height: 1.35em;
+    position: absolute;
+    margin-bottom: 1em;
+    top: 0;
+    left: 0;
+    background: #aaa;
+    background: rgb(var(--swatch-primary-darkest));
+    color: #fcfcfc;
+    color: rgb(var(--swatch-menutxt-light-color));
+    padding-left: 0.7em;
+    padding-top: 0.35em;
+    padding-bottom: 0.7em;
+    font-weight: 700;
+}
+
+
+/* Doc 5 Interview */
+
+:root {
+    --jates-color: 34, 31, 71;
+    --harmon-color: 142, 101, 61;
+    --fitzwell-color: 31, 71, 56;
+}
+
+.interview-foreword {
+    margin: 1rem;
+    font-size: 1.1rem;
+    line-height: 1.25;
+    padding: 0.5rem;
+    background: rgba(var(--gray-monochrome), 0.15);
+    font-weight: 600;
+    font-family: var(--mono-font);
+}
+
+.interview-container {
+    background-color: rgba(var(--gray-monochrome), 0.5);
+    padding: 1rem;
+}
+
+.interview-container > .on-call {
+    background-color: rgb(var(--very-light-gray-monochrome), 1);
+    padding: 1rem 0.5em 0em 0.5em;
+    border: 0.0625rem #CCCCCC solid;
+    border: 0.0625rem rgb(var(--swatch-border-color)) solid;
+    position: relative;
+}
+
+.interview-container > .on-call::before {
+    content: " ";
+    -webkit-hyphens: none;
+    -moz-hyphens: none;
+    -ms-hyphens: none;
+    hyphens: none;
+    /* label + newline */
+    white-space: normal;
+    /* makes newline work */
+    font-family: var(--title-font);
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+       -moz-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+       -moz-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    font-size: 1em;
+    text-transform: uppercase;
+    width: 100%;
+    position: absolute;
+    margin-bottom: 1em;
+    top: 0;
+    left: 0;
+    background: #aaa;
+    background: rgb(var(--swatch-primary-darkest));
+    color: #fcfcfc;
+    color: rgb(var(--swatch-menutxt-light-color));
+    padding-top: 0.35em;
+    padding-bottom: 0.3em;
+    font-weight: 900;
+    font-size: 1.25em;
+}
+
+.interview-container > .on-call::before {
+    content: "On-Call"
+}
+
+.interview-container > .on-call > ul {
+    padding: 0.25rem;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: -webkit-calc(100% /3) -webkit-calc(100% /3) -webkit-calc(100% /3);
+    -ms-grid-columns: -moz-calc(100% /3) -moz-calc(100% /3) -moz-calc(100% /3);
+    -ms-grid-columns: calc(100% /3) calc(100% /3) calc(100% /3);
+    grid-template-columns: -webkit-calc(100% /3) -webkit-calc(100% /3) -webkit-calc(100% /3);
+    grid-template-columns: -moz-calc(100% /3) -moz-calc(100% /3) -moz-calc(100% /3);
+    grid-template-columns: calc(100% /3) calc(100% /3) calc(100% /3);
+    list-style: none;
+}
+
+.interview-container > .on-call > ul > li {
+        grid-template-areas:
+     "name"
+     "title";
+    padding: 0 1em;
+    text-align: center;
+    position: relative;
+}
+
+.interview-container > .on-call > ul > li > span.doctor_name {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    grid-area: "name";
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+       -moz-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    font-weight: 900;
+    color: #fcfcfc;
+    color: rgb(var(--swatch-menutxt-light-color));
+    margin-top: 1em;
+    padding: 0.5em 0;
+    font-family: var(--title-font);
+}
+
+.interview-container > .on-call > ul > li:nth-of-type(1) > span.doctor_name {
+    background-color: rgba(var(--jates-color));
+}
+
+.interview-container > .on-call > ul > li:nth-of-type(2) > span.doctor_name {
+    background-color: rgba(var(--harmon-color));
+}
+
+.interview-container > .on-call > ul > li:nth-of-type(3) > span.doctor_name {
+    background-color: rgba(var(--fitzwell-color));
+}
+
+.interview-container > .on-call > ul > li > span.doctor_title {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    grid-area: "title";
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+       -moz-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    line-height: 1.2;
+    margin-top: 0.5em;
+    font-size: 1.1em;
+    font-family: var(--title-font);
+}
+
+.interview-container > .interview-main {
+    background-color: rgb(var(--very-light-gray-monochrome), 1);
+    padding: 1rem 0.5em 0em 0.5em;
+    margin-top: 1rem;
+    border: 0.0625rem #CCCCCC solid;
+    border: 0.0625rem rgb(var(--swatch-border-color)) solid;
+    position: relative;
+}
+
+.interview-container > .interview-main > br {
+    display: none;
+}
+
+.interview-container > .interview-main > div {
+    display: block;
+    width: -webkit-calc(100% - 3rem);
+    width: -moz-calc(100% - 3rem);
+    width: calc(100% - 3rem);
+    background-color: rgb(var(--very-light-gray-monochrome), 1);
+    padding: 0.75rem 0.75rem 0.5rem;
+    margin: 1.5rem 0.5rem 0.5rem 0.5rem;
+    border: 0.25rem rgb(var(--swatch-border-color)) solid;
+    position: relative;
+    font-size: 1rem;
+    line-height: 1.5;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    -webkit-hyphens: auto;
+    -ms-hyphens: auto;
+    -moz-hyphens: auto;
+    hyphens: auto;
+}
+
+.interview-container > .interview-main > div > p:first-of-type {
+    margin-top: 0;
+}
+
+.interview-container > .interview-main > div > p:last-of-type {
+    margin-bottom: 0;
+}
+
+.interview-container > .interview-main > div::before {
+    content: " ";
+    position: absolute;
+    top: -1.25rem;
+    left: -0.5rem;
+    padding: 0.5em 0.5em;
+    color: rgb(var(--white-monochrome));
+    font-weight: 600;
+    letter-spacing: 0.05em;
+    text-indent: 0;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    line-height: 1;
+    white-space: nowrap;
+}
+
+.interview-container > .interview-main > div.jates {
+    background-color: rgba(var(--jates-color), 0.1);
+    border-color: rgba(var(--jates-color));
+}
+
+.interview-container > .interview-main > div.harmon {
+    background-color: rgba(var(--harmon-color), 0.1);
+    border-color: rgba(var(--harmon-color));
+}
+
+.interview-container > .interview-main > div.fitzwell {
+    background-color: rgba(var(--fitzwell-color), 0.1);
+    border-color: rgba(var(--fitzwell-color));
+}
+
+.interview-container > .interview-main > div.jates::before {
+    content: "Dr. Jates";
+    background-color: rgba(var(--jates-color));
+}
+
+.interview-container > .interview-main > div.harmon::before {
+    content: "Dr. Harmon";
+    background-color: rgba(var(--harmon-color));
+}
+
+.interview-container > .interview-main > div.fitzwell::before {
+    content: "Dr. Fitzwell";
+    background-color: rgba(var(--fitzwell-color));
+}
+
+/* Footnotes */
+.footnote_block {
+    all: initial;
+    display: -webkit-inline-box;
+    display: -webkit-inline-flex;
+    display: -moz-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    font-family: var(--body-font);
+    font-weight: 600;
+    font-size: 0.8em;
+    margin-left: 0;
+    margin-right: -0.25em;
+}
+
+.footnote_block .footnote_content,
+.footnote_block .footnote_content * {
+    all: initial;
+    display: block;
+    position: absolute;
+    right: -12rem;
+    width: 8rem;
+    line-height: 1.2;
+    border: 0.125rem solid rgb(var(--black-monochrome));
+    font-family: var(--body-font);
+    font-weight: 600;
+    padding: 1rem;
+    text-shadow: initial;
+    -webkit-filter: initial;
+    filter: initial;
+    color: rgb(var(--black-monochrome));
+    -webkit-transition:
+     opacity 600ms cubic-bezier(0.4, 0.0, 0.2, 1),
+     -webkit-transform 300ms cubic-bezier(0.4, 0.0, 0.2, 1);
+    transition:
+     opacity 600ms cubic-bezier(0.4, 0.0, 0.2, 1),
+     -webkit-transform 300ms cubic-bezier(0.4, 0.0, 0.2, 1);
+    -o-transition:
+     opacity 600ms cubic-bezier(0.4, 0.0, 0.2, 1),
+     -o-transform 300ms cubic-bezier(0.4, 0.0, 0.2, 1);
+    -moz-transition:
+     opacity 600ms cubic-bezier(0.4, 0.0, 0.2, 1),
+     transform 300ms cubic-bezier(0.4, 0.0, 0.2, 1),
+     -moz-transform 300ms cubic-bezier(0.4, 0.0, 0.2, 1);
+    transition:
+     opacity 600ms cubic-bezier(0.4, 0.0, 0.2, 1),
+     transform 300ms cubic-bezier(0.4, 0.0, 0.2, 1);
+    transition:
+     opacity 600ms cubic-bezier(0.4, 0.0, 0.2, 1),
+     transform 300ms cubic-bezier(0.4, 0.0, 0.2, 1),
+     -webkit-transform 300ms cubic-bezier(0.4, 0.0, 0.2, 1),
+     -moz-transform 300ms cubic-bezier(0.4, 0.0, 0.2, 1),
+     -o-transform 300ms cubic-bezier(0.4, 0.0, 0.2, 1);
+    pointer-events: none
+    z-index: 20;
+}
+
+.footnote_block .footnote_num {
+    text-shadow: initial;
+    font-weight: 900;
+    color: rgb(var(--white-monochrome));
+    cursor: pointer;
+    -webkit-box-shadow: initial;
+    -moz-box-shadow: initial;
+    box-shadow: initial;
+    -webkit-filter: unset;
+    filter: unset;
+    -webkit-transform: unset;
+    -moz-transform: unset;
+    -ms-transform: unset;
+    -o-transform: unset;
+    transform: unset;
+    border-bottom: 0.0625rem dotted;
+    line-height: 2;
+    background-color: rgb(var(--link-color));
+    height: 1em;
+    width: 1em;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -moz-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -moz-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    z-index: 1;
+}
+
+.footnote_block .footnote_content::before {
+    content: " ";
+    position: absolute;
+    font-size: 1em;
+    top: -0.5em;
+    left: -0.5em;
+    text-shadow: initial;
+    font-weight: 900;
+    color: rgb(var(--white-monochrome));
+    cursor: pointer;
+    -webkit-box-shadow: initial;
+    -moz-box-shadow: initial;
+    box-shadow: initial;
+    -webkit-filter: unset;
+    filter: unset;
+    -webkit-transform: unset;
+    -moz-transform: unset;
+    -ms-transform: unset;
+    -o-transform: unset;
+    transform: unset;
+    line-height: 2;
+    background-color: rgb(var(--link-color));
+    height: 1em;
+    width: 1em;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -moz-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -moz-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    padding: 0.25em
+}
+
+.footnote_block.seven .footnote_num + div {
+    -webkit-transform: translateX(-25%);
+    -moz-transform: translateX(-25%);
+    -ms-transform: translateX(-25%);
+    -o-transform: translateX(-25%);
+    transform: translateX(-25%);
+}
+
+.footnote_block.seven .footnote_num:hover + div {
+    -webkit-transform: translateX(1rem);
+    -moz-transform: translateX(1rem);
+    -ms-transform: translateX(1rem);
+    -o-transform: translateX(1rem);
+    transform: translateX(1rem);
+}
+
+.footnote_block.eight .footnote_num + div {
+    -webkit-transform: translateX(-webkit-calc(275% + 1rem));
+    -moz-transform: translateX(-moz-calc(275% + 1rem));
+    -ms-transform: translateX(calc(275% + 1rem));
+    -o-transform: translateX(calc(275% + 1rem));
+    transform: translateX(calc(275% + 1rem));
+}
+
+.footnote_block.eight .footnote_num:hover + div {
+    -webkit-transform: translateX(-webkit-calc(300% + 2rem));
+    -moz-transform: translateX(-moz-calc(300% + 2rem));
+    -ms-transform: translateX(calc(300% + 2rem));
+    -o-transform: translateX(calc(300% + 2rem));
+    transform: translateX(calc(300% + 2rem));
+}
+
+.footnote_block .footnote_num + div {
+    opacity: 0;
+}
+
+.footnote_block .footnote_num:hover + div {
+    opacity: 1;
+}
+
+
+.footnote_block.seven .footnote_content::before {
+    content: "7";
+}
+
+.footnote_block.eight .footnote_content::before {
+    content: "8";
+}
+
+@media only screen and (max-width: 1050px) {
+
+    .main_container,
+    .main_container * {
+     -webkit-transform: unset !important;
+     -moz-transform: unset !important;
+     -ms-transform: unset !important;
+     -o-transform: unset !important;
+     transform: unset !important;
+     -webkit-filter: unset;
+     filter: unset;
+    }
+
+    .footnote_block .footnote_content {
+     position: fixed;
+     bottom: 1em;
+     left: 12.5%;
+     background-color: rgba(var(--white-monochrome));
+     width: 75%;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .page-title {
+     font-size: 2em;
+    }
+    
+    table.wiki-content-table tr {
+     flex-wrap: wrap;
+    }
+
+    table.wiki-content-table tr > td {
+     min-width: 100%;
+     font-size: 1rem;
+     padding: 0.5rem;
+    }
+    
+    div.database_main {
+     margin: 0.5rem;
+     padding: 0.5rem;
+    }
+
+    div.database_main > .database_table.top {
+     grid-template-areas:
+     "group-name group-name"
+     "aliases leadership"
+     "logotype logotype";
+     -ms-grid-columns: 50% 50%;
+     grid-template-columns: 50% 50%;
+    }
+
+
+    div.database_main > .database_table.top > .cell:nth-of-type(2) {
+     -ms-grid-column: 1;
+     -ms-grid-column-span: 1;
+     grid-column: 1 / span 1;
+    }
+
+    div.database_main > .database_table.top > .cell:nth-of-type(3) {
+     -ms-grid-column: 2;
+     -ms-grid-column-span: 1;
+     grid-column: 2 / span 1;
+    }
+
+    div.database_main > .database_table.top > .cell:nth-of-type(2)::before,
+    div.database_main > .database_table.top > .cell:nth-of-type(3)::before {
+     -webkit-box-pack: center;
+     -webkit-justify-content: center;
+     -moz-box-pack: center;
+     -ms-flex-pack: center;
+     justify-content: center;
+     font-size: 0.7rem;
+     padding: 0.35rem 0.7rem 0.3rem;
+     width: -webkit-calc(100% - 1.4rem);
+     width: -moz-calc(100% - 1.4rem);
+     width: calc(100% - 1.4rem);
+     text-align: center;
+    }
+
+    div.database_main > .database_table.top > .hansarp_logo {
+     grid-template-areas:
+     "image"
+     "caption";
+     -ms-grid-column: 1;
+     grid-column: 1;
+     width: 100%;
+     height: auto;
+     margin: 0 auto;
+     -ms-grid-column-span: 2;
+     grid-column: 1 / span 2;
+    }
+
+    div.database_main > .database_table.top > .hansarp_logo > .cell:first-of-type {
+     width: initial;
+     height: 100%;
+     -ms-grid-column-align: center;
+     justify-self: center;
+    }
+
+    div.database_main > .database_table.top > .hansarp_logo > .cell:first-of-type > img {
+     background-color: rgba(var(--white-monochrome), 0.85);
+     padding: 0.5em;
+    }
+
+    div.database_main > .database_table.top > .hansarp_logo > .cell:last-of-type {
+     grid-area: caption;
+     height: auto;
+     -ms-grid-column-align: center;
+     justify-self: center;
+     -webkit-align-self: center;
+     -ms-flex-item-align: center;
+     -ms-grid-row-align: center;
+     align-self: center;
+     text-align: center;
+     padding: 0.5rem 1rem;
+     margin: 0;
+     background-color: rgb(var(--swatch-primary-darkest));
+     font-family: var(--mono-font);
+     font-size: 0.85rem;
+     font-weight: 900;
+    }
+
+    div.database_main > .database_table.main > .locations {
+     display: -ms-grid;
+     display: grid;
+     grid-template-areas:
+     "primary"
+     "addtl"
+     "limited";
+     -ms-grid-columns: 100%;
+     grid-template-columns: 100%;
+     margin-top: 1rem;
+    }
+
+    div.database_main > .database_table.main > .locations > .cell > ul {
+     display: -ms-grid;
+     display: grid;
+     -ms-grid-columns: 50% 50%;
+     grid-template-columns: 50% 50%;
+    }
+
+    div.database_main > .database_table.main > .locations > .cell > ul > li {
+     -ms-grid-column-span: 1;
+     grid-column: span 1;
+    }
+
+    div.database_main > .database_table.main > .locations > .cell:nth-of-type(3) > ul {
+     margin-top: 0;
+    }
+
+    div.database_main > .database_table.main > .locations > .cell:nth-of-type(1) > ul > li:nth-of-type(1),
+    div.database_main > .database_table.main > .locations > .cell:nth-of-type(1) > ul > li:nth-of-type(6),
+    div.database_main > .database_table.main > .locations > .cell:nth-of-type(2) > ul > li:nth-of-type(1),
+    div.database_main > .database_table.main > .locations > .cell:nth-of-type(2) > ul > li:nth-of-type(6),
+    div.database_main > .database_table.main > .locations > .cell:nth-of-type(3) > ul > li:nth-of-type(6) {
+     -ms-grid-column-span: 2;
+     grid-column: span 2;
+    }
+
+    div.database_main > .database_table.main > .locations > .cell:not(:nth-of-type(3)) > ul > li:nth-of-type(even):not(:last-of-type) {
+     border-right: 0.125rem dashed rgba(var(--swatch-primary))
+    }
+
+    div.database_main > .database_table.main > .locations > .cell:nth-of-type(3) > ul > li:nth-of-type(2) {
+     border-top: initial;
+    }
+
+    div.database_main > .database_table.main > .locations > .cell:nth-of-type(3) > ul > li:nth-of-type(even) {
+     border-left: 0.125rem dashed rgba(var(--swatch-primary))
+    }
+
+    div.database_main > .database_table.main > .locations > .cell > ul > li:not(:nth-of-type(even)):last-of-type {
+     -ms-grid-column: 1;
+     -ms-grid-column-span: 2;
+     grid-column: 1 / span 2;
+    }
+
+    div.database_main .main_content .cell div {
+     font-size: 0.95rem;
+     line-height: 1.25;
+     padding: 0 1em;
+    }
+
+    div.database_main .main_content .cell:first-of-type div {
+     margin-top: 2.5rem;
+    }
+
+    .responsive_table .table_row {
+     grid-template-areas:
+     "ID  Location Location Location"
+     "Date Location Location Location"
+     "Title Title Title Title"
+     "Subject Subject Subject Subject"
+     "Current Current Current Current";
+     -ms-grid-columns: 40% 60%;
+     grid-template-columns: 40% 60%;
+    }
+
+    .responsive_table .table_row div:nth-of-type(1) {
+     -ms-grid-row: 1;
+     -ms-grid-column: 1;
+    }
+
+    .responsive_table .table_row div:nth-of-type(4) {
+     -ms-grid-row: 1;
+     -ms-grid-row-span: 2;
+     -ms-grid-column: 2;
+     -ms-grid-column-span: 3;
+    }
+
+    .responsive_table .table_row div:nth-of-type(2) {
+     -ms-grid-row: 2;
+     -ms-grid-column: 1;
+    }
+
+    .responsive_table .table_row div:nth-of-type(3) {
+     -ms-grid-row: 3;
+     -ms-grid-column: 1;
+     -ms-grid-column-span: 4;
+    }
+
+    .responsive_table .table_row div:nth-of-type(5) {
+     -ms-grid-row: 4;
+     -ms-grid-row-span: 1;
+     -ms-grid-column: 1;
+     -ms-grid-column-span: 4;
+    }
+
+    .responsive_table .table_row div:nth-of-type(6) {
+     -ms-grid-row: 5;
+     -ms-grid-column: 1;
+     -ms-grid-column-span: 4;
+    }
+
+    div.database_main > .database_table.top > .cell:nth-of-type(1) {
+     -ms-grid-row: 1;
+     -ms-grid-column: 1;
+     -ms-grid-column-span: 2;
+    }
+
+    div.database_main > .database_table.top > .cell:nth-of-type(2) {
+     -ms-grid-row: 2;
+     -ms-grid-column: 1;
+    }
+
+    div.database_main > .database_table.top > .cell:nth-of-type(3) {
+     -ms-grid-row: 2;
+     -ms-grid-column: 2;
+    }
+
+    div.database_main > .database_table.top > .hansarp_logo {
+     -ms-grid-row: 3;
+     -ms-grid-row-span: 1;
+     -ms-grid-column: 1;
+     -ms-grid-column-span: 2;
+    }
+
+    div.database_main > .database_table.top > .hansarp_logo > .cell:first-of-type {
+     -ms-grid-row: 1;
+     -ms-grid-row-span: 1;
+     -ms-grid-column: 1;
+    }
+
+    div.database_main > .database_table.top > .hansarp_logo > .cell:last-of-type {
+     -ms-grid-row: 2;
+     -ms-grid-row-span: 1;
+     -ms-grid-column: 1;
+    }
+
+    div.database_main > .database_table.main > .locations > .cell:nth-of-type(1) {
+     -ms-grid-row: 1;
+     -ms-grid-column: 1;
+    }
+
+    div.database_main > .database_table.main > .locations > .cell:nth-of-type(2) {
+     -ms-grid-row: 2;
+     -ms-grid-column: 1;
+    }
+
+    div.database_main > .database_table.main > .locations > .cell:nth-of-type(3) {
+     -ms-grid-row: 3;
+     -ms-grid-column: 1;
+    }
+    
+    .interview-container > .on-call {
+     padding-left: 0;
+     padding-right: 0;
+    }
+
+    .interview-container > .on-call > ul {
+     -ms-grid-columns: 100%;
+     grid-template-columns: 100%;
+     margin-top: 2rem;
+     margin-bottom: 0;
+    }
+
+    .interview-container > .on-call > ul > li > span.doctor_name {
+     margin-top: 0rem;
+    }
+
+
+    .interview-container > .on-call > ul > li > span.doctor_title {
+     margin-top: 0;
+     margin-bottom: 1rem;
+     padding: 0.25rem 2rem 0.5rem;
+     border-left: 0.125rem dashed;
+     border-right: 0.125rem dashed;
+     border-bottom: 0.125rem dashed;
+     z-index: -2;
+    }
+}
+
+@media (max-width: 500px ) {
+    .warning-container .warning-body {
+     padding: 0.5rem 1rem;
+     margin-bottom: 1.5rem;
+     font-size: 95%;
+    }
+}
+
+[[/module]]
+[[div_ class="page-title"]]
+SCP-4485 ORIENTATION PART 2 OF 8
+SCP-4485 오리엔테이션 8 의 2
+[[/div]]
+@@ @@
+[[div_ class="warning-container"]]
+[[div_ class="warning-top"]]
+!! REMOTE TERMINAL MESSAGE !!
+!! 원격 단말 메시지 !!
+[[/div]]
+[[div class="warning-body"]]
+Your progression is most satisfactory. Dr. Lark has joined me and requested to observe your progress in person. However, his request was denied. It is imperative that you complete the orientation in isolation until an acceptable level of comprehension is observed.
+당신의 진행 경과는 굉장히 만족스럽습니다. 라크 박사가 제가 합류해, 당신의 진행을 직접 관찰할 수 있겠냐고 요청했습니다. 그러나 해당 요청은 거부되었습니다. 당신은 파악 정도가 부합하는 수준으로 이를 때까지 혼자서 본 오리엔테이션을 마쳐야 합니다.
+
+I already anticipate you have many questions. However, all out-going communication is forbidden. As such, I can give you answers to a few common inquiries that other employees have had:
+질문하실 바가 많으리라 생각합니다. 그러나 당신에게 발신은 금지되어 있습니다. 그러므로 다른 분들이 자주 질문하는 몇 가지 사항을 대신 대답해 드리고자 합니다.
+
+# **What level of comprehension is deemed acceptable?:** This is on a supervisor to supervisor basis. The Foundation has requested that we accept nothing but a perfect level of understanding. However, I tend to only require this if the Researcher will be directly involved in SCP-4485. As you will be directly involved, I will accept nothing but perfection.
+# **부합하는 파악 수준이 어느 정도인가요?:** 상자에 따라 다릅니다. 재단은 한 치의 흠도 없이 완벽한 수준을 요구한 바 있습니다. 그러나 저는 당신이 SCP-4485와 직접 연관되는 수준만을 요구하고자 합니다. 당신이 직접 연관되는 대로 저는 완벽한 수준으로 받아들이겠습니다.
+# **What will happen if I am found to fail the orientation?:** You will be terminated.
+# **오리엔테이션을 제대로 마치지 못하면 어떻게 되나요?:** 제거됩니다.
+# **What does "comprehension" mean?:** A depressingly common question. It means you must understand the risk and logical danger that SCP-4485 poses. If you need to ask this question, you likely will not pass.
+# **"파악"이 뭔가요?:** 맥빠지리만치 잦은 질문입니다. 파악이란 당신이 SCP-4485에게 있는 그 자체의 위험과 논리적 위험 요소를 이해하는 것을 뜻합니다. 꼭 이 질문을 해야 하는 상태라면 당신은 통과할 수준이 아닙니다.
+
+That is all. I will be stepping away from the Terminal for a time and Dr. Lark will observe in my absence.
+이상입니다. 저는 잠시 단말기에서 물러나고, 라크 박사가 제 자리를 대신하겠습니다.
+
+Please Continue.
+계속하십시오.
+
+Lloyd Michaelson
+Director,  Site-12
+제12기지 이사관
+로이드 마이클슨
+[[/div]]
+[[/div]]
+
+------
+
+[[table class="wiki-content-table"]]
+[[row]]
+[[hcell colspan="2"]]
+SCP-4485 DOCUMENT THREE
+SCP-4485 문서 3
+[[/hcell]]
+[[/row]]
+[[row]]
+[[cell]]
+[[span]]GROUP OF INTEREST 요주의 단체[[/span]]
+[[span]]DATABASE ENTRY 데이터베이스 항목[[/span]]
+[[span]]"HANSARP" "한스아르프"[[/span]]
+[[/cell]]
+[[cell]]
+[[span]]Originally filed: 생성 일자:[[/span]]
+[[span]]Saturday, 29 July, 1967 1967년 7월 29일 (土)[[/span]]
+[[span]]Archived pulled: 최근 불러온 일자: [날짜함수작업해야함][[/span]]
+[[html]]
+<head>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=PT+Mono">
+<style type="text/css">
+body {
+    color: rgb(252, 252, 252);
+    font-family: "PT Mono", "Courier New", Courier, monospace;
+    font-size: 1.055rem;
+    font-weight: 900;
+    line-height: 1.406rem;
+    -webkit-font-kerning: normal;
+    font-kerning: normal;
+    font-variant-numeric: normal;
+    -webkit-font-feature-settings: "lnum", "kern", "liga", "clig", "calt";
+    -moz-font-feature-settings: "lnum", "kern", "liga", "clig", "calt";
+    font-feature-settings: "lnum", "kern", "liga", "clig", "calt";
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    orphans: 2;
+    -webkit-hyphens: manual;
+    -moz-hyphens: manual;
+    -ms-hyphens: manual;
+    hyphens: manual;
+    word-break: normal;
+    text-transform: uppercase;
+}
+</style>
+</head>
+<body>
+<center>
+<script>
+
+    var mydate=new Date()
+    var year=mydate.getYear()
+    
+    if (year < 1000)
+        year+=1900
+    
+    var day=mydate.getDay()
+    var month=mydate.getMonth()
+    var daym=mydate.getDate()
+    
+    if (daym<10)
+        daym="0"+daym
+        
+    var dayarray=new Array("Sunday","Monday","Tuesday","Wednesday","Thursday",
+                            "Friday","Saturday")
+    var montharray=new Array("January","February","March","April","May","June",
+                            "July","August","September","October","November","December")
+    
+    document.write("",dayarray[day]+", "+daym+" "+montharray[month]+", "+year, "")
+
+</script>
+</center>
+</body>
+[[/html]]
+[[/cell]]
+[[/row]]
+[[/table]]
+[[collapsible show="⇛ CLICK TO BEGIN 클릭해서 보기 ⇚" hide="⤋ HIDE DOCUMENT 문서 접기 ⤋"]]
+    [[div_ class="database_container"]]
+     [[div_ class="database_main"]]
+     [[div_ class="database_title"]]
+     Group of Interest Profile ◦ Site-35 Department of External Groups
+     요주의단체 개요 ◦ 제35기지 외부단체부
+     [[/div]]
+     [[div_ class="database_table top"]]
+     [[div_ class="cell" data-label="Group Name 단체명"]]
+     "HANSARP"
+     [[/div]]
+     [[div_ class="cell" data-label="Aliases 별명"]]
+     Unknown
+     불명
+     [[/div]]
+     [[div_ class="cell" data-label="Leadership 지도자"]]
+     Unknown
+     불명
+     [[/div]]
+     [[div_ class="hansarp_logo"]]
+     [[div_ class="cell"]]
+[[image http://scptestwiki.wdfiles.com/local--files/sigma:hansarp-theme/hansarplogo.png]]
+     [[/div]]
+     [[div_ class="cell"]]
+     ONLY KNOWN "HANSARP" LOGOTYPE
+     "HANSARP"의 알려진 유일한 문양
+     [[/div]]
+     [[/div]]
+     [[/div]]
+     [[div_ class="database_table main"]]
+     [[div_ class="locations"]]
+     [[div_ class="cell" data-label="Primary Areas of Activity 주요 활동 지역"]]
+[[ul]]
+[[li]]Southern Germany 남부 독일[[/li]]
+[[li]]Austria오스트리아 [[/li]]
+[[li]]Switzerland 스위스[[/li]]
+[[li]]Hungary 헝가리[[/li]]
+[[li]]Yugoslavia 유고슬라비아[[/li]]
+[[li]]Czechoslovakia 체코슬로바키아[[/li]]
+[[/ul]]
+     [[/div]]
+[[div_ class="cell" data-label="Additional Areas of Activity 부차 활동 지역"]]
+[[ul]]
+[[li]]SE France 프랑스 남동부[[/li]]
+[[li]]Northern Italy 이탈리아 북부[[/li]]
+[[li]]Switzerland 스위스[[/li]]
+[[li]]NE Spain 스페인 북동부[[/li]]
+[[li]]Denmark 덴마크[[/li]]
+[[li]]Western Soviet Socialist Republic 소비에트 연방 서부[[/li]]
+[[/ul]]
+     [[/div]]
+     [[div_ class="cell" data-label="Limited Activity 제한적 활동"]]
+[[ul]]
+[[li]]Greece 그리스[[/li]]
+[[li]]Belgium 벨기에[[/li]]
+[[li]]United Kingdom 영국[[/li]]
+[[li]]Egypt 이집트[[/li]]
+[[/ul]]
+     [[/div]]
+     [[/div]]
+     [[div_ class="main_content"]]
+     [[div_ class="cell" data-label="Group Activity Pattern Analysis 단체 활동 패턴 분석"]]
+     [[div]]
+    Group activity centers around the creation of anomalous art pieces and the creation of anomalous machines. While the style and structure of these pieces differs, all appear to serve the same purpose of altering reality.
+    해당 단체는 주로 변칙예술 작품이나 변칙적 기계를 창조한다. 이 작품들의 스타일 및 구조는 각자 다양하지만, 한 가지 공통점은 현실을 조정하는 목적으로 만들어졌다는 것이다.
+
+    What is most unusual, however, is the transient nature of these pieces and machines. In the case of nearly all recovered artifacts, the pieces have been placed in locations where they would be visible to a large number of civilians (typically at intersections, within shopping centers, on the sides of buildings, etc.) but do not remain long after they are noticed. In many cases, the pieces have self-removed by the time Foundation assets have moved to intercept them. To date, all pieces have been tagged with the word "HANSARP" in orange spray paint, and signed with a crude drawing of a vertical fish.
+    그러나 이 작품들의 특이한 점은 자신의 출현이 일시적이라는 것이다. 회수된 물품 거의 전원은 수많은 민간인이 목격할 법한 장소 (보통 교차로, 쇼핑몰, 건물 옆 등) 에 있었다가 발견되고 얼마 지나지 않아 사라졌다. 많은 경우 이 물품들은 재단 자산이 이들을 회수하고자 도착했을 때쯤 스스로 사라졌다. 지금까지 모든 작품에는 주황색 스프레이 페인트로 "HANSARP"라는 말이 쓰여 있으며 간단한 물고기 그림 하나가 세로로 그려져 있었다.
+     [[/div]]
+     [[/div]]
+     [[div_ class="cell"  data-label="Group Description"]]
+     [[div]]
+    It is currently believed that "HANSARP" is a cultural evolution within a south German "Are We Cool Yet?" sect, designed to disrupt the tenuous peace within the civilian population in the area. Like many AWCY? sects, "HANSARP" creates pieces of obscene or provocative "art", which are then placed in areas where they would do the most harm and left to disturb population centers. The primary differentiation between the two groups, however, is that while artists within AWCY? sects tend to seek attention personally through the use of pseudonyms, "HANSARP" members do not identify themselves by any name other than "HANSARP".
+    현재로서 "HANSARP"는 독일 남부 "Are We Cool Yet?" 분파 내에서 문화적으로 진화된, 해당 지역 주민에게 만연한 평화를 어지럽히려는 조직으로 여겨진다. 다른 AWCY? 분파들처럼 "HANSARP" 역시 외설적이거나 도발적인 "예술" 작품을 창작하여 최대한 피해를 끼치고 인구 밀집 지역을 어지럽힐 수 있는 곳에 이를 전시한다. 그러나 두 조직의 중요한 차이는, AWCY? 예술가들은 필명을 사용함으로써 스스로를 홍보하려고 도모하지만 "HANSARP" 예술가들은 자신들을 지칭할 때 "HANSARP" 이외의 이름을 사용하지 않는다는 점이다.
+
+    Documents recovered from a coordinated information exchange with the Global Occult Coalition European Taskforce indicate that "HANSARP" has additional ties to high-ranking members of the Church of the Broken God. These connections are likely the source of the anomalous machinery often discovered at "HANSARP" activity sites, though their relation to the Church of the Broken God is still unknown. Analysis of these machines prior to their self-removal has resulted in no definitive answer to their purpose; the machines simply perform a function for a short period of time, and then disassemble afterwards. While it is assumed that they, like the anomalous art pieces attributed to "HANSARP", exist only to disrupt the public, this assumption is not conclusive.
+    세계 오컬트 연합 유럽 특무부대의 협조를 얻어 입수한 문서에 따르면, "HANSARP"는 부서진 신의 교단 고위급 인물들과 따로 친밀한 관계를 맺고 있다. 이 관계는 "HANSARP" 활동 지역에서 종종 발견되는 변칙적 기계의 원천일 수 있으나, 교단과 정확히 어떤 관계에 있는지는 아직도 불명이다. 스스로 사라지기 전에 해당 기계들을 분석해 보았으나 이들의 목적을 확정적으로 밝혀낼 수는 없었다. 기계들은 짧은 시간 자기 기능을 수행하다가 분해될 뿐이었다. 이들도 "HANSARP"라는 이름을 단 다른 변칙예술 작품들처럼 공공에 혼란을 야기하는 목적만을 띤다고 추정하고는 있으나, 결정적으로 판단할 만한 근거는 없다.
+     [[/div]]
+     [[/div]]
+     [[/div]]
+     [[/div]]
+     [[/div]]
+    [[/div]]
+[[/collapsible]]
+
+------
+
+[[table class="wiki-content-table"]]
+[[row]]
+[[hcell colspan="2"]]
+SCP-4485 DOCUMENT FOUR
+SCP-4485 문서 4
+[[/hcell]]
+[[/row]]
+[[row]]
+[[cell]]
+[[span]]Reported or Recovered "HANSARP" Artifacts 신고 및 회수된 "HANSARP" 물품[[/span]]
+[[/cell]]
+[[/row]]
+[[/table]]
+[[collapsible show="⇛ CLICK TO BEGIN 클릭해서 보기 ⇚" hide="⤋ HIDE DOCUMENT 문서 접기- ⤋"]]
+@@ @@
+[[div_ class="responsive_table"]]
+    [[div_ class="table_row"]]
+     [[div_ class="table_data" data-label="ID# 일련번호"]]
+     4485/35B
+     [[/div]]
+     [[div_ class="table_data" data-label="DISCOVERY RATE 발견 일자"]]
+     3 March, 1967
+     1967년 3월 3일
+     [[/div]]
+     [[div_ class="table_data" data-label="TITLE 제목"]]
+     "Dog Will Sniff" by HANSARP
+     《개는 킁킁대다,,Dog Will Sniff,,》 by HANSARP
+     [[/div]]
+     [[div_ class="table_data" data-label="LOCATION OF DISCOVERY 발견 장소"]]
+     Restaurant in Vienna, Austria
+     오스트리아 비엔나의 식당
+     [[/div]]
+     [[div_ class="table_data" data-label="SUBJECT & EFFECTS 물체 & 효과"]]
+     Watercolor painting of an artist painting a watercolor painting. The artist's head is located on its back, facing down, and its features are indistinguishable. Exposed subjects reported seeing duplicates of themselves, and duplicates of the duplicates within the restaurant.
+     수채화를 그리는 화가를 그린 수채화. 머리는 등에 붙어 아래를 내려다보고, 이목구비는 뚜렷하지 않다. 노출된 자들은 식당에 자신과 똑같은 사람들, 그리고 똑같은 사람들과 똑같은 사람들이 보였다고 알렸다.
+     [[/div]]
+     [[div_ class="table_data" data-label="CURRENT LOCATION 현위치"]]
+     N/A. Painting was reduced to colored water after two hours.
+     N/A. 그림은 2시간 후 녹아내려 물감이 되었다.
+     [[/div]]
+    [[/div]]
+    [[div_ class="table_row"]]
+     [[div_ class="table_data" data-label="ID# 일련번호"]]
+     4485/35G
+     [[/div]]
+     [[div_ class="table_data" data-label="DISCOVERY DATE 발견 일자"]]
+     23 May, 1967
+     1967년 5월 23일
+     [[/div]]
+     [[div_ class="table_data" data-label="TITLE 제목"]]
+     "I looked up on upon Babylon ylon" by HANSARP
+     《바빌론에서를 올려다보니,,I looked up on upon Babylon ylon,,》 by HANSARP
+     [[/div]]
+     [[div_ class="table_data" data-label="LOCATION OF DISCOVERY 발견 장소"]]
+     Judicial building in Munich, West Germany
+     서독 뮌헨 법원 건물
+     [[/div]]
+     [[div_ class="table_data" data-label="SUBJECT & EFFECTS 물체 & 효과"]]
+     A rough pencil sketch of three children consuming each others' feet. Two of the children appear to be weeping, one is laughing. Individuals exposed to the piece began to suffer from the inability to pass through doorways, and were unable to escape the building for some time. This continued until the piece self-removed from the first floor lobby wall. 서로의 발을 먹고 있는 어린이 3명의 간단한 스케치. 어린이 두 명은 울고, 한 명은 웃고 있다. 작품에 노출된 자들은 출입구를 통과하지 못하게 되며, 이 때문에 잠시 건물에서 나가지 못하게 된다. 이 효과는 작품이 1층 로비 벽에서 스스로 사라질 때까지 지속되었다.
+     [[/div]]
+     [[div_ class="table_data" data-label="CURRENT LOCATION 현위치"]]
+     N/A. The piece is reported to have begun curling up on itself after several hours, and continued to roll tighter until it no longer existed.
+     N/A. 몇 시간 뒤 작품은 스스로 오그라들더니, 점차 계속 말리다가 완전히 사라졌다.
+     [[/div]]
+    [[/div]]
+    [[div_ class="table_row"]]
+     [[div_ class="table_data" data-label="ID# 일련번호"]]
+     4485/36K
+     [[/div]]
+     [[div_ class="table_data" data-label="DISCOVERY DATE 발견 일자"]]
+     19 October, 1969
+     1969년 10월 19일
+     [[/div]]
+     [[div_ class="table_data" data-label="TITLE 제목"]]
+     《Untitled '95》 by HANSARP
+     [[/div]]
+     [[div_ class="table_data" data-label="LOCATION OF DISCOVERY 발견 장소"]]
+     In a cellar beneath a home in Frankfurt, West Germany
+     서독 프랑크푸르트 가택 지하창고
+     [[/div]]
+     [[div_ class="table_data" data-label="SUBJECT & EFFECTS 물체 & 효과"]]
+     A small, vinyl-covered clockwork machine that produces a small, two dimensional paper fish once every sixteen minutes. Each fish contains the text of a single racial epithet, though these words only appear offensive or obscene to individuals of a different ethnic background, and appear to be the words "what will you do?" to those of the intended background.
+     비닐로 감싼 작은 태엽장치 기계로, 조그만 2차원 종이물고기를 16분마다 내뱉는다. 물고기에는 각각 인종차별적 욕설 하나가 적혀 있는데, 욕설 내용은 다른 민족 계통의 인물에게만 불쾌하거나 외설스럽다고 느껴지며 해당 인물들에게 "넌 어쩔래?"라는 내용으로 인식되는 것으로 보인다.
+     [[/div]]
+     [[div_ class="table_data" data-label="CURRENT LOCATION 현위치"]]
+     Currently in a storage locker at Site-35. Ceased functioning after it was removed from the house. Believed to have generated over 1,900 pieces of paper fish prior to its discovery.
+     현재 제35기지 보관함에 저장 중이다. 집에서 반출한 다음 작동을 중지했다. 발견할 때까지 1,900개 이상의 종이 물고기를 만들어낸 것으로 보인다.
+     [[/div]]
+    [[/div]]
+    [[div_ class="table_row"]]
+     [[div_ class="table_data" data-label="ID# 일련번호"]]
+     4485/35AA
+     [[/div]]
+     [[div_ class="table_data" data-label="DISCOVERY DATE 발견 일자"]]
+     21 October, 1969
+     1969년 10월 21일
+     [[/div]]
+     [[div_ class="table_data" data-label="TITLE 제목"]]
+     "dak dak dit va va ti da da" by HANSARP
+     《닥닥딧바바티다다,,dak dak dit va va ti da da,,》 by HANSARP
+     [[/div]]
+     [[div_ class="table_data" data-label="LOCATION OF DISCOVERY 발견 장소"]]
+     A public square in St. Gallen, Switzerland
+     스위스 장크트갈렌,,St. Gallen,,의 광장
+     [[/div]]
+     [[div_ class="table_data" data-label="SUBJECT & EFFECTS 물체 & 효과"]]
+     A green arrow painted on a lamp post pointed upwards. Individuals exposed to this piece directly begin to feel severe anxiety and self-loathing. Spreads to individuals who interact with these individuals
+     가로등에 그려진 위쪽을 가리키는 초록색 화살. 이곳에 노출된 이들은 곧바로 불안과 자기혐오를 격심하게 호소한다. 해당 인물들과 상호작용하는 것만으로도 이 효과는 퍼진다
+     [[div_ class="footnote_block seven"]]
+     [[div_ class="footnote_num"]]
+                                 7  
+                         [[/div]]
+     [[div_ class="footnote_content"]]
+     This effect is poorly understood, and is still under investigation. 이 현상의 기작은 현재 해명된 바가 없으며, 아직도 조사 중이다.
+     [[/div]]
+                        [[/div]]
+     .
+     [[/div]]
+     [[div_ class="table_data" data-label="CURRENT LOCATION 현위치"]]
+     Paint could not be removed through traditional means. Light post was removed and sandblasted into metal shavings. The metal shavings retained the same characteristics of the light post, and were moved to a secure vault.
+     페인트는 재래적 방식으로 지워낼 수 없었다. 가로등을 뽑아내고 모래를 분사해 그림을 갈아냈다. 갈아낸 부스러기는 가로등일 때와 똑같은 특성을 띠었으며, 보안 금고로 이송되었다.
+     [[/div]]
+    [[/div]]
+    [[div_ class="table_row"]]
+     [[div_ class="table_data" data-label="ID# 일련번호"]]
+     4485/35AV
+     [[div_ class="footnote_block eight"]]
+     [[div_ class="footnote_num"]]
+                                 8  
+                         [[/div]]
+     [[div_ class="footnote_content"]]
+     Contents redacted due to memetic effect of the location and description of the artifact. First instance of a "HANSARP" artifact showing anomalous effects without need for its physical presence.
+     해당 물품의 장소 및 설명 속 밈 효과로 말미암아 내용 편짐. "HANSARP" 물체 중 물리적으로 실존하지 않고도 변칙효과를 일으킨 최초 사례다.
+     [[/div]]
+                        [[/div]]
+     [[/div]]
+     [[div_ class="table_data" data-label="DISCOVERY DATE 발견 일자"]]
+     9 December, 1972
+     1972년 12월 9일
+     [[/div]]
+     [[div_ class="table_data" data-label="TITLE 제목"]]
+     "AND I SAW NATIONS" by HANSARP
+     《그리고 나는 나라를 봤다》 by HANSARP
+     [[/div]]
+     [[div_ class="table_data" data-label="LOCATION OF DISCOVERY 발견 장소"]]
+     █████████, ███████
+     [[/div]]
+     [[div_ class="table_data" data-label="SUBJECT & EFFECTS 물체 & 효과"]]
+     █ ████-█████ ███████ ██ ███ ████████ ██ ████-██. ████████ ██████████ ███ ███ ███████ ██ █████ ██████ ██ ████. ██████████ ████ ██ ███ ███████ ████████ ██ █████ ██ ████-██. ███ █████ "████ ██ ██████ █████, █ ███'█ ██████ ███ ████" ███ ███████ ██ ███ ████ ██ ███ ███████.
+     [[/div]]
+     [[div_ class="table_data" data-label="CURRENT LOCATION 현위치"]]
+     Moved to Site-35. █████████ ██ ██████ ███████████.
+     제35기지로 이송. █████████ ██ ██████ ███████████.
+     [[/div]]
+    [[/div]]
+    [[div_ class="table_row"]]
+     [[div_ class="table_data" data-label="ID# 일련번호"]]
+     4485/47X
+                [[/div]]
+     [[div_ class="table_data" data-label="DISCOVERY DATE 발견 일자"]]
+     1 May, 1983
+     1983년 5월 1일
+     [[/div]]
+     [[div_ class="table_data" data-label="TITLE 제목"]]
+     "Less Fewer Every Day" by HANSARP
+     《하루하루 덜 적게》 by HANSARP
+     [[/div]]
+     [[div_ class="table_data" data-label="LOCATION OF DISCOVERY 발견 장소"]]
+     Stuttgart, West Germany
+     서독 슈투트가르트
+     [[/div]]
+     [[div_ class="table_data" data-label="SUBJECT & EFFECTS 물체 & 효과"]]
+     Phenomenon affecting a group of Foundation personnel at Site-35. Attributed to "HANSARP" in letter to the editor published in local newspaper.
+     제35기지 재단 인원에게 발생하는 현상. 지역 신문에 실린 편집인에게 보내는 편지 때문에 소행으로 특정되었다.
+     [[/div]]
+     [[div_ class="table_data" data-label="CURRENT LOCATION 현위치"]]
+     Contained at Site-35, pending further evaluation (See Document 5).
+     제35기지에 격리, 추가 평가 대기 중. (문서 5 참조)
+     [[/div]]
+    [[/div]]
+[[/div]]
+[[/collapsible]]
+
+------
+
+[[table class="wiki-content-table"]]
+[[row]]
+[[hcell colspan="2"]]
+SCP-4485 DOCUMENT FIVE
+SCP-4485 문서 5
+[[/hcell]]
+[[/row]]
+[[row]]
+[[cell]]
+[[span]]INTERNAL INTERVIEW 내부 면담[[/span]]
+[[/cell]]
+[[cell]]
+[[span]]CONDUCTED 10 MAY, 1983 1983년 5월 10일 진행[[/span]]
+[[/cell]]
+[[/row]]
+[[/table]]
+[[collapsible show="⇛ CLICK TO BEGIN 클릭해서 보기 ⇚" hide="⤋ HIDE DOCUMENT 문서 접기 ⤋"]]
+@@ @@
+    [[div_ class="interview-foreword blockquote"]]
+     Below is a transcript of an interview via three-way telephone call following the appearance of Artifact 4485/47X conducted by Dr. Viktor Jates with Dr. Isaac Harmon and Dr. Leonard Fitzwell.
+     이하는 물품 4485/47X가 출현한 이후 3자 통화로 진행한 면담의 녹취록으로, 빅토르 야테스,,Viktor Jates,, 박사, 아이작 하먼,,Isaac Harmon,, 박사, 레너드 피츠웰,,Leonard Fitzwell,, 박사가 진행하였다.
+    [[/div]]
+    [[div_ class="interview-container"]]
+     [[div_ class="on-call"]]
+     [[ul]]
+     [[li]][[span class="doctor_name"]]Dr. Viktor Jates 빅토르 야테스[[/span]][[span class="doctor_title"]]Foundation European Mathematical Studies Director 재단 유럽 수리연구이사관[[/span]][[/li]]
+     [[li]][[span class="doctor_name"]]Dr. Isaac Harmon 아이작 하먼[[/span]][[span class="doctor_title"]]Foundation European Department of Containment Director 재단 유럽 격리부 이사관[[/span]][[/li]]
+     [[li]][[span class="doctor_name"]]Dr. Leonard Fitzwell 레너드 피츠웰[[/span]][[span class="doctor_title"]]European GOI Liaison 유럽 GOI 연락책[[/span]][[/li]]
+     [[/ul]]
+     [[/div]]
+     [[div_ class="interview-main"]]
+                     [[div class="jates"]]
+                Dr. Harmon, hello. Dr. Fitzwell, thank you both for taking my call.
+                하먼 박사, 반갑습니다. 피츠월 박사, 둘 다 전화 받아주셔서 감사합니다.
+                [[/div]]
+                [[div class="harmon"]]
+                Of course.
+                당연하죠.
+                [[/div]]
+                [[div class="fitzwell"]]
+                Isaac has seen our report?
+                아이작, 박사님은 보고서 보셨나요?
+                [[/div]]
+                [[div class="harmon"]]
+                On the ride over, but not in depth.
+                차 타고 봤는데 자세히는 못 봤습니다
+                [[/div]]
+                [[div class="jates"]]
+                I was hoping you could, uh, illuminate him, on-
+                좀더 분명하게 설명해 줬다면 금상첨화였을-
+                [[/div]]
+                [[div class="harmon"]]
+                I'm just trying to wrap my head around what you're saying here, Fitz. About this whole art thing, it sounds like you're saying nothing we've done here has accomplished anything.
+                아직도 무슨 설명인지 이해하느라 골머리 빠집니다, 피즈. 이 예술 작품들 이야기를 보면, 우리가 했던 것들이 다 아무 쓸모 없었다는 말처럼 들리는데요.
+                [[/div]]
+                [[div class="fitzwell"]]
+                Well that's just it, Isaac. We've missed the forest for the trees on this one, and I think we're in dire trouble.
+                뭐 그게 맞습니다, 아이작. 나무를 보느라 저희는 숲을 놓쳐버린 거고, 그래서 저희는 아주 큰일났죠.
+                [[/div]]
+                [[div class="harmon"]]
+                Explain.
+                설명해 보세요.
+                [[/div]]
+                [[div class="fitzwell"]]
+                Do you know when the last time we were contacted by an outside group to investigate itself?
+                외부 단체에게 자기를 좀 조사해 달라고 접촉을 받았던 적이 언제 있었습니까?
+                [[/div]]
+                [[div class="harmon"]]
+                I- what? That's never happened.
+                어... 뭐라구요? 그런 적이 있었을 리가요.
+                [[/div]]
+                [[div class="jates"]]
+                As of Tuesday, it has.
+                화요일에 있었습니다.
+                [[/div]]
+                [[div class="harmon"]]
+                What?
+                네?
+                [[/div]]
+                [[div class="fitzwell"]]
+                The largest anom-art community in Europe is "Are We Cool Yet?" They're fairly fragmented, but bound by this sort of loose association with an individual called "The Critic".
+                유럽 최대의 변칙예술가 집단이 "Are We Cool Yet?"이죠. 굉장히 파편화된 조직이긴 하지만 적어도 서로 모종의 느슨한 관계는 갖추고 있었습니다. "비평가,,The Critic,,"라는 사람 아래에서요.
+                
+                That individual contacted one of our field agents on Tuesday to request that we look into the well-being of one of their studios near Munich.
+                그 사람이 화요일 저희 현장 요원에게, 뮌헨 근교의 한 스튜디오의 상태를 점검해 달라고 요청한 적 있었습니다.
+                [[/div]]
+                [[div class="harmon"]]
+                I don't understand. Why would they try to contact us about that?
+                이해 못하겠습니다. 어째서 그런 일로 저희한테 접촉하는 거죠?
+                [[/div]]
+                [[div class="jates"]]
+                That was our question. The Critic claims that the studio in question, some hundred or so individuals, has just dropped off the face of the earth. Local authorities weren't able to help, and they were worried that contact the Coalition would result in more deaths than recoveries.
+                저희도 그게 의문입니다. "비평가"는 문제의 그 스튜디오에서, 기백 명 되는 사람들이 갑자기 한꺼번에 잠적했다고 말했습니다. 지역 당국의 도움을 받을 수도 없는데다, 세계 오컬트 연합이 개입했다간 되찾은 사람보다 죽은 사람이 더 많아질 거라고 걱정하더군요.
+                
+                So they contacted us instead.
+                그래서 저희한테 접촉했다고 합니다.
+                [[/div]]
+                [[div class="harmon"]]
+                And? What did we find?
+                그래서 저희 측에서는 어떤 걸 찾았나요?
+                [[/div]]
+                [[div class="fitzwell"]]
+                Nothing, Isaac. We raided the studio and found //nothing//. Not that we didn't find signs of habitation-
+                아무것도요, 아이작. 스튜디오를 급습했는데, //아무것도// 없었습니다. 물론 사람 흔적까지 못 찾은 건 아니다만-
+                [[/div]]
+                [[div class="jates"]]
+                Oh yes, we found //plenty// of that.
+                아 네, 그건 //굉장히// 많이 찾았죠.
+                [[/div]]
+                [[div class="fitzwell"]]
+                -it's that by all accounts the people who had been living there just got up one day and left.
+                -자료를 수집해 봤어도 결론은, 거기 살던 사람들이 어느 날 한꺼번에 문 박차고 길 떠났다는 것뿐이었습니다.
+                [[/div]]
+                [[div class="harmon"]]
+                Do we think this is some kind of anomalous influence, or something mundane? Maybe they ran out of money, or-
+                이 사건이 변칙적 영향 때문이라고 생각합니까, 있을 수도 있는 일이라 생각합니까? 돈이 떨어져 도망갔을 수도 있고-
+                [[/div]]
+                [[div class="jates"]]
+                No, they wouldn't have just left all of their stuff there. Their equipment, belongings, it was all left untouched.
+                아뇨, 그럼 짐을 전부 두고 갈 리 없죠. 장비, 재산 모두 손 안 대고 고스란히 남아 있었습니다.
+                [[/div]]
+                [[div class="harmon"]]
+                So what does this have to do with HANSARP?
+                그럼 이 사건이 HANSARP하고는 무슨 상관인가요?
+                [[/div]]
+                [[div class="fitzwell"]]
+                When our field agent reported back to The Critic what we had found, he revealed some things about HANSARP we didn't know. He thinks HANSARP has been influencing a group of disillusioned members of Are We Cool Yet? over the last several months, and that influence might have resulted in their disappearance.
+                현장 요원이 다시 돌아와 찾았던 것들을 알려주자, "비평가"는 HANSARP에 관련해서 저희가 모르던 사실들을 말했습니다. HANSARP가 요 몇 달 동안 Are We Cool Yet?에 환멸을 느낀 멤버들에게 영향을 끼치고 있었는데, 그 영향 때문에 그 사람들이 실종되었을지도 모른다고 하더군요.
+                [[/div]]
+                [[div class="harmon"]]
+                Influencing how?
+                영향이라니 어떻게?
+                [[/div]]
+                [[div class="jates"]]
+                There's a growing sentiment within that community that the effort to produce creatively is not worth the outcome, because they are no closer to self-actualization.
+                이 조직에서는 창의적 생산에 노력하는 것이 결과적으로 아무 쓸모가 없다는 정서가 팽배했다고 합니다. 자아실현에 조금도 도움이 되지 않았기 때문이죠.
+                
+                They call it wanting to become "cool", but it's just a desire to reach some state of synthesis with themselves and their artform. Their inability to unify the "self" and the "cool" is what we typically see as a motivating factor for the group.
+                그걸 그 사람들 용어로는 "쿨한 것"이라고 부르는데, 자신과 예술 행위를 거쳐서 모종의 통합을 이룩하고자 하는 욕망을 지칭합니다. "자신"과 "쿨함"을 아직 통합시키지 못한 것이 바로 우리가 대개 이 단체의 동기부여 요인으로 인식하는 그것이죠.
+                [[/div]]
+                [[div class="fitzwell"]]
+                The Critic poses that the most vocal voices of displeasure have come out of south Germany, where more and more of them are turning to violence and sadism in attempting to reach this state of "cool". The Critic says he's been able to moderate most of the more radical influences, but not HANSARP.
+                "비평가"는 그런 불쾌함을 가장 언성 높여서 호소하는 곳이 남부 독일이었고, 점차 더 많은 이들이 급기야 "쿨함"에 이르고자 폭력과 가학을 동원하게 됐다고 말했습니다. "비평가"의 말로는 자신이 제일 급진적인 영향에 빠진 곳들은 어떻게 누그러뜨리긴 했지만, HANSARP는 그러지 못했다는군요.
+                
+                Something about HANSARP has really set these people off, and then they disappear suddenly.
+                HANSARP가 뭔가 정말 뭔가 일을 크게 터뜨려놨대 싶은, 그때 그 사람들이 갑자기 사라졌다고 합니다.
+                [[/div]]
+                [[div class="harmon"]]
+                I still- I don't understand this, Leonard. This HANSARP and Are We Cool Yet?, our documentation says that they're the same group, but you're suggesting they're separate? Where are you getting this information from?
+                아니 아직- 이해 못하겠는데요, 레너드. HANSARP와 Are We Cool Yet? 이 두 조직, 문서 말로는 똑같은 단체라고 하는데 지금 둘이 서로 별개라고 말씀하시는 건가요? 어떤 곳에서 입수한 정보인가요?
+                [[/div]]
+                [[div class="fitzwell"]]
+                Isaac, they //have// to be separate.
+                아이작, 둘은 //별개일 수밖에// 없습니다.
+                
+                Aside from creating anomalous art pieces, they're totally different. Are We Cool Yet? seeks to make art pieces that establish the creator as an elevated member within the group - something closer to "cool" than others.
+                변칙예술 작품을 만드는 것 빼고 둘은 완전히 다릅니다. Are We Cool Yet?이 예술품을 제작하는 건 창작자가 조직 내에서 자기 위상을 드높이려는 이유 때문이죠. 뭐랄까 나는 남들보다 "쿨하다" 하고 자랑하는 겁니다.
+                
+                HANSARP doesn't care about creators, or about the art work at all. HANSARP's pieces aren't trying to create status or position, they're nothing. They don't mean anything. There's no linearity between them, and yet they continue to be created. More people are disappearing, specifically those who encountered these pieces.
+                HANSARP는 창작자한테, 그리고 작품한테도 아무 신경 쓰지 않아요. HANSARP의 작품은 지위나 위상 같은 것도 관심이 없고, 아무것도 관심이 없습니다. 의미란 게 전혀 없어요. 둘 사이에 아무 상관관계가 없는데도 작품은 계속해서 나옵니다. 사람들은 자꾸 사라지고요. 특히 이 작품들과 접촉한 사람들이.
+                
+                That chapter of Are We Cool Yet? They were exposed to a piece the week before, hung right outside their studio. Now they're gone.
+                이 동네 Are We Cool Yet?이요? 일주일 전에 작품 하나와 접촉했다고 합니다. 스튜디오 바로 바깥에 걸려 있었던 작품이요. 그리고 지금 사라졌죠.
+                [[/div]]
+                [[div class="harmon"]]
+                Alright, so... so what does this all mean? What does this mean for those kids who disappeared in Germany?
+                그래요, 그러면.... 여기에 무슨 의미가 있을까요? 독일에서 실종된 그 친구들하고 무슨 상관이 있는 건가요?
+                [[/div]]
+                [[div class="jates"]]
+                We, well...
+                저희는, 음...
+                [[/div]]
+                [[div class="fitzwell"]]
+                We're beginning to think that they //are// HANSARP.
+                저희는 지금 //그 사람들이// HANSARP라고 생각하고 있습니다.
+                [[/div]]
+                [[div class="harmon"]]
+                What?
+                뭐라구요?
+                [[/div]]
+                [[div class="fitzwell"]]
+                They didn't used to be, but they are now.
+                원래 아니었다가 지금 그렇게 됐다는 거죠.
+                
+                HANSARP isn't like other outside groups, where you're recruited or sign up or just find yourself within their ranks. HANSARP is like... like a disease. Like a virus. You see it and it works its way into your soul and by the time you realize what has happened to you, you're HANSARP.
+                HANSARP는 다른 외부 단체들과 판이하게 다릅니다. 다른 곳은 모집을 하거나 가입을 하거나 강제로 끌려가서 편입되거나 그렇죠. HANSARP는... 질병입니다. 바이러스처럼요. 보는 순간 바로 보는 자 속으로 들어가 영혼을 헤집어놓고, 무슨 일이 일어났는지 깨달을 때쯤이면 이미 HANSARP가 되어 있는 겁니다.
+                
+                Which leads to our next point...
+                거기서 내릴 수 있는 결론은...
+                [[/div]]
+                [[div class="jates"]]
+                We don't think the pieces of art are anomalous.
+                저희는 그 예술품들이 변칙개체라고 생각하지 않습니다.
+                [[/div]]
+                [[div class="fitzwell"]]
+                What do you think about sideways eyes on █████ ██████ ██ ████?
+                █████ ██████ ██ ████에서 그 옆으로 눈은 어떻게 생각하세요?
+                [[/div]]
+                [[div class="harmon"]]
+                Excuse me?
+                무슨 말이에요?
+                [[/div]]
+                [[div class="jates"]]
+                (//Interrupting//) Not in, not in the way we had originally believed, anyway.
+                (//끼어들며//) 우리가 원래, 원래 생각하던 식으로는 적어도 아니라는 뜻입니다.
+                
+                Something else you need to understand - HANSARP is a dadaist movement.
+                그 전에 하나 이해하셔야 할 게 있어요. HANSARP는 다다이스트 운동입니다.
+                
+                Within dada, there is no meaning - reason and logic are considered detrimental to the human condition in favor of disorder. They don't have a set of beliefs that you could call consistent because they have given up on consistency.
+                다다에는 의미가 없습니다. 조리와 논리를 인간의 조건에 걸림돌만 되는 유해한 개념으로 받아들이죠. 다다에는 일관성이라고 부를 만한 신념이 깃들어 있지 않습니다. 일관성 자체를 단념했으니까요.
+                [[/div]]
+                [[div class="fitzwell"]]
+                It's not shocking that they would target groups who are at a growing risk of frustration due to the impossibility of their goals, because HANSARP's philosophy precludes the possibility of "goals" as a concept. You can't have "goals" when there is nothing to be gained.
+                어찌 보면 HANSARP가 달성 불가능한 목표 때문에 좌절이 커져 가는 집단을 목표로 삼는 건 당연합니다. 철학 자체가 개념으로서 "목표"라는 것을 차단해 버리니까요. 아무것도 얻지 못하는데 "목표"를 품을 수는 없을 테니까.
+                
+                But then by the same token, what is "cool" if there are no inherent rules governing what "cool" is? If there are no ideals or definite purpose, then who's to say that everything isn't cool?
+                하지만 마찬가지 이유로, "쿨한" 것이 뭔지 본질적 규칙이 없다면 "쿨한" 것이란 뭔가요? 이상이나 명확한 목표가 없다고 한다면, 무엇이든 "쿨하지" 않다고 굳이 말할 수 있는 게 어딨겠나요?
+                [[/div]]
+                [[div class="harmon"]]
+                So what... what does any of this have to do with the art pieces being anomalous?
+                그러면 이... 이게 예술 작품들이 변칙개체이고 말고하고는 어떤 상관인가요?
+                [[/div]]
+                [[div]]
+                //Silence.//
+                //침묵.//
+                [[/div]]
+                [[div class="harmon"]]
+                Viktor?
+                빅토르?
+                [[/div]]
+                [[div class="jates"]]
+                The pieces are anomalous, but not... not in the way we thought they were.
+                그 작품들은 변칙개체지만, 우리가... 우리가 생각하던 대로는 아닙니다.
+                
+                The book is the same way.
+                그 책도 마찬가지예요.
+                
+                We thought the book was changing reality, but it's- the book hasn't done anything since we put it in containment.
+                그 책이 현실을 조정한다고 저희는 생각했지만 그건... 책은 저희가 격리하고 나서 아무것도 하지 않았습니다.
+                
+                The art pieces don't //do// anything when we put them in containment. We only see the sort of anomalous activity we associate with the book when other people are involved. People who see these art pieces, or who read SCP-4485, they're exposed to something that makes them question fundamental truths about their lives. It happened here, at Site-35.
+                작품들 또한 격리하고 나서 //아무것도// 한 적 없습니다. 저희가 사람들이 연루된 변칙활동을 목격한 다음에 그걸 책과 결부지었을 뿐이죠. 그 작품들을 보거나 SCP-4485를 읽은 사람들은, 자신의 생에게 근본적인 질문을 던지도록 만드는 무언가에 노출되었을 뿐입니다. 그게 지금 여기, 제35기지에서 진행 중이고요.
+                [[/div]]
+                [[div class="harmon"]]
+                What? What happened?
+                네? 무슨 일입니까?
+                [[/div]]
+                [[div class="jates"]]
+                We had a group of our own researchers studying SCP-4485, reading it and trying to figure out some sort of pattern in the madness of it.
+                저희한테 SCP-4485를 담당하는 연구진이 있었습니다. 책을 읽어보면서 이 광기 속에 어떤 패턴이 있는지 알아보고 있었죠.
+                
+                We eventually started to notice that some of them were growing... detached.
+                그런데 어쩌다 보니 저희는 연구진 일부가... 세상과 분리되고 있다는 걸 느끼기 시작했습니다.
+                
+                They stopped interacting with others around them, started to ask strange questions. Some of them started to become agitated, angry. They'd rant and rave about some- some ideology, or some position, something political.
+                주위와 다른 상호작용을 모두 중지해 버리고, 이상한 질문을 던져대기 시작했습니다. 흥분하거나 화를 내는 사람들도 있었죠. 목에 핏대를 올리면서 무슨- 무슨 이데올로기, 어떤 입장, 정치스러운 이야기를 시작했습니다.
+                
+                Our staff psychologists spoke to them, and they looked at their background profiles. The ones who were becoming violent were those with a history of- of strong positions on certain issues, things they'd spoken up about in the past: political movements, workplace issues, that sort of thing.
+                심리학 직원 쪽에서 이들에게 접근해 배경 사항을 점검해 봤습니다. 폭력성을 띤 사람들은 어떤 이슈에서, 말하고 다니는 그 화제에서 강경한 입장을 띠어본 사람들이었습니다. 정치 운동, 직장 문제 등등처럼요.
+                
+                The rest just- just hadn't. But they were all being changed, like HANSARP was crystallizing their apathy, or their zealotry. When they started to change, the site started to change.
+                나머지는 그냥- 그냥 그렇지 않았습니다. 하지만 이들도 바뀌기 시작했죠. 마치 HANSARP가 이들 속에 무감함과 열성의 결정을 맺듯이요. 이들이 바뀌기 시작하자, 이 기지 또한 바뀌었습니다.
+                [[/div]]
+                [[div class="harmon"]]
+                How?
+                어떻게요?
+                [[/div]]
+                [[div class="jates"]]
+                People began to see things that weren't there. Doors that didn't exist, impossible changes in geometry. HANSARP took credit for this in a local paper, but there had been no contact with these people and HANSARP, except by reading the book.
+                사람들이 없는 걸 보인다고 말하기 시작했습니다. 없는 문이 생겨나고, 기하학적으로 불가능한 모양이 있다고 말했죠. 지방신문에서 이 이유로 HANSARP를 꼽기도 했지만, 이 사람들과 HANSARP는 접촉한 적이 없었습니다. 책을 읽었던 걸 빼면요.
+                
+                Over time, the same thing happened to the psychologists. Talking to these people changes the way you see the world, and once you've become like they are, the world changes to fit what you see. Madness.
+                시간이 지나며 심리학 직원들도 똑같아졌습니다. 그 사람들한테 말하는 것만으로 세상을 보는 방식이 달라지고, 마침내 그 사람들과 똑같아지면 세상이 보이는 대로 변화하게 되는 겁니다. 광기죠.
+                [[/div]]
+                [[div class="harmon"]]
+                Where are these researchers now?
+                그 연구원들은 지금 어디 있나요?
+                [[/div]]
+                [[div class="fitzwell"]]
+                Isolated. At different locked safehouses.
+                격리 조치되었습니다. 다른 안전가옥에 몰아넣어뒀죠.
+                
+                We can't change them, and they're still- they're changing. Keeping them apart helps mitigate some of the issues, but we keep finding more every day.
+                다시 되돌릴 수도 없고, 아직도 지금- 바뀌고 있습니다. 떨어뜨려 놓으면 당장 몇 가지 문제는 해결이 되지만, 매일 계속 늘어나기만 해요.
+                [[/div]]
+                [[div class="jates"]]
+                We're starting to see this everywhere, Isaac. All over Europe.
+                그런 사람이 오만 데서 보입니다, 아이작. 유럽 오만 곳에서요.
+                
+                Any site that has ever housed a HANSARP artifact, or SCP-4485, or even... even someone who had read SCP-4485, or- or...
+                어디든지 HANSARP 물품들이 잠시 거쳐갔던 곳, SCP-4485가 있었던 곳, 심지어... 심지어 SCP-4485를 읽었던 사람이 있던 곳, 그리고- 그리고...
+                [[/div]]
+                [[div class="harmon"]]
+                You cannot be serious...
+                설마 그럴 리가...
+                [[/div]]
+                [[div class="fitzwell"]]
+                Isaac, they're everywhere. We have affected researchers everywhere.
+                아이작, 모든 곳에 그들이 있어요. 저희가 모든 곳의 연구원에게 손을 대버렸다구요.
+                
+                And it doesn't take much - they'll ask an innocuous question, maybe questioning a strongly held position. But something about HANSARP makes those questions stick, and then... then they become carriers for it. They become HANSARP.
+                그것도 별로 어렵지 않게. 그들이 겉보기에 무해한 질문을 던집니다. 아무래도 강경한 어조로요. 그런데 HANSARP의 무언가가 그 질문에 붙어가고, 그 다음엔... 전파자가 되어 버리죠. HANSARP가 되는 겁니다.
+                [[/div]]
+                [[div class="harmon"]]
+                This... the staff rotations... all of Europe, all of our sites...
+                이럴 수가... 직원 교대 때문에... 유럽 전역의 모든 기지들이...
+                [[/div]]
+                [[div class="jates"]]
+                The only people who weren't affected were people on my team. People who were trained to use formula and theory to discern truth. They saw the same things other people did, but they didn't succumb to it. They weren't changed.
+                영향을 입지 않은 사람들은 저희 팀뿐이예요. 진실을 분별하는 공식과 이론에 따로 숙달된 사람들. 똑같은 경험을 했지만 저희는 무릎 꿇지 않을 수 있었습니다. 바뀌지 않았어요.
+                [[/div]]
+                [[div class="harmon"]]
+                We- we need to begin training, we need to get these individuals at- at every site, every site could be affected.
+                바- 바로 훈련을 시작해야겠어요, 모- 모든 기지 사람들한테, 모든 기지가 다 위험하니까.
+                [[/div]]
+                [[div class="jates"]]
+                There aren't enough, Isaac. We would need an army of mathematicians, and that just- it doesn't exist.
+                부족합니다, 아이작. 훈련을 다 돌리려면 수학자가 산더미만큼 필요한데- 그만큼은 존재하지 않습니다.
+                [[/div]]
+                [[div class="harmon"]]
+                I- (//pauses//) -alright.
+                아니- (//말 멈췄다가//) -그래요.
+                
+                I will discuss this with my team. We will work on taking the necessary steps to mitigate this issue.
+                저희 팀과 논의해 보겠습니다. 이 이슈를 대체하는 데 필요한 단계를 수립해야겠어요.
+                
+                (//Pauses//)
+                (//멈춤//)
+                
+                Leonard, we'll need to get you evacuated from Site-35; if what Viktor is saying is true, and you haven't had this sort of intensive training, then-
+                레너드, 제35기지에서는 빨리 빠져나오셔야 해요. 빅토르 말이 참이고 당신이 집중 훈련을 아직 못 받았다고 한다면-
+                [[/div]]
+                [[div class="fitzwell"]]
+                No, Isaac.
+                아뇨, 아이작.
+                
+                There is work that needs to be done here. We can still communicate with those affected. Another group went missing recently, Broken God faithful each, and the connection between the two is undeniable. We... I will know when it is too late for us to accomplish anything here, Isaac. Then I will leave.
+                여기서밖에 처리할 수 없는 일이 있습니다. 저희는 피영향자들과 대화할 수가 있죠. 최근에 부서진 신 신도들이 한 무더기로 실종되었는데, 이 둘 사이에 무슨 관계가 있는지는 또 아직 모릅니다. 저희는... 뭘 어떡할 수 없을 만큼 늦은 때가 언제인지 정도는 감을 잡습니다, 아이작. 그때 저는 나올 겁니다.
+                [[/div]]
+                [[div class="harmon"]]
+                Please do. We need you, Leonard. Now more than ever.
+                그렇게 하세요. 당신이 필요합니다, 레너드. 다른 어느 때보다 더.
+                
+                I'm going to report this to Director Bright and Director Quin. You are right. We have work to do. Be safe.
+                브라이트 이사관님, 퀸 이사관님께 이 문제를 말씀드리겠습니다. 당신 말이 맞아요. 할 일이 있으니까. 안전하세요.
+                [[/div]]
+                [[div class="fitzwell"]]
+                You as well, Isaac.
+                당신도요, 아이작.
+                [[/div]]
+                [[div]]
+                //Dr. Harmon disconnects.//
+                //하먼 박사 연결 종료.//
+                [[/div]]
+                [[div class="jates"]]
+                How much longer do you have, Leonard?
+                시간은 얼마나 남았죠, 레너드?
+                [[/div]]
+                [[div class="fitzwell"]]
+                (//Laughs//)
+                (//웃음//)
+                
+                Truthfully, I don't even know if you are real, Viktor.
+                솔직히 전 당신이 진짜인지도 확신 없습니다, 빅토르.
+                
+                Everything feels the same. This conversation feels the same. I will make due until I cannot make due any longer, and then... well.
+                전부 다 똑같은 느낌이에요. 이 대화마저 똑같은 느낌이고. 버틸 때까지 버티고, 영 버티지 못하게 된다면... 뭐.
+                
+                Hopefully Isaac comes up with something before then.
+                그 전에 아이작이 좋은 대책을 세워주길 바라네요.
+                [[/div]]
+                [[div class="jates"]]
+                The Broken God link, what do you see there?
+                그 부서진 신 관련해서, 더 보이는 점은 없나요?
+                [[/div]]
+                [[div class="fitzwell"]]
+                That's who is building these machines, of course.
+                그게 바로 이 기계들을 지은 자죠, 물론.
+                
+                I think we're- the more I look into this crawling madness I know follows me wherever I go, the more I see the method. A god that cannot be rebuilt.
+                아무래도 저흰- 제가 가는 곳마다 따라오는 이 스멀스멀 피어나는 광기를, 더 들여다볼수록 그 방법이 같이 보여요. 다시 세워질 수 없는 신이.
+                
+                A state of cool that cannot be reached.
+                도달할 수 없는 쿨함이.
+                
+                If you break down the structures that determine what "broken" is, or what "cool" is, what are you left with?
+                "부서진" 것이 뭔지, "쿨한" 것이 뭔지 결정하는 구조가 무너진다면 무엇만이 남을까요?
+                
+                (//Pauses//)
+                (//멈춤//)
+                
+                We should've known sooner.
+                더 일찍 알았어야만 하는데.
+                [[/div]]
+                [[div class="jates"]]
+                We couldn't have known.
+                알 수가 없었잖아요.
+                [[/div]]
+                [[div class="fitzwell"]]
+                We could have tried.
+                알려고 할 순 있었죠.
+                
+                I kept that book in my study for a month, you know?
+                한 달 동안 제가 연구 때문에 그 책을 가지고 있었잖아요?
+                
+                Just reading it.
+                그냥 읽기만 하면서.
+                
+                Trying to see what in it could compel a man to remove his own face, just in order to see... to see something. We should have rules for that sort of thing.
+                그 안에 어떤 게 사람에게 얼굴을 스스로 벗겨내게 시켜서 본 다음에, 그저... 뭔가 보려고. 그런 짓일지라도 원칙을 세워야만 했어요.
+                [[/div]]
+                [[div class="jates"]]
+                I know.
+                압니다.
+                [[/div]]
+                [[div class="fitzwell"]]
+                Viktor, I- have I said anything to you yet? Anything that you- that you could see didn't make sense? Something out of place? I think, I've tried to think and see, if there would be anything.
+                빅터, 혹시 저- 제가 그런 말 한 적 없습니까? 보시기로- 보시기에 말이 안되는? 뭔가 영 엉뚱한? 제 생각엔, 제가 생각하려고 하면서 보기는, 그런 게 있을지 최대한 안 하려고 그랬는데.
+                
+                Tell me truthfully, Viktor. Please.
+                솔직히 말씀해 주세요, 빅토르. 부탁입니다.
+                [[/div]]
+                [[div class="jates"]]
+                Just once. Sideways eyes.
+                딱 한 번요. "옆으로 눈".
+                [[/div]]
+                [[div class="fitzwell"]]
+                Ah. On shores of glass ████ ████ ████ █ ██████ ██ █████. I remember. (//Pauses//) Just now?
+                아 ████ ████ ████ █ ██████ ██ █████의 유리 기슭에서. 기억납니다. (//멈춤//) 지금도요?
+                [[/div]]
+                [[div class="jates"]]
+                Yes.
+                네.
+                [[/div]]
+                [[div class="fitzwell"]]
+                Isaac?
+                아이작은?
+                [[/div]]
+                [[div class="jates"]]
+                We know. We'll take care of him.
+                압니다. 저희가 해결하죠.
+                [[/div]]
+                [[div class="fitzwell"]]
+                Very good, very... very good. Thank you, Viktor. Your team does extraordinary... extraordinary work.
+                좋아요... 아주 좋습니다. 고마워요, 빅토르. 정말 대단한... 대단한 일을 하고 계세요.
+                [[/div]]
+                [[div class="jates"]]
+                Thank you, Leonard.
+                감사합니다, 레너드.
+                [[/div]]
+                [[div class="fitzwell"]]
+                (//Pauses//) I'm sorry, Viktor. I'm sorry.
+                (//멈춤//) 미안해요, 빅토르. 미안합니다.
+                [[/div]]
+                [[div class="jates"]]
+                It's alright, Leonard. It will be alright.
+                괜찮습니다, 레너드. 괜찮을 거예요.
+                [[/div]]
+                [[div class="fitzwell"]]
+                I'm sorry, I'm- goodnight, Viktor.
+                정말 미안- 주무세요, 빅토르.
+                [[/div]]
+                [[div]]
+                //Dr. Fitzwell disconnects. Call ends.//
+                //피츠웰 박사가 전화를 끊는다. 통화 종료.//
+                [[/div]]
+            [[/div]]
+        [[/div]]
+    [[/collapsible]]
+
+------
+
+[[div_ class="warning-container"]]
+[[html]]
+<!DOCTYPE html>
+
+<head>
+    <base target="_parent">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" type="text/css" href="http://d3g0gp89917ko0.cloudfront.net/v--b23e476b7ade/common--theme/base/css/style.css">
+    <link rel="stylesheet" type="text/css" href="http://scptestwiki.wdfiles.com/local--theme/nu-scp-experimental/style.css">
+    <link rel="stylesheet" type="text/css" href="http://scptestwiki.wikidot.com/members:wt-framing-theme/code/1">
+    <style>
+     html#html-block-html,
+     html#html-block-html body {
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     height: 100% !important;
+     width: 100% !important;
+     }
+     .continue-button {
+     border: 0.313rem solid transparent;
+     background: rgba(var(--swatch-primary-darkest));
+     color: rgba(var(--white-monochrome));
+     padding: 0.95em 1em;
+     width: 15em;
+     max-height: 4em;
+     transition:
+     text-indent 1.2s cubic-bezier(0.4, 0.0, 0.2, 1),
+     width 1.2s cubic-bezier(0.4, 0.0, 0.2, 1),
+     max-height 1.2s cubic-bezier(0.4, 0.0, 0.2, 1),
+     color 1.2s cubic-bezier(0.4, 0.0, 0.2, 1),
+     background 1.2s 1.3s cubic-bezier(0.4, 0.0, 0.2, 1),
+     transform 0.2s 1.3s cubic-bezier(0.4, 0.0, 0.2, 1),
+     box-shadow 0.2s 1.3s cubic-bezier(0.4, 0.0, 0.2, 1);
+     white-space: nowrap;
+     font-weight: bold;
+     margin: 1rem auto;
+     font-family: var(--title-font);
+     line-height: 1;
+     font-size: 1.5em;
+     text-align: center;
+     display: flex;
+     flex-wrap: wrap;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+     position: relative;
+            text-indent: 0;
+        }
+
+     .continue-button a {
+     position: absolute;
+     top: 0;
+     left: 0;
+     width: 100%;
+     height: 100%;
+            z-index: 5;
+            cursor: progress;
+     }
+
+     .continue-button a.active-link {
+            cursor: pointer !important;
+        }
+
+     .continue-button br {
+     display: none;
+     }
+
+     .continue-button::before {
+     pointer-events: none;
+     content: " ";
+     position: absolute;
+     top: -0.625rem;
+     left: -0.625rem;
+     width: calc(100% + 1.25rem);
+     height: calc(100% + 1.25rem);
+     /*! background-color: rgb(var(--swatch-primary)); */
+     background-image: url("http://scptestwiki.wikidot.com/local--files/members:wt-framing-theme/cons_circle.svg");
+     background-size: 50vh 50vw;
+     background-attachment: fixed;
+     opacity: 0;
+     transition:
+     opacity 1.2s 1.3s cubic-bezier(0.4, 0.0, 0.2, 1),
+     background-size 1.2s 1.3s cubic-bezier(0.4, 0.0, 0.2, 1);
+     background-position: center center;
+     z-index: -1;
+     }
+
+     .continue-button:hover::before {
+     opacity: 1;
+     background-size: 100vh 100vw;
+     }
+
+     .continue-button .supervisor {
+     max-height: 0;
+     font-size: 0.85em;
+     text-align: center;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     opacity: 0;
+     transition:
+     opacity 1.1s 300ms cubic-bezier(0.4, 0.0, 0.2, 1),
+     max-height 1.1s 300ms cubic-bezier(0.4, 0.0, 0.2, 1);
+     }
+
+     .continue-button:hover .supervisor {
+     opacity: 1;
+     max-height: 2em;
+     transition:
+     opacity 1.1s 300ms cubic-bezier(0.4, 0.0, 0.2, 1),
+     max-height 1.1s 300ms cubic-bezier(0.4, 0.0, 0.2, 1);
+     }
+
+     .continue-button span {
+     display: inline-flex;
+     transform: translateX(13rem) translateY(0.5rem);
+     font-weight: normal;
+     color: rgba(var(--white-monochrome), 0);
+     opacity: 0;
+     transition:
+     opacity 1.1s 300ms cubic-bezier(0.4, 0.0, 0.2, 1),
+     transform 1.1s 300ms cubic-bezier(0.4, 0.0, 0.2, 1),
+     color 1.4s 300ms cubic-bezier(0.4, 0.0, 0.2, 1),
+     text-shadow 1.4s 300ms cubic-bezier(0.4, 0.0, 0.2, 1),
+     font-size 0s 300ms cubic-bezier(0.4, 0.0, 0.2, 1);
+     position: absolute;
+     right: 1.875rem;
+     top: 0.367rem;
+     font-size: 0em;
+     border-radius: 50%;
+     background-color: darkgreen;
+     width: 3.750rem;
+     height: 3.750rem;
+     align-items: flex-start;
+     justify-content: flex-start;
+     text-shadow:
+     0 0 0 rgba(var(--light-gray-monochrome), 1);
+     z-index: -1;
+     text-indent: 0;
+     }
+
+     .continue-button:hover {
+     text-indent: -4em;
+     background: rgba(var(--light-gray-monochrome));
+     color: rgba(var(--white-monochrome));
+     width: 17em;
+     max-height: 10em;
+     transform: translateX(0.625rem) translateY(-0.625rem);
+     box-shadow:
+     0.625rem 0 0 rgba(var(--light-gray-monochrome), 1),
+     -0.625rem 0 0 rgba(var(--light-gray-monochrome), 1),
+     0 0.625rem 0 rgba(var(--light-gray-monochrome), 1),
+     0 -0.625rem 0 rgba(var(--light-gray-monochrome), 1),
+     0.625rem 0.625rem 0 rgba(var(--light-gray-monochrome), 1),
+     -0.625rem 0.625rem 0 rgba(var(--light-gray-monochrome), 1),
+     0.625rem -0.625rem 0 rgba(var(--light-gray-monochrome), 1),
+     -0.625rem -0.625rem 0 rgba(var(--light-gray-monochrome), 1);
+     }
+
+     .continue-button:hover span {
+     color: rgba(var(--white-monochrome), 1);
+     text-shadow:
+     0.0625rem 0 0 rgba(var(--light-gray-monochrome), 1),
+     -0.0625rem 0 0 rgba(var(--light-gray-monochrome), 1),
+     0 0.0625rem 0 rgba(var(--light-gray-monochrome), 1),
+     0 -0.0625rem 0 rgba(var(--light-gray-monochrome), 1),
+     0.0625rem 0.0625rem 0 rgba(var(--light-gray-monochrome), 1),
+     -0.0625rem 0.0625rem 0 rgba(var(--light-gray-monochrome), 1),
+     0.0625rem -0.0625rem 0 rgba(var(--light-gray-monochrome), 1),
+     -0.0625rem -0.0625rem 0 rgba(var(--light-gray-monochrome), 1);
+     transition:
+     opacity 1.1s 1.5s cubic-bezier(0.4, 0.0, 0.2, 1),
+     transform 1.4s 1.5s cubic-bezier(0.4, 0.0, 0.2, 1),
+     color 1.4s 6.8s cubic-bezier(0.4, 0.0, 0.2, 1),
+     text-shadow 1.4s 6.8s cubic-bezier(0.4, 0.0, 0.2, 1),
+     font-size 400ms 6.8s cubic-bezier(0.4, 0.0, 0.2, 1);
+     transform: translateX(0) translateY(0.5rem);
+     opacity: 1;
+     font-size: 3em;
+     }
+
+     .continue-button span::before {
+     content: " ";
+     pointer-events: none;
+     position: absolute;
+     top: 0;
+     left: 0;
+     width: 100%;
+     height: 100%;
+     border-radius: 50%;
+     text-indent: -3em;
+     transform: rotateZ(360deg);
+     }
+
+     .continue-button:hover span::before {
+     transition:
+     transform 6.8s 1500ms cubic-bezier(0.4, 0.0, 0.2, 1);
+     animation:
+     border 5.4s cubic-bezier(0.2, 0.6, 0.8, 1) 1500ms 1 forwards,
+     rotate 1.125s linear 1500ms 5 backwards;
+     transform: rotateZ(0deg);
+     }
+
+     @keyframes border {
+     0% {
+     box-shadow:
+     inset 0 0.3125rem 0 rgba(var(--light-gray-monochrome), 0),
+     /* Top 1 */
+     inset 0.234375rem 0.234375rem 0 rgba(var(--light-gray-monochrome), 0),
+     /* Top Left 2 */
+     inset 0.3125rem 0 0 rgba(var(--light-gray-monochrome), 0),
+     /* Left 3 */
+     inset 0 -0.3125rem 0 rgba(var(--light-gray-monochrome), 0),
+     /* Bottom 4*/
+     inset 0.234375rem -0.234375rem 0 rgba(var(--light-gray-monochrome), 0),
+     /* Bottom Left 5 */
+     inset -0.234375rem -0.234375rem 0 rgba(var(--light-gray-monochrome), 0),
+     /* Bottom Right 6 */
+     inset -0.3125rem 0 0 rgba(var(--light-gray-monochrome), 0),
+     /* Right 7 */
+     inset -0.234375rem 0.234375rem 0 rgba(var(--light-gray-monochrome), 0);
+     /* Top Right 8 */
+     }
+
+     6.25% {
+     box-shadow:
+     inset 0 0.3125rem 0 rgba(var(--white-monochrome)),
+     /* Top 1 */
+     inset 0.234375rem 0.234375rem 0 rgba(var(--light-gray-monochrome), 0),
+     /* Top Left 2 */
+     inset 0.3125rem 0 0 rgba(var(--light-gray-monochrome), 0),
+     /* Left 3 */
+     inset 0 -0.3125rem 0 rgba(var(--light-gray-monochrome), 0),
+     /* Bottom 4*/
+     inset 0.234375rem -0.234375rem 0 rgba(var(--light-gray-monochrome), 0),
+     /* Bottom Left 5 */
+     inset -0.234375rem -0.234375rem 0 rgba(var(--light-gray-monochrome), 0),
+     /* Bottom Right 6 */
+     inset -0.3125rem 0 0 rgba(var(--light-gray-monochrome), 0),
+     /* Right 7 */
+     inset -0.234375rem 0.234375rem 0 rgba(var(--light-gray-monochrome), 0);
+     /* Top Right 8 */
+     }
+
+     93.75% {
+     box-shadow:
+     inset 0 0.3125rem 0 rgba(var(--white-monochrome)),
+     /* Top 1 */
+     inset 0.234375rem 0.234375rem 0 rgba(var(--light-gray-monochrome), 0),
+     /* Top Left 2 */
+     inset 0.3125rem 0 0 rgba(var(--light-gray-monochrome), 0),
+     /* Left 3 */
+     inset 0 -0.3125rem 0 rgba(var(--light-gray-monochrome), 0),
+     /* Bottom 4*/
+     inset 0.234375rem -0.234375rem 0 rgba(var(--light-gray-monochrome), 0),
+     /* Bottom Left 5 */
+     inset -0.234375rem -0.234375rem 0 rgba(var(--light-gray-monochrome), 0),
+     /* Bottom Right 6 */
+     inset -0.3125rem 0 0 rgba(var(--light-gray-monochrome), 0),
+     /* Right 7 */
+     inset -0.234375rem 0.234375rem 0 rgba(var(--white-monochrome));
+     /* Top Right 8 */
+     }
+
+     100% {
+     box-shadow:
+     inset 0 0.3125rem 0 rgba(var(--light-gray-monochrome), 0),
+     /* Top 1 */
+     inset 0.234375rem 0.234375rem 0 rgba(var(--light-gray-monochrome), 0),
+     /* Top Left 2 */
+     inset 0.3125rem 0 0 rgba(var(--light-gray-monochrome), 0),
+     /* Left 3 */
+     inset 0 -0.3125rem 0 rgba(var(--light-gray-monochrome), 0),
+     /* Bottom 4*/
+     inset 0.234375rem -0.234375rem 0 rgba(var(--light-gray-monochrome), 0),
+     /* Bottom Left 5 */
+     inset -0.234375rem -0.234375rem 0 rgba(var(--light-gray-monochrome), 0),
+     /* Bottom Right 6 */
+     inset -0.3125rem 0 0 rgba(var(--light-gray-monochrome), 0),
+     /* Right 7 */
+     inset -0.234375rem 0.234375rem 0 rgba(var(--light-gray-monochrome), 0);
+     /* Top Right 8 */
+
+     }
+     }
+
+     @keyframes rotate {
+     0% {
+     transform: rotate(0deg);
+     }
+
+     100% {
+     transform: rotate(360deg);
+     }
+     }
+     @media only screen and (max-width: 400px) {
+     .continue-button {
+     font-size: 1em;
+     }
+     }
+
+    </style>
+</head>
+
+<body>
+    <div id="continue-button-id" class="continue-button">
+     <a id="continue-link" href="http://www.scp-wiki.net/scp-4485/offset/3"></a>
+     <div class="accept">CLICK TO SUBMIT APPROVAL 클릭하여 승인 요청</div>
+     <div class="supervisor">SUPERVISOR APPROVAL 상사 승인 중</div>
+     <br>
+     <span>✔</span>
+    </div>
+    <script>
+        var continueButton = document.getElementById("continue-button-id");  
+        var continueLink = document.getElementById("continue-link");
+        var to = null;     
+
+        function mouseOver() {
+            if(to){
+                clearTimeout(to);
+            }           
+            to = setTimeout(function(){                 
+                continueButton.classList.remove("active-hover");
+                continueLink.classList.add("active-link");                    
+            }, 5500);
+        }
+
+        function mouseOut() {
+            if(to){
+                clearTimeout(to);
+            }
+            continueLink.classList.remove("active-link");
+        }        
+
+        continueLink.addEventListener("mouseover", mouseOver);
+        continueLink.addEventListener("mouseout", mouseOut);
+    </script>
+</body>
+
+[[/html]]
+[[/div]]
+
+fragment:dark-light-2 Dark Light 2
+Parent : SCP-4485
