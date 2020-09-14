@@ -1237,7 +1237,7 @@ Full understanding of SCP-4485 is required by all foundation employees. As such,
     <div id="continue-button-id" class="continue-button">
      <a id="continue-link" href="http://ko.scp-wiki.net/scp-4485/offset/1"></a>
      <div class="accept">ACCEPT CONDITIONS 조건 수락</div>
-     <div class="supervisor">SUPERVISOR APPROVAL 상사 승인 중</div>
+     <div class="supervisor">SUPERVISOR APPROVAL 상사 승인</div>
      <br>
      <span>✔</span>
     </div>
