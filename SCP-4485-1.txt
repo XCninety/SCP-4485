@@ -1663,7 +1663,7 @@ SCP-4485는 기지 격리진에게 넘겨져 격리 처리되었으며, 우리�
     <div id="continue-button-id" class="continue-button">
      <a id="continue-link" href="http://ko.scp-wiki.net/scp-4485/offset/2"></a>
      <div class="accept">CLICK TO SUBMIT APPROVAL 클릭하여 승인 요청</div>
-     <div class="supervisor">SUPERVISOR APPROVAL 상사 승인 중</div>
+     <div class="supervisor">SUPERVISOR APPROVAL 상사 승인</div>
      <br>
      <span>✔</span>
     </div>
