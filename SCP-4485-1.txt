@@ -989,10 +989,10 @@ Good Afternoon, Researcher,
 안녕하십니까, 연구원님.
 
 Dr. Lark and myself are pleased to see you are complying with the compulsory SCP-4485 orientation. We both would have been most displeased to have to terminate one of our most well respected and senior researchers.
-SCP-4485 의무 오리엔테이션에 협조해 주시는 당신을 라크(Lark) 박사와 제가 만나뵈게 되어 기쁩니다. 아주 훌륭하고 경험 많은 연구원 한 명을 처분하게 되어 저희들은 불쾌하던 참이었습니다.
+라크(Lark) 박사와 저는 당신이 SCP-4485 의무 오리엔테이션에 협조해 주시어 기쁩니다. 아주 훌륭하고 경험 많은 연구원 한 명을 처분하게 되었다면 저희 둘은 몹시 불쾌해졌으리라 생각합니다.
 
 It is imperative that you carefully read all documents and comprehend them to a degree that I find satisfactory. As such, I will be following your progress on a remote terminal. If it is found that you are within acceptable levels, you will be permitted to leave your office.
-당신은 이제 모든 문서를 세심하게 읽고, 제가 만족하는 정도에 이를 때까지 이들을 파악해야 합니다. 이로 말미암아 당신의 진행 경과를 제가 원격 단말로 추적하게 되었습니다. 부합하는 수준 내로 당신이 진입하게 된다면 그때 당신은 사무실을 떠나셔도 좋습니다.
+당신은 이제 모든 문서를 세심하게 읽고, 제가 만족하는 정도에 이를 때까지 이들을 파악해야 합니다. 이로 말미암아 당신의 진행 경과를 제가 원격 단말로 추적하게 되었습니다. 흡족한 수준 내로 당신이 진입하게 된다면 그때 당신은 사무실을 떠나셔도 좋습니다.
 
 Do not disappoint me.
 실망시키지 마십시오.
@@ -1071,7 +1071,7 @@ Director,  Site-12
                        [[span]]Grenwald, Germany[[/span]]
                        [[span]][STAGING AREA][[/span]]
                        [[span]]독일 그렌발트(Grenwald)[[/span]]
-                       [[span]][보존 지역][[/span]]
+                       [[span]][집결 지역][[/span]]
                     [[/div]]
                     [[div_ class="cell3 empty_cell"]]
                                                                    
@@ -1157,7 +1157,7 @@ Director,  Site-12
         [[div_ class="containment"]]
             [[div_ class="report_title"]]
                 Secure Containment Protocols
-                특수 격리 프로토콜
+                보안 격리 프로토콜
             [[/div]]
 
             [[div_ class="contents"]]
@@ -1187,7 +1187,7 @@ Director,  Site-12
             마지막으로, 해당 대상자는 타르스키의 수정된 동일률 (라이프니츠 원리, 반사성, 대칭성, 추이성과 그 역) 을 이해하고 적용할 줄 알아야 한다. 또한 직관논리, 초일관논리, 3치논리, 양상논리, 퍼지논리 등 현대 논리주의에도 마찬가지로 친숙해야 한다.
 
             In short, subjects must have an absolute mastery, at the highest level achievable by human beings in our current understanding of their nature, over the ability to adeptly reason what is true and logical, or false and illogical.
-            종합하자면 해당 대상자는 무엇이 참이고 논리적인지, 또 무엇이 거짓이고 비논리적인지 능숙하게 분별하는 능력에, 현재 우리가 이해하는 범위 안에서 인류가 달성 가능한 최고 수준에 이를 만큼 전적으로 능통해야 한다.
+            종합하자면 해당 대상자는 무엇이 참이고 논리적인지, 또 무엇이 거짓이고 비논리적인지 능숙하게 분별하는 데 있어, 현재 우리가 이해하는 범위 안에서 인류가 달성 가능한 최고 수준에 이를 만큼 전적으로 능통해야 한다.
 
             Areas affected by SCP-4485 are to be quarantined and guarded by Foundation agents.
             SCP-4485의 영향을 입은 구역은 격리 조치하고 재단 요원들이 경비한다.
@@ -1214,7 +1214,7 @@ Director,  Site-12
                         프랑스에서 사용한 법적 성명은 장이지만, 독일어를 쓸 때는 스스로를 독일 이름인 한스로 지칭했다.
                     [[/div]]
                 [[/div]]    
-                ,,Hans Arp,,)가 집필한 작은 가죽표지 책이다. SCP-4485 자체는 평범하게 생겼으며, 다소 해지고 약간 빛이 바랐다. 책등에는 저자의 이름 HANS ARP가 블록체 대문자로 가죽에 찍혀 있다. SCP-4485의 앞표지에는 "gott ist ohne zweck"
+                ,,Hans Arp,,)가 집필한 작은 가죽표지 책이다. SCP-4485 자체는 평범하게 생겼으며, 다소 해지고 약간 빛이 바랬다. 책등에는 저자의 이름 HANS ARP가 블록체 대문자로 가죽에 찍혀 있다. SCP-4485의 앞표지에는 "gott ist ohne zweck"
                 ). SCP-4485 itself is unremarkable in appearance, being moderately worn and slightly faded. The name of the author, Hans Arp, is pressed into the leather on the back of the journal in block capitalization. Within the front cover of SCP-4485 are the words "gott ist ohne zweck"            
                 [[div_ class="footnote_block five"]]
                     [[div_ class="footnote_num"]]
@@ -1229,7 +1229,7 @@ Director,  Site-12
                 beneath a crude drawing of a fish.
 
                 SCP-4485 has an acute, adverse affect on reality and human cognition. Individuals who are exposed to SCP-4485 and do not have proper training in logicism will become disoriented and unable to differentiate between truths and falsehoods. This inability to identify what is logical and illogical manifests physically as alterations to the structural makeup of reality. The area directly surrounding SCP-4485 will begin to degrade over time, becoming increasingly disorderly and nonsensical. These effects on reality linger even after the removal of SCP-4485. Currently there is no means by which these alterations can be reversed.
-                SCP-4485는 현실과 인간의 인식력에 급성 악영향을 끼친다. 논리주의를 충분히 훈련받지 못하고 SCP-4485에 노출된 사람은 혼란에 빠져 진실과 거짓을 구분하지 못하게 된다. 이렇게 논리와 비논리를 분별하지 못하는 현상은 물리적 형태로도 나타나, 주변 현실의 구조가 바뀌게 된다. SCP-4485 바로 가까이 주위의 지역은 오랜 시간에 걸쳐 천천히 훼손되어 몹시 무질서하고 앞뒤가 맞지 않는 상태가 된다. 이 효과는 SCP-4485를 그곳에서 치우더라도 계속 남아 있는다. 현재 이렇게 변경된 현실을 되돌리는 방법은 발견되지 않았다.
+                SCP-4485는 현실과 인간의 인식력에 극심한 악영향을 끼친다. 논리주의를 충분히 훈련받지 못하고 SCP-4485에 노출된 사람은 혼란에 빠져 진실과 거짓을 구분하지 못하게 된다. 이렇게 논리와 비논리를 분별하지 못하는 현상은 물리적 형태로도 나타나, 주변 현실의 구조가 바뀌게 된다. SCP-4485를 바로 에워싸는 근처 지역은 오랜 시간에 걸쳐 천천히 훼손되며 몹시 무질서해지고 앞뒤가 맞지 않는 상태로 변모한다. 이 효과는 SCP-4485를 그곳에서 치우더라도 계속 남아 있는다. 현재 이렇게 변경된 현실을 되돌리는 방법은 발견되지 않았다.
             [[/div]]
         [[/div]]
         [[div_ class="discovery"]]
@@ -1283,10 +1283,10 @@ Director,  Site-12
      [[div_ class="contents"]]
 [[span]]Forward: 서론:[[/span]] The report of SCP Foundation field agent Fredrick Norman, assigned to Site-35, in the matter of the SCP-4485 anomaly. 제35기지 소속 SCP 재단 현장 요원 프레드릭 노먼의 SCP-4485 변칙개체 관련 보고서.
 
-[[span]]Report Proper: 본문:[[/span]] Initial communication with field agent [[span class="black_highlighter"]]██████[[/span]] [[span class="black_highlighter"]]█████[[/span]] proved substantial enough evidence to move operations to Bramund and discover the source of the abnormality. Subjects admitted to local hospital stated disorientation and decreased motivation. The subjects I reviewed did not appear physically unusual, however, each of them seemed unable to differentiate between hallucinations and reality, though these hallucinations did not seem to trouble them in any way. Subjects would occasionally mutter gibberish or laugh randomly without explanation, and seldom responded to questioning. 현장 요원 [[span class="black_highlighter"]]██████[[/span]] [[span class="black_highlighter"]]█████[[/span]]와 최초 통신한 내용으로 미루어 브라문트로 이동해 이상현상의 근원을 탐색해야 할 만한 근거가 상당해졌다. 지역 병원에 입원한 환자들이 혼란 상태와 의욕 상실 등을 호소했다. 본인이 살폈던 환자들은 신체에는 이상이 없었으나 환각과 현실을 구분하지 못하는 상태였는데, 환각이 환자들을 딱히 괴롭히는 것은 또 아니었다. 환자들은 이따금 헛소리를 지껄이거나 난데없이 아무 이유도 없이 웃곤 했으며, 질문에 좀처럼 대답하지 않았다.
+[[span]]Report Proper: 본문:[[/span]] Initial communication with field agent [[span class="black_highlighter"]]██████[[/span]] [[span class="black_highlighter"]]█████[[/span]] proved substantial enough evidence to move operations to Bramund and discover the source of the abnormality. Subjects admitted to local hospital stated disorientation and decreased motivation. The subjects I reviewed did not appear physically unusual, however, each of them seemed unable to differentiate between hallucinations and reality, though these hallucinations did not seem to trouble them in any way. Subjects would occasionally mutter gibberish or laugh randomly without explanation, and seldom responded to questioning. 현장 요원 [[span class="black_highlighter"]]██████[[/span]] [[span class="black_highlighter"]]█████[[/span]]와 최초 통신한 내용으로 말미암아 브라문트로 이동해 이상현상의 근원을 탐색해야 할 만한 근거가 상당해졌다. 지역 병원에 입원한 환자들이 혼란 상태와 의욕 상실 등을 호소했다. 본인이 살폈던 환자들은 신체에는 이상이 없었으나 환각과 현실을 구분하지 못하는 상태였는데, 환각이 환자들을 딱히 괴롭히는 것은 또 아니었다. 환자들은 이따금 헛소리를 지껄이거나 난데없이 아무 이유도 없이 웃곤 했으며, 질문에 좀처럼 대답하지 않았다.
 
 Two subjects, Max Kelper and Josef Von Schmetterline were known actives within the major Prussian Church of the Broken God sect and, during our most recent encounter, had been hostile zealots. The hostility appeared to have left them, and they did not respond to questioning about their pasts, saying only that "god is already here" in reference to the anomalous activity within Bramund. Both men chattered like animals the entire time I was with them, and continued to do so after I had departed.
-막스 케플러, 요제프 폰 슈메털린, 이 두 환자는 프로이센 부서진 신의 교단 주 종파에서도 활동이 왕성하고 유명한 자들이었으며, 우리가 최근에 만났을 때는 아예 적대적인 열성분자였다. 이제 두 사람에게 적대성은 기미도 없었으며, 어떤 일이 있었는지 물어도 둘은 대답하지 않았고, 다만 브라문트 내의 변칙적 활동에 대해 "신이 벌써 오셨다"라는 말만을 꺼냈다. 본인이 있을 때 두 사람은 자꾸 무슨 동물 같은 소리들만 지껄였는데, 본인이 병실을 떠나면서도 이 소리는 계속 들려왔다.
+막스 켈퍼, 요제프 폰 슈메털린, 이 두 환자는 프로이센 부서진 신의 교단 주 종파에서도 활동이 왕성하고 유명한 자들이었으며, 마지막으로 우리가 마주쳤을 때는 아예 적대적인 광신자였다. 이제 두 사람에게 적대성은 기미도 없었으며, 어떤 일이 있었는지 물어도 둘은 대답하지 않았고, 다만 브라문트 내의 변칙적 활동에 대해 "신이 벌써 오셨다"라는 말만을 꺼냈다. 내가 있을 때 두 사람은 내내 무슨 동물이 내는 것 같은 소리들만 지껄였는데, 내가 병실을 떠나면서도 이 소리는 계속 들려왔다.
      [[/div]]
      [[/div]]
     [[/div]]
@@ -1297,16 +1297,16 @@ Two subjects, Max Kelper and Josef Von Schmetterline were known actives within t
      [[div_ class="fiend_report"]]
      [[div_ class="contents"]]
 All subjects we interviewed at the [[span class="black_highlighter"]]███████████[[/span]] [[span class="black_highlighter"]]█████████[[/span]] Hospital no longer appeared to recognize their own names, referring to themselves and each other as "hansarp". They provided no elaboration as to the meaning of this name or its significance as it pertains to their affliction.
-우리가 [[span class="black_highlighter"]]███████████[[/span]] [[span class="black_highlighter"]]█████████[[/span]] 병원에서 면담했던 환자들은 모두 자기 이름도 못 알아봤고, 자신과 서로를 "한스아르프(hansarp)"라고 불렀다. 그게 무슨 뜻의 이름인지, 혹시 자기들의 병환하고 혹시 어떤 상관이 있는지, 더 자세하게 말은 나온 적 없다.
+우리가 [[span class="black_highlighter"]]███████████[[/span]] [[span class="black_highlighter"]]█████████[[/span]] 병원에서 면담했던 환자들은 모두 자기 이름도 못 알아봤고, 자신과 서로를 "한스아르프(hansarp)"라고 불렀다. 그 이름이 무슨 뜻인지, 혹시 자기들의 병환하고 어떤 상관이 있는지, 더 자세하게 말은 나온 적 없다.
 
 After three days stay at the hospital, our team moved in to Bramund while additional resources were called to transfer the afflicted to Site-35 for examination. It was agreed by all that the subjects were experiencing unusual enough symptoms as to warrant classification and study. We arrived at Grenwald, near Bramund across the river, on June 19th. It was our intention to collect our resources at Grenwald and enter Bramund on the upcoming Sunday; however, activity within the Bramund region warranted an expedited response.
-우리 팀은 사흘 동안 병원에 머물렀다가 브라문트로 떠났다. 제35기지에서 환자들을 검사차 데려갈 테니 추가 자료들을 수집해 달라고 부탁했을 때였다. 우리는 모두 이 환자들이 이렇게 괴상한 증상을 겪고 있느니만큼 분류랑 연구랑 필요하긴 하겠다고 생각했다. 6월 19일 우리는 그렌발트에 도착했다. 강 하나 건너면 브라문트 나오는 곳이었다. 원래 목적은 그렌발트에서 자료를 수집했다가 그 주 일요일에 브라문트로 진입하는 것이었다. 그런데 브라문트 지역에서 어떤 활동을 발견하면서, 우리는 더 일찍 대응에 나서야 했다.
+우리 팀은 사흘 동안 병원에 머물렀다가 브라문트로 떠났다. 제35기지에서 환자들을 검사차 데려갈 테니 추가 자원들을 달라고 요청했을 때였다. 우리는 모두 이 환자들이 이렇게 괴상한 증상을 겪고 있느니만큼 분류랑 연구랑 필요하긴 하겠다고 생각했다. 6월 19일 우리는 그렌발트에 도착했다. 강 하나 건너면 브라문트 나오는 곳이었다. 원래 목적은 그렌발트에서 자원들을 규합했다가 그 주 일요일에 브라문트로 진입하는 것이었다. 그런데 브라문트 지역에서 어떤 활동을 발견하면서, 우리는 더 일찍 대응에 나서야 했다.
 
 Locals within Grenwald began to complain about the texture of the sky over Bramund. I was unable to make this distinction, but was easily able to see the color change. Where before had been blue skies with the mountains behind was now clearly various shades of grey and orange, in a solid column extending up from the city's borders. Strange forms had begun to appear within the column - geometric shapes that were difficult to observe, rippling, even symbols of some strange alphabet I did not recognize. Realizing this was an escalation in expected activity, we mobilized within the hour and moved to Bramund.
-그렌발트 주민들이 브라문트 상공의 하늘의 질감이 달라졌다고 호소했다. 나는 질감의 차이까지는 못 봤지만, 색깔이 달라진 것은 쉽게 보였다. 산 너머로 파란 하늘이 펼쳐져 있어야 할 곳에 회색과 주황색 등 다양한 색조가, 마을 경계부터 고체 기둥으로 쭉 위로 뻗어올랐다. 기둥 속에서 이상한 모양들도 나타났다. 관찰하기 어려운 기하학적 모양이 보였고, 찰랑임이 보였고, 내가 아는 건 아니지만 문자 같아 보이는 이상한 기호들도 떠올랐다. 예상했던 활동이 훨씬 격심해진 것을 깨닫고 우리는 한 시간 내로 채비를 마쳐 브라문트로 움직였다.
+그렌발트 주민들이 브라문트 상공의 하늘의 질감이 달라졌다고 호소했다. 나는 질감의 차이까지는 못 봤지만, 색깔이 달라진 것은 쉽게 보였다. 파란 하늘 아래로 산이 깔려 있어야 할 곳에 회색과 주황색 등의 색조가 다양하게, 마을 경계부터 고체 기둥으로 쭉 위로 뻗어올랐다. 기둥 속에서 이상한 모양들도 나타났다. 관찰하기 어려운 기하학적 모양이 보였고, 찰랑임이 보였고, 내가 아는 건 아니지만 문자 같아 보이는 이상한 기호들도 떠올랐다. 예상했던 활동이 훨씬 격심해진 것을 깨닫고 우리는 한 시간 내로 채비를 마쳐 브라문트로 움직였다.
 
 There was a distinct haze on the road to the city that grew thicker as we approached. The column of greyscale we had seen in Grenwald grew more and more difficult to see, and at times it was impossible to see the sky at all. Several other members of our accompanying task force described feeling uncertain about the path we were taking, despite us clearly being on the road. On several occasions some men stopped and declared we were lost,
-브라문트로 들어가는 글에 안개가 뚜렷하게 깔려 있었는데, 다가갈수록 더 짙어졌다. 그렌발트에서 보이던 회색빛 기둥이 점점 더 잘 보이지가 않았으며, 가끔은 아예 하늘에서 잠깐 종적을 감추기도 했다. 같이 가던 특무부대 대원들 몇 명이 우리가 가는 길이 맞는 길인지 확실하지 못하다는 느낌을 호소했다. 분명히 똑바로 가고 있었는데도. 몇 번은 대원들이 아예 멈춰서서, 우리가 길을 잃었으니
+브라문트로 들어가는 길에 안개가 뚜렷하게 깔려 있었는데, 다가갈수록 더 짙어졌다. 그렌발트에서 보이던 흑백 색깔 기둥이 점점 더 잘 보이지가 않았으며, 가끔은 아예 하늘이 보이지 않기도 했다. 같이 가던 특무부대 대원들 몇 명이 우리가 가는 길이 맞는 길인지 확실하지 못하다는 느낌을 호소했다. 분명히 똑바로 가고 있었는데도. 몇 번은 대원들이 아예 멈춰서서, 우리가 길을 잃었으니
      [[/div]]
      [[/div]]
     [[/div]]
@@ -1317,13 +1317,13 @@ There was a distinct haze on the road to the city that grew thicker as we approa
      [[div_ class="fiend_report"]]
      [[div_ class="contents"]]
 and needed to return to Grenwald. The task force commander lost track of how many men were assigned to his unit. [[span class="black_highlighter"]]█████[[/span]] [[span class="black_highlighter"]]██████[[/span]] described how at one point, three of the men seemed to simply stop walking, turn 90 degrees to the right, and walk off the road, though I did not see this myself.
-그렌발트로 돌아가야 한다고 주장했다. 특무부대 대장마저도 부대에 몇 명이 있었는지 갈피를 잡지 못했다. 한 번은 [[span class="black_highlighter"]]█████[[/span]] [[span class="black_highlighter"]]██████[[/span]]가 대원 3명이 느닷없이 걸음을 멈추더니 우향우로 돌아 그대로 길을 떠나버렸다고 알렸는데, 그 장면을 내가 직접 보지는 못했다.
+그렌발트로 돌아가야 한다고 주장했다. 특무부대 대장마저도 부대에 몇 명이 있었는지 갈피를 잡지 못했다. [[span class="black_highlighter"]]█████[[/span]] [[span class="black_highlighter"]]██████[[/span]]가 알려준 바로는 한 번은 대원 3명이 느닷없이 걸음을 멈추더니 우향우로 돌아 그대로 길을 떠나버렸다고 하는데, 그 장면을 내가 직접 보지는 못했다.
 
 It became clear when we had passed into Bramund, as the color had come out of our equipment and our skin. With the exception of the occasional orange coloration, there was no other color to be seen at all. There was a strange sort of cycling wind within the cylinder, that passed us every so often and seemed to carry sound with it. This impeded our ability to communicate with each other, and we were forced to resort to visual communication in order to proceed.
-브라문트 안으로 들어서자 우리는 알았다. 우리 장비며 피부에서 색깔이 피어오르고 있었다. 그곳에 채색이라고는, 이따금 주황빛이 스며나오는 걸 빼고는 전혀 보이지가 않았다. 원기둥 안에서 모종의 이상한 바람이 순환했는데, 종종 우리를 스치면 어떤 소리가 들려왔다. 그 소리 때문에 우리가 서로 대화할 수가 없어서, 시각적 수단을 써먹어 가며 대화하면서 나아갈 수밖에 없었다.
+브라문트 안으로 들어서자 우리는 알았다. 우리 장비며 피부에서 색깔이 다 빠져나가 있었다. 그곳에 채색이라고는, 이따금 주황빛이 스며나오는 걸 빼고는 전혀 보이지가 않았다. 원기둥 안에서 모종의 이상한 바람이 순환했는데, 종종 우리를 스치면 어떤 소리가 들려왔다. 그 소리 때문에 우리가 서로 대화할 수가 없어서, 시각적 수단을 써먹어 가며 대화하면서 나아갈 수밖에 없었다.
 
 The state of affairs within Bramund was not exceptional. Some structures were seemingly disassembled and hanging in the air just off their foundations, as if gravity had ceased to operate in their vicinity. Large, dark shapes were somehow visible beneath the earth moving around like sharks circling prey, but did not ever surface. From somewhere else in the fog we could hear the sound of strange music every time the wind passed over us, and proceeded towards the source. We were impeded by a panic that set over the men due to some additional affliction that I did not seem to recognize, and several were left behind to be taken out of the city by their comrades.
-브라문트 내의 상황도 다를 바는 없었다. 건물들이 무너져가는데, 기반에서 떨어졌으면서도 공중에 그대로 걸려 있었다. 자기 근방에서 중력이 잠시 멈추었다는 듯. 커다랗고 검은 모양이 땅 밑에서 움직이면서 먹이를 도는 상어처럼 움직이는 게 보였는데, 다만 지면 위로 떠오르지는 않았다. 안개 속 어딘가에서는 이상한 음악소리가, 바람이 우리를 스치고 또 변칙성의 진원지로 내닫을 때마다 들려왔다. 나는 못 느꼈지만 사람들이 계속 다른 증세를 호소하면서 공황이 부대를 압도한 탓에 나아가기가 어려웠으며, 몇몇은 아예 동료가 바깥으로 데려다줄 때까지 기다리며 남아 있어야 했다.
+브라문트 내의 상황도 다를 바는 없었다. 건물들이 분해되어 가는데, 기반에서 떨어졌으면서도 공중에 그대로 걸려 있었다. 자기 근방에서 중력이 멈추었다는 듯. 커다랗고 검은 모양이 땅 밑에서 움직이면서 먹이 주위를 도는 상어처럼 움직이는 게 보였는데, 다만 지면 위로 떠오르지는 않았다. 안개 속 어딘가에서는 이상한 음악소리가, 바람이 우리를 스치고 또 변칙성의 진원지로 내닫을 때마다 들려왔다. 나는 못 느꼈지만 사람들이 계속 다른 증세를 호소하면서 공황이 부대를 압도한 탓에 나아가기가 어려웠으며, 몇몇은 아예 동료가 바깥으로 데려다줄 때까지 기다리며 남아 있어야 했다.
 
 The epicenter of activity was the remains of a small library. I recognized the structure immediately as the former gathering place of local anartists, prior to a raid that saw several of them taken into custody and the structure demolished. Within the ruins was a grisly sight; a circle of living human beings, twisted into strange and unnatural shapes, seemingly part of a large, complex machine in the center of the main room.
 변칙활동의 진원지는 조그만 도서관이 무너지고 남은 잔해였다. 이 건물을 나는 바로 알아봤다. 지역 변칙예술가들이 모이는 장소였는데, 어느 날 습격을 받아 변칙예술가 몇 명을 구금하고 건물을 철거한 바 있었던 곳이었다. 잔해 속에서 소름끼치는 광경이 보였다. 사람들이 둥글게 둘러모여 이상하고 부자연스러운 모양으로 뒤틀려 있었는데, 그 모습이 큰방 중앙의 커다랗고 복잡한 기계의 일부가 되어 있었다.
@@ -1337,13 +1337,13 @@ The epicenter of activity was the remains of a small library. I recognized the s
      [[div_ class="fiend_report"]]
      [[div_ class="contents"]]
 As the machine's action turned under some strange power, it would raise and drop a large mass of barbed steel, concrete, and human remains onto a platform. Each time this action was taken, the circle of humans would proceed forward, twisting and dancing and singing a haunting and unintelligible harmony with the machine's grotesque melody. The next human would stand on the platform, and the machine would drop, and their remains would be flung out into the air, rising unnaturally into the sky where, above the remains of the library, a strange image was forming - something that defied understanding. The clicking machine would raise again like the pendulum of a clock, another human would step onto the platform, and the process would continue.
-기계는 모종의 이상한 힘으로써 돌아갔는데, 가시 돋친 큰 철 콘크리트 덩어리를 들어올렸다 내렸다 하면 단 위에는 사람 유해가 남아 있었다. 한 번 들어올려질 때마다 사람들이 그린 원은 한 발짝 앞으로 나아가, 일그러지고 춤추며 기계가 내는 기괴한 선율과 알 수 없는 화음을, 꿈에도 나올 듯한 화음을 맞췄다. 다음 사람이 단으로 올라가면 기계가 그 위로 떨어졌고, 그 유해가 공중으로 붕 떠올라 부자연스럽게 하늘로 날아갔다. 도서관 잔해 위의 그 하늘에 이상한 이미지가 하나 떠올라 있었다. 도무지 뭐라 설명 못할 형상이었다. 똑딱이는 기계는 시계추처럼 다시 들어올려졌고, 또 한 사람이 단 위로 올라가면 다시 떨어졌다.
+기계는 모종의 이상한 힘으로써 돌아갔는데, 가시 돋친 큰 철이랑 콘크리트랑 인간의 유해가 한데 뭉친 무슨 덩어리를 들어올렸다 단 위로 내리쳤다 했다. 한 번 들어올려질 때마다 사람들이 그린 원은 한 발짝 앞으로 나아가, 일그러지고 춤추며 기계가 내는 기괴한 선율과 알 수 없는 화음을, 꿈에도 나올 듯한 화음을 맞췄다. 다음 사람이 단으로 올라가면 기계가 그 위로 떨어졌고, 그 유해가 공중으로 붕 떠올라 부자연스럽게 하늘로 날아갔다. 도서관 잔해 위로 유해가 날아오르는 그 하늘에, 이상한 이미지가 하나 떠올라 있었다. 도무지 뭐라 이해 못할 형상이었다. 똑딱이는 기계는 시계추처럼 다시 들어올려졌고, 또 한 사람이 단 위로 올라가면 다시 떨어졌다.
 
 We killed all the afflicted within the library and put the ruins to the torch. After the aberration in the sky had cleared we began to disassemble the machine within it, tearing apart what we could and using explosives for what remained. At its center we found a desiccated human man, the skin on his face peeled back and suspended away from the raw meat of his skull by wires. He was breathing. He spoke only a charred whisper through those skinless lips, but he answered when I spoke. I asked him what his name was, and he said "hansarp". I asked what had happened to him, and he handed me the book. When I asked him what it was, he told me it was god.
-우리는 도서관 안의 피영향자들을 모두 죽이고 유해에는 불을 붙였다. 하늘의 이상한 형상이 사라지자, 우리는 다시 기계를 해체하는 작업에 착수했다. 뜯어낼 수 있는 데까지는 뜯어내고, 나머지는 폭발물을 이용해 부숴냈다. 기계 중심에는 말라빠진 남자가 들어 있었는데, 얼굴이 벗겨져서 실로 아직두 두개골에 붙어 있는 속살에 매달려 있었다. 숨 쉬는 채로. 남자는 피부도 없는 입술로 까맣게 타 버린 듯한 목소리만 낼 수 있었지만, 내가 하는 질문에 모두 대답을 했다. 이름을 묻자 "한자르프,,hansarp,,"라고 대답했다. 무슨 일이 있었는지 묻자 그 책을 건네줬다. 이 책이 뭔지 묻자, 신이라고 대답했다.
+우리는 도서관 안의 피영향자들을 모두 죽이고 폐허에는 불을 붙였다. 하늘의 이상한 형상이 사라지자, 우리는 기계를 해체하는 작업에 착수했다. 뜯어낼 수 있는 데까지는 뜯어내고, 나머지는 폭발물을 이용해 부숴냈다. 기계 중심에는 말라빠진 남자가 들어 있었는데, 얼굴이 벗겨져서 철사로 아직도 두개골에 붙어 있는 속살에 매달려 있었다. 숨 쉬는 채로. 남자는 피부도 없는 입술로 까맣게 타 버린 듯한 목소리만 낼 수 있었지만, 내가 하는 질문에 모두 대답을 했다. 이름을 묻자 "한스아르프"라고 대답했다. 무슨 일이 있었는지 묻자 그 책을 건네줬다. 이 책이 뭔지 묻자, 신이라고 대답했다.
 
 SCP-4485 was remanded into the custody of site containment officials and we set up a quarantine around the affected area. Forensics later informed me that this body was Boris Aldermann, the leader of the regional CotBG sect. We were not able to remove Aldermann's body from the machine, and I believe it is still there.
-SCP-4485는 기지 격리진에게 넘겨져 격리 처리되었으며, 우리는 피영향 지역에 격리 조치를 취했다. 이후 법의학 분석 결과 이 남자는 부서진 신의 교단 지역지도자 보리스 알더만이었다. 우리는 알더만의 몸을 기계에서 떼어내지 못했는데, 아직도 거기 그대로 있을 것 같다.
+SCP-4485는 기지 격리진에게 넘겨져 격리 처리되었으며, 우리는 피영향 지역에 격리 조치를 취했다. 이후 법의학 분석 결과 이 남자는 부서진 신의 교단 지역지도자 보리스 알더만이었다. 우리는 알더만의 몸을 기계에서 떼어내지 못했는데, 아직도 거기 그대로 있다고 생각한다.
      [[/div]]
      [[/div]]
     [[/div]]
