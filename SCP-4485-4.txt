@@ -1,0 +1,869 @@
+[[include :scp-wiki:component:black-highlighter-theme-dev]]
+[[include :scp-wiki:theme:the-foundation-theme]]
+[[module css]]
+:root {
+    --rating-module-text-color: var(--swatch-menutxt-light-color);
+    --rating-module-button-color:  var(--swatch-menutxt-light-color);
+}
+
+#page-content > div:nth-child(1) {
+    padding: 0.5rem 0.5rem 0 0.5rem;
+}
+
+.page-rate-widget-box {
+    margin: 0;
+    background:
+     linear-gradient(0deg,
+     rgba(var(--swatch-primary-darkest),.55) 0,
+     rgba(var(--swatch-primary-darkest),.45)) !important;
+}
+[[/module]]
+[[module css]]
+.page-title {
+    margin-top: 1rem;
+    min-height: 4rem;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: -webkit-calc(100% - 1em - 0.5rem);
+    width: -moz-calc(100% - 1em - 0.5rem);
+    width: calc(100% - 1em - 0.5rem);
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -moz-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -moz-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    border: initial;
+    font-size: 3em;
+    line-height: 1;
+    text-align: center;
+    color: rgb(var(--white-monochrome));
+    background-color: rgb(var(--swatch-primary));
+    padding: 0.5em;
+    border: 0.25rem solid rgb(var(--white-monochrome));
+    position: relative;
+    z-index: 1;
+    font-family: var(--title-font);
+    font-weight: 900;
+}
+
+.page-title::before {
+    content: " ";
+    pointer-events: none;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-image: url(https://nu-scptheme.github.io/Black-Highlighter/img/logo.svg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    -webkit-background-size: 100% 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+    background-color: rgb(var(--swatch-primary));
+    z-index: -1;
+    opacity: 0.25;
+}
+
+.warning-container iframe {
+    min-height: 9.375rem;
+}
+
+.warning-container,
+.warning-container * {
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+}
+
+.warning-container {
+    width: 90%;
+    margin: 0 auto;
+    background-color: rgb(var(--dark-gray-monochrome));
+    color: rgb(var(--swatch-text-light));
+    font-weight: 900;
+    border: 0.5em solid rgb(var(--swatch-primary-darkest));
+}
+
+.warning-container .warning-top {
+    font-size: 200%;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -moz-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -moz-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    padding: 1rem;
+    font-family: var(--title-font);
+    background-color: rgb(var(--swatch-primary));
+    background-image: url("http://scptestwiki.wikidot.com/local--files/members:wt-framing-theme/cons_circle.svg");
+    -webkit-background-size: 50% 50%;
+    -moz-background-size: 50%;
+    -o-background-size: 50%;
+    background-size: 50%;
+    background-attachment: fixed;
+    background-position: 50% 50%;
+}
+
+.warning-container .warning-body {
+    font-weight: 600;
+    padding: 1rem;
+    margin: 1rem;
+    line-height: 1.5;
+    font-size: 115%;
+    font-family: var(--mono-font);
+    background-color: rgb(var(--swatch-primary-darkest),0.25);
+}
+
+table.wiki-content-table {
+    width: 100%;
+    font-size: 1.5em;
+    text-align: center;
+    margin: 0 auto;
+}
+
+table.wiki-content-table,
+table.wiki-content-table * {
+    border-color: rgb(var(--black-monochrome)) !important;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+table.wiki-content-table tr:last-of-type {
+    width: 100%;
+    display: -webkit-inline-box;
+    display: -webkit-inline-flex;
+    display: -moz-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -webkit-box-align: stretch;
+    -webkit-align-items: stretch;
+    -moz-box-align: stretch;
+    -ms-flex-align: stretch;
+    align-items: stretch;
+    margin: 0;
+    font-weight: 700;
+}
+
+table.wiki-content-table td {
+    display: -webkit-inline-box;
+    display: -webkit-inline-flex;
+    display: -moz-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -moz-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -moz-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    margin: 0;
+    -webkit-box-flex: 2;
+    -webkit-flex-grow: 2;
+    -moz-box-flex: 2;
+    -ms-flex-positive: 2;
+    flex-grow: 2;
+    -webkit-flex-basis: 50%;
+    -ms-flex-preferred-size: 50%;
+    flex-basis: 50%;
+    background-color: rgb(var(--swatch-primary-darkest));
+    color: rgb(var(--white-monochrome));
+    text-transform: uppercase;
+    line-height: 1;
+    text-align: center;
+}
+
+table.wiki-content-table td * {
+    width: 100%;
+}
+
+table.wiki-content-table td span:nth-of-type(even) {
+    font-family: var(--mono-font);
+    font-size: 0.75em;
+}
+
+@media only screen and (max-width: 768px) {
+    .page-title {
+     font-size: 2em;
+    }
+
+    table.wiki-content-table tr {
+     -webkit-flex-wrap: wrap;
+         -ms-flex-wrap: wrap;
+             flex-wrap: wrap;
+    }
+
+    table.wiki-content-table tr > td {
+     min-width: 100%;
+     font-size: 1rem;
+     padding: 0.5rem;
+    }
+}
+@media (max-width: 500px ) {
+    .warning-container .warning-body {
+     padding: 0.5rem 1rem;
+     margin-bottom: 1.5rem;
+     font-size: 95%;
+    }
+}
+[[/module]]
+[[div_ class="page-title"]]
+SCP-4485 ORIENTATION PART ▓▓ OF 8
+SCP-4485 오리엔테이션 8 의 ▓▓
+[[/div]]
+@@ @@
+[[div_ class="warning-container"]]
+[[div_ class="warning-top"]]
+!! REMOTE TERMINAL MESSAGE 원격 단말 메시지 !!
+[[/div]]
+[[div class="warning-body"]]
+I don't have much longer here.
+더 시간이 없습니다.
+
+The sideways eyes lift their fins to the sky and sink into the abyss.
+옆으로 눈이 지느러미를 하늘로 쳐올려 심연으로 가라앉습니다.
+It calls for me and I ignore it.
+저를 부르지만 저는 무시합니다.
+
+Soon it will have me.
+곧 저에게 있겠죠.
+And you.
+당신에게도.
+
+And nothing, if you ask me.
+그리고 말하자면, 아무것도 없습니다.
+R i d i c u l o u s!
+어 이 가 없 죠!
+
+Just look quick and find what you are hiding from.
+빨리 보고 당신이 뭐 때문에 숨어다니는지 찾으세요.
+I will take and send.
+가져다 보내겠습니다.
+
+--Dr. Lark
+--라크 박사
+[[/div]]
+[[/div]]
+
+------
+
+[[table class="wiki-content-table"]]
+[[row]]
+[[hcell colspan="2"]]
+SCP-4485 PRIMARY DOCUMENT SCP-4485 주 문서
+[[/hcell]]
+[[/row]]
+[[row]]
+[[cell]]
+[[span]]DIARY OF JEAN ARP (AKA HANS ARP) 장 아르프(한스 아르프)의 일기[[/span]]
+[[span]]DISCOVERED 29 June, 1967 1967년 6월 29일 발견[[/span]]
+[[/cell]]
+[[cell]]
+[[span]]SCANNED DUPLICATES OF SCP-4485 SCP-4485 스캔 복제본[[/span]]
+[[span]]DATABASE LOCATION LEVEL 5 -- TOP SECRET 데이터베이스 위치 5등급 -- 극비[[/span]]
+[[/cell]]
+[[/row]]
+[[/table]]
+[[html]]
+<!DOCTYPE html>
+
+<head>
+    <base target="_parent">
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <script src="http://scp-wiki.wdfiles.com/local--files/fragment%3Adark-light-4/fittext.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="http://d3g0gp89917ko0.cloudfront.net/v--b23e476b7ade/common--theme/base/css/style.css">
+    <link rel="stylesheet" type="text/css" href="http://scptestwiki.wdfiles.com/local--theme/nu-scp-experimental/style.css">
+    <link rel="stylesheet" type="text/css" href="http://scptestwiki.wikidot.com/members:wt-framing-theme/code/1">
+    <link rel="stylesheet" type="text/css" href="http://scp-wiki.wdfiles.com/local--files/fragment%3Adark-light-4/hansarp-6of8.css">
+    <link rel="stylesheet" href="https://use.typekit.net/nxh3gyk.css">
+</head>
+
+<body>
+    <div id="docu-alert">
+        <div class="alert-header">
+           !! ATTENTION 주의 !! ATTENTION 주의 !!
+        </div>
+        <div id="alert-body-1">
+            <section>UNAUTHORIZED ACCESS DETECTED. 미인가 접속 탐지.</section>
+            <section>ERROR ERROR ERROR ERROR ERROR</section>
+            <section>UN- 미- UN- 미- UN--- 미--- ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓</section>
+        </div>
+        <div id="alert-body-2">
+            Authorization approved.
+            인가 승인됨.
+            Thank you, ▓▓▓▓HANSARP. ⿂⿂⿂
+            감사합니다, ▓▓▓▓HANSARP. ⿂⿂⿂
+        </div>
+        <div id="alert-button">
+            <a href="http://www.scp-wiki.net/scp-4485/offset/5">Click to continue. 클릭하여 계속.</a>
+        </div>
+    </div>
+    <div id="docuviewer">
+            <div id="docu-header">
+                    <span>FOUNDATION DOCU-VIEWER 재단 문서 뷰어</span> <span>// AUTHO승인</span><span>RIZED CONTENT된 내용</span>
+            </div>
+            <div id="docu-nav">
+                <div id="back-button">
+                    ◀
+                </div>
+                <div id="forward-button">
+                    ▶
+                </div>
+            </div>    
+            <div class="page-container">
+            <div id="page1" class="active-page">
+                <section>
+                    <p>ahead and behind 앞에서와 뒤에서</p>
+                    <p>inside and around 안쪽과 둘레</p>
+                    <p>look up and look down 올려다보고 내려다보고</p>
+                </section>
+                <section>
+                    <p class="labeltext">understanding is searching for an empty cup from which to drink air 이해란 공기를 담아마실 빈 컵을 찾는 것</p>
+                    <p class="labeltext">listening is a quality of which only canines find within their expertise 듣기란 강아지들이나 경험 속에서 찾아낼 자질</p>
+                    <p class="labeltext">DADA is missing. DADA is found. DADA가 사라졌다. DADA를 찾아냈다.</p>
+                </section>
+                <section>
+                    <p>DADA is the rising lights within the singed forest of turgid education DADA는 부풀은 교육의 그슬린 숲 속 떠오르는 빛</p>
+                </section>
+                <section>
+                    <figure>
+                        <picture>
+                            <source srcset="http://scp-wiki.wdfiles.com/local--files/fragment%3Adark-light-4/watchinglistening.png" type="image/png">
+                            <img src="http://scp-wiki.wdfiles.com/local--files/fragment%3Adark-light-4/watchinglistening.png" alt="do not look away. 다른 데 보지 마.">
+                        </picture>
+                    </figure>
+                </section>
+                <section>
+                    <p class="labeltext">hide hide hide 숨어 숨어 숨어</p>
+                    <p class="labeltext">it searches for you 너를 찾고 있어</p>
+                    <p>complacency and that which shatters the dark matter in which you sit 안일함과 암흑물질 흐트리는 이들이 네 자리에 앉아</p>
+                    <p>glowing in the horrid and lovely 흉측함과 사랑스러움 속에 빛나</p>
+                </section>
+            </div>
+        </div>
+        <div class="page-container">
+            <div id="page2">
+                <section>
+                    <p class="labeltext">i sit among the degloved hand of justice dripping her dark essence 여자의 어두운 정수 뚝뚝 떨어지는 장갑 벗은 정의의 손 가운데 나 앉아</p>
+                    <p class="labeltext">sinking through the cracks of cancerous bone 암덩어리 뼈의 금 속으로 가라앉네</p>
+                    <p class="labeltext">holding my feet above the rolling contradiction among all things 모두를 관통하며 구르는 모순 위로 발을 쳐들고</p>
+                    <p class="labeltext">drink drink inhale breath 마셔 마셔 들이쉬어 숨쉬어</p>
+                </section>
+                <section>
+                    <p class="labeltext">in contradiction we find all that we are 모순 속에서 우리는 우리됨을 찾네</p>
+                    <p>in contradiction we gaze at the heavy weight that shatters among observation 모순 속에서 우리는 관찰 속에 산산조각나는 무거운 무게를 노려보네</p>
+                    <p>in contradiction we find it 모순 속에서 우리는 찾네 <span class="larger">↴</span></p>
+                    <p>we find DADA DADA를 찾지</p>
+                </section>
+                <section>
+                    <p>but it does not matter 하지만 상관없어</p>
+                    <p><span class="larger">no 아니</span> it does not matter and thus matter loses matter 상관없으므로 상관은 상관을 잃고</p>
+                    <p>and matter does not matter to the matter that matters to us 우리랑 상관있는 상관에게 상관은 상관없어</p>
+                </section>
+                <section>
+                    <figure>
+                        <picture>
+                            <source srcset="http://scp-wiki.wdfiles.com/local--files/fragment%3Adark-light-4/watchingone.svg" type="image/svg">
+                            <img src="http://scp-wiki.wdfiles.com/local--files/fragment%3Adark-light-4/watchingone.svg" alt="저 위에서, 너를 거꾸로 된 모습으로 오네 up above, coming for your upside down looks">
+                        </picture>
+                    </figure>
+                </section>
+            </div>
+        </div>
+        <div class="page-container">
+            <div id="page3">
+                <section>
+                    <p><span>monotonous 물결치는 <span>among 외침의 <span>the 그늘들 <span>waving 속에 <span>shades 울려 <span>of 퍼지는 <span>cries 단조로움</span></span></span></span></span></span></span></p>
+                    <p class="labeltext">seen rather than heard: 듣기보다는 보기로:</p>
+                </section>
+                <section>
+                    <p>you 너는</p>
+                    <p>do 떠나지</p>
+                    <p>hide 숨으러</p>
+                    <p>you 너는</p>
+                    <p>don't 못하지</p>
+                    <p>taste 맛보기를</p>
+                    <p>you 너는</p>
+                    <p>are 바로</p>
+                    <p>pith 핵심</p>
+                </section>
+                <section>
+                    <p>like the screams that <span>birthed</span></p>
+                    <p><span>탄생당한</span> 비명처럼</p>
+                    <p>the simplistic and the complex 간단하게 또 복잡하게</p>
+                </section>
+            </div>
+        </div>
+        <div class="page-container">
+            <div id="page4">
+                <section>
+                    <p class="labeltext">we are here 우리는 여기에</p>
+                    <p>i am here나는 여기에</p>
+                    <p>i am HANSARP. 나는 HANSARP.</p>
+                    <p>we are HANSARP. 우리는 HANSARP.</p>
+                </section>
+                <section>
+                    <figure>
+                        <picture>
+                            <source srcset="http://scp-wiki.wdfiles.com/local--files/fragment%3Adark-light-4/HANSARP.svg" type="image/png">
+                            <img src="http://scp-wiki.wdfiles.com/local--files/fragment%3Adark-light-4/HANSARP.svg" alt="we are we 우리는 우리다">
+                        </picture>
+                    </figure>
+                </section>
+            </div>
+        </div>
+    </div>
+    <script>
+        var page1 = document.getElementById("page1");
+
+        var page1 = document.getElementById("page1");
+        var page2 = document.getElementById("page2");
+        var page3 = document.getElementById("page3");
+        var page4 = document.getElementById("page4");
+
+        var currentPage = 1;
+
+        function duplicate() {
+            var clone1 = page1.cloneNode(true); // "deep" clone
+            var clone2 = page2.cloneNode(true); // "deep" clone
+            var clone3 = page3.cloneNode(true); // "deep" clone
+            var clone4 = page4.cloneNode(true); // "deep" clone
+            clone1.id = "page1" + "-duplicate";
+            clone2.id = "page2" + "-duplicate";
+            clone3.id = "page3" + "-duplicate";
+            clone4.id = "page4" + "-duplicate";
+            // or clone.id = ""; if the divs don't need an ID
+            page1.parentNode.appendChild(clone1);
+            page2.parentNode.appendChild(clone2);
+            page3.parentNode.appendChild(clone3);
+            page4.parentNode.appendChild(clone4);
+        }
+
+        var backButton = document.getElementById("back-button");
+        var forwardButton = document.getElementById("forward-button");
+
+        backButton.addEventListener("click", function(){
+            if (currentPage == 2) {
+                currentPage = 1;
+                page2.classList.remove("active-page");
+                page1.classList.add("active-page");
+            }
+            else if (currentPage == 3) {
+                currentPage = 2;
+                page3.classList.remove("active-page");
+                page2.classList.add("active-page");
+            }
+            else if (currentPage == 4) {
+                currentPage = 3;
+                page4.classList.remove("active-page");
+                page3.classList.add("active-page");
+            }
+        }, false);
+
+        forwardButton.addEventListener("click", function(){
+            if (currentPage == 1) {
+                currentPage = 2;
+                page1.classList.remove("active-page");
+                page2.classList.add("active-page");
+            }
+            else if (currentPage == 2) {
+                currentPage = 3;
+                page2.classList.remove("active-page");
+                page3.classList.add("active-page");
+            }
+            else if (currentPage == 3) {
+                currentPage = 4;
+                page3.classList.remove("active-page");
+                page4.classList.add("active-page");
+                setTimeout(function(){
+                    var page4Duplicate = document.getElementById("page4-duplicate");
+                    page4.classList.add("overlay");
+                    page4Duplicate.classList.add("overlay");
+                }, 3000);
+                setTimeout(function(){
+                    var docuviewer = document.getElementById("docuviewer");
+                    var alert = document.getElementById("docu-alert");
+                    docuviewer.classList.add("darken");
+                    setTimeout(function(){
+                        var alertBody1 = document.getElementById("alert-body-1");
+                        var alertBody2 = document.getElementById("alert-body-2");
+                        var alertButton = document.getElementById("alert-button");
+                        alert.classList.add("alert-active");
+                        alertBody1.classList.add("alert-body-show");
+                        setTimeout(function(){
+                            alertBody1.classList.add("overlay");
+                            setTimeout(function(){
+                                alertBody1.classList.remove("overlay");
+                                alertBody1.classList.remove("alert-body-show");
+                                alertBody2.classList.add("alert-body-show");
+                                setTimeout(function(){
+                                    alertButton.classList.add("alert-body-show");
+                                },250);
+                            },500);
+                        },1500);
+                    }, 1500);
+                }, 3500);
+            }
+        },false);
+
+        window.fitText( document.getElementById("docu-header"),2.5 );
+    </script>
+</body>
+[[/html]]
+
+
+------
+
+[[div_ class="warning-container"]]
+[[html]]
+<!DOCTYPE html>
+
+<head>
+    <base target="_parent">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" type="text/css" href="http://d3g0gp89917ko0.cloudfront.net/v--b23e476b7ade/common--theme/base/css/style.css">
+    <link rel="stylesheet" type="text/css" href="http://scptestwiki.wdfiles.com/local--theme/nu-scp-experimental/style.css">
+    <link rel="stylesheet" type="text/css" href="http://scptestwiki.wikidot.com/members:wt-framing-theme/code/1">
+    <style>
+     html#html-block-html,
+     html#html-block-html body {
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     height: 100% !important;
+     width: 100% !important;
+     }
+     .continue-button {
+     border: 0.313rem solid transparent;
+     background: rgba(var(--swatch-primary-darkest));
+     color: rgba(var(--white-monochrome));
+     padding: 0.95em 1em;
+     width: 15em;
+     max-height: 4em;
+     transition:
+     text-indent 1.2s cubic-bezier(0.4, 0.0, 0.2, 1),
+     width 1.2s cubic-bezier(0.4, 0.0, 0.2, 1),
+     max-height 1.2s cubic-bezier(0.4, 0.0, 0.2, 1),
+     color 1.2s cubic-bezier(0.4, 0.0, 0.2, 1),
+     background 1.2s 1.3s cubic-bezier(0.4, 0.0, 0.2, 1),
+     transform 0.2s 1.3s cubic-bezier(0.4, 0.0, 0.2, 1),
+     box-shadow 0.2s 1.3s cubic-bezier(0.4, 0.0, 0.2, 1);
+     white-space: nowrap;
+     font-weight: bold;
+     margin: 1rem auto;
+     font-family: var(--title-font);
+     line-height: 1;
+     font-size: 1.5em;
+     text-align: center;
+     display: flex;
+     flex-wrap: wrap;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+     position: relative;
+            text-indent: 0;
+        }
+
+     #continue-link {
+     position: absolute;
+     top: 0;
+     left: 0;
+     width: 100%;
+     height: 100%;
+            z-index: 5;
+            cursor: progress;
+     }
+
+     .continue-button a.active-link {
+            cursor: pointer !important;
+        }
+
+     .continue-button br {
+     display: none;
+     }
+
+     .continue-button::before {
+     pointer-events: none;
+     content: " ";
+     position: absolute;
+     top: -0.625rem;
+     left: -0.625rem;
+     width: calc(100% + 1.25rem);
+     height: calc(100% + 1.25rem);
+     /*! background-color: rgb(var(--swatch-primary)); */
+     background-image: url("http://scptestwiki.wikidot.com/local--files/members:wt-framing-theme/cons_circle.svg");
+     background-size: 50vh 50vw;
+     background-attachment: fixed;
+     opacity: 0;
+     transition:
+     opacity 1.2s 1.3s cubic-bezier(0.4, 0.0, 0.2, 1),
+     background-size 1.2s 1.3s cubic-bezier(0.4, 0.0, 0.2, 1);
+     background-position: center center;
+     z-index: -1;
+     }
+
+     .continue-button:hover::before {
+     opacity: 1;
+     background-size: 100vh 100vw;
+     }
+
+     .continue-button .supervisor {
+     max-height: 0;
+     font-size: 0.85em;
+     text-align: center;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     opacity: 0;
+     transition:
+     opacity 1.1s 300ms cubic-bezier(0.4, 0.0, 0.2, 1),
+     max-height 1.1s 300ms cubic-bezier(0.4, 0.0, 0.2, 1);
+     }
+
+     .continue-button:hover .supervisor {
+     opacity: 1;
+     max-height: 2em;
+     transition:
+     opacity 1.1s 300ms cubic-bezier(0.4, 0.0, 0.2, 1),
+     max-height 1.1s 300ms cubic-bezier(0.4, 0.0, 0.2, 1);
+     }
+
+     .continue-button span {
+     display: inline-flex;
+     transform: translateX(13rem) translateY(0.5rem);
+     font-weight: normal;
+     color: rgba(var(--white-monochrome), 0);
+     opacity: 0;
+     transition:
+     opacity 1.1s 300ms cubic-bezier(0.4, 0.0, 0.2, 1),
+     transform 1.1s 300ms cubic-bezier(0.4, 0.0, 0.2, 1),
+     color 1.4s 300ms cubic-bezier(0.4, 0.0, 0.2, 1),
+     text-shadow 1.4s 300ms cubic-bezier(0.4, 0.0, 0.2, 1),
+     font-size 0s 300ms cubic-bezier(0.4, 0.0, 0.2, 1),
+     background-color 1..4s 300ms cubic-bezier(0.4, 0.0, 0.2, 1);
+     position: absolute;
+     right: 1.875rem;
+     top: 0.367rem;
+     font-size: 0em;
+     border-radius: 50%;
+     background-color: darkgreen;
+     width: 3.750rem;
+     height: 3.750rem;
+     align-items: flex-start;
+     justify-content: flex-start;
+     text-shadow:
+     0 0 0 rgba(var(--light-gray-monochrome), 1);
+     z-index: -1;
+     text-indent: 0;
+     }
+
+     .continue-button:hover {
+     text-indent: -4em;
+     background: rgba(var(--light-gray-monochrome));
+     color: rgba(var(--white-monochrome));
+     width: 17em;
+     max-height: 10em;
+     transform: translateX(0.625rem) translateY(-0.625rem);
+     box-shadow:
+     0.625rem 0 0 rgba(var(--light-gray-monochrome), 1),
+     -0.625rem 0 0 rgba(var(--light-gray-monochrome), 1),
+     0 0.625rem 0 rgba(var(--light-gray-monochrome), 1),
+     0 -0.625rem 0 rgba(var(--light-gray-monochrome), 1),
+     0.625rem 0.625rem 0 rgba(var(--light-gray-monochrome), 1),
+     -0.625rem 0.625rem 0 rgba(var(--light-gray-monochrome), 1),
+     0.625rem -0.625rem 0 rgba(var(--light-gray-monochrome), 1),
+     -0.625rem -0.625rem 0 rgba(var(--light-gray-monochrome), 1);
+     }
+
+     .continue-button:hover span {
+     color: rgba(var(--white-monochrome), 1);
+     text-shadow:
+     0.0625rem 0 0 rgba(var(--light-gray-monochrome), 1),
+     -0.0625rem 0 0 rgba(var(--light-gray-monochrome), 1),
+     0 0.0625rem 0 rgba(var(--light-gray-monochrome), 1),
+     0 -0.0625rem 0 rgba(var(--light-gray-monochrome), 1),
+     0.0625rem 0.0625rem 0 rgba(var(--light-gray-monochrome), 1),
+     -0.0625rem 0.0625rem 0 rgba(var(--light-gray-monochrome), 1),
+     0.0625rem -0.0625rem 0 rgba(var(--light-gray-monochrome), 1),
+     -0.0625rem -0.0625rem 0 rgba(var(--light-gray-monochrome), 1);
+     transition:
+     opacity 1.1s 1.5s cubic-bezier(0.4, 0.0, 0.2, 1),
+     transform 1.4s 1.5s cubic-bezier(0.4, 0.0, 0.2, 1),
+     color 1.4s 6.8s cubic-bezier(0.4, 0.0, 0.2, 1),
+     text-shadow 1.4s 6.8s cubic-bezier(0.4, 0.0, 0.2, 1),
+     font-size 400ms 6.8s cubic-bezier(0.4, 0.0, 0.2, 1);
+     transform: translateX(0) translateY(0.5rem);
+     opacity: 1;
+     font-size: 3em;
+     }
+
+     .continue-button span::before {
+     content: " ";
+     pointer-events: none;
+     position: absolute;
+     top: 0;
+     left: 0;
+     width: 100%;
+     height: 100%;
+     border-radius: 50%;
+     text-indent: -3em;
+     transform: rotateZ(360deg);
+     }
+
+     .continue-button:hover span::before {
+     transition:
+     transform 6.8s 1500ms cubic-bezier(0.4, 0.0, 0.2, 1);
+     animation:
+     border 5.4s cubic-bezier(0.2, 0.6, 0.8, 1) 1500ms 1 forwards,
+     background-color 5.4s cubic-bezier(0.2, 0.6, 0.8, 1) 1500ms 1 forwards,
+     rotate 1.125s linear 1500ms 5 backwards;
+     transform: rotateZ(0deg);
+     background-color: rgb(var(--swatch-primary));
+     }
+
+     @keyframes border {
+     0% {
+     box-shadow:
+     inset 0 0.3125rem 0 rgba(var(--light-gray-monochrome), 0),
+     /* Top 1 */
+     inset 0.234375rem 0.234375rem 0 rgba(var(--light-gray-monochrome), 0),
+     /* Top Left 2 */
+     inset 0.3125rem 0 0 rgba(var(--light-gray-monochrome), 0),
+     /* Left 3 */
+     inset 0 -0.3125rem 0 rgba(var(--light-gray-monochrome), 0),
+     /* Bottom 4*/
+     inset 0.234375rem -0.234375rem 0 rgba(var(--light-gray-monochrome), 0),
+     /* Bottom Left 5 */
+     inset -0.234375rem -0.234375rem 0 rgba(var(--light-gray-monochrome), 0),
+     /* Bottom Right 6 */
+     inset -0.3125rem 0 0 rgba(var(--light-gray-monochrome), 0),
+     /* Right 7 */
+     inset -0.234375rem 0.234375rem 0 rgba(var(--light-gray-monochrome), 0);
+     /* Top Right 8 */
+     }
+
+     6.25% {
+     box-shadow:
+     inset 0 0.3125rem 0 rgba(var(--white-monochrome)),
+     /* Top 1 */
+     inset 0.234375rem 0.234375rem 0 rgba(var(--light-gray-monochrome), 0),
+     /* Top Left 2 */
+     inset 0.3125rem 0 0 rgba(var(--light-gray-monochrome), 0),
+     /* Left 3 */
+     inset 0 -0.3125rem 0 rgba(var(--light-gray-monochrome), 0),
+     /* Bottom 4*/
+     inset 0.234375rem -0.234375rem 0 rgba(var(--light-gray-monochrome), 0),
+     /* Bottom Left 5 */
+     inset -0.234375rem -0.234375rem 0 rgba(var(--light-gray-monochrome), 0),
+     /* Bottom Right 6 */
+     inset -0.3125rem 0 0 rgba(var(--light-gray-monochrome), 0),
+     /* Right 7 */
+     inset -0.234375rem 0.234375rem 0 rgba(var(--light-gray-monochrome), 0);
+     /* Top Right 8 */
+     }
+
+     93.75% {
+     box-shadow:
+     inset 0 0.3125rem 0 rgba(var(--white-monochrome)),
+     /* Top 1 */
+     inset 0.234375rem 0.234375rem 0 rgba(var(--light-gray-monochrome), 0),
+     /* Top Left 2 */
+     inset 0.3125rem 0 0 rgba(var(--light-gray-monochrome), 0),
+     /* Left 3 */
+     inset 0 -0.3125rem 0 rgba(var(--light-gray-monochrome), 0),
+     /* Bottom 4*/
+     inset 0.234375rem -0.234375rem 0 rgba(var(--light-gray-monochrome), 0),
+     /* Bottom Left 5 */
+     inset -0.234375rem -0.234375rem 0 rgba(var(--light-gray-monochrome), 0),
+     /* Bottom Right 6 */
+     inset -0.3125rem 0 0 rgba(var(--light-gray-monochrome), 0),
+     /* Right 7 */
+     inset -0.234375rem 0.234375rem 0 rgba(var(--white-monochrome));
+     /* Top Right 8 */
+     }
+
+     100% {
+     box-shadow:
+     inset 0 0.3125rem 0 rgba(var(--light-gray-monochrome), 0),
+     /* Top 1 */
+     inset 0.234375rem 0.234375rem 0 rgba(var(--light-gray-monochrome), 0),
+     /* Top Left 2 */
+     inset 0.3125rem 0 0 rgba(var(--light-gray-monochrome), 0),
+     /* Left 3 */
+     inset 0 -0.3125rem 0 rgba(var(--light-gray-monochrome), 0),
+     /* Bottom 4*/
+     inset 0.234375rem -0.234375rem 0 rgba(var(--light-gray-monochrome), 0),
+     /* Bottom Left 5 */
+     inset -0.234375rem -0.234375rem 0 rgba(var(--light-gray-monochrome), 0),
+     /* Bottom Right 6 */
+     inset -0.3125rem 0 0 rgba(var(--light-gray-monochrome), 0),
+     /* Right 7 */
+     inset -0.234375rem 0.234375rem 0 rgba(var(--light-gray-monochrome), 0);
+     /* Top Right 8 */
+
+     }
+     }
+
+     @keyframes rotate {
+     0% {
+     transform: rotate(0deg);
+     }
+
+     100% {
+     transform: rotate(360deg);
+     }
+     }
+     @media only screen and (max-width: 400px) {
+     .continue-button {
+     font-size: 1em;
+     }
+     }
+
+    </style>
+</head>
+
+<body>
+    <div id="continue-button-id" class="continue-button">
+     <div id="continue-link"></div>
+     <div class="accept">CLICK TO SUBMIT APPROVAL 클릭하여 승인 요청</div>
+     <div class="supervisor">SUPERVISOR APPROVAL 상사 승인</div>
+     <br>
+     <span>✖</span>
+    </div>
+</body>
+
+[[/html]]
+[[/div]]
+
+fragment:dark-light-4 Dark Light 4
+Parent : SCP-4485
