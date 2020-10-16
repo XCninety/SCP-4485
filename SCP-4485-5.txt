@@ -1,0 +1,942 @@
+[[include :scp-wiki:component:black-highlighter-theme-dev]]
+[[include :scp-wiki:theme:the-foundation-theme]]
+[[module css]]
+:root {
+    --rating-module-text-color: var(--swatch-menutxt-light-color);
+    --rating-module-button-color:  var(--swatch-menutxt-light-color);
+}
+
+#page-content > div:nth-child(1) {
+    padding: 0.75rem;
+}
+
+.page-rate-widget-box {
+    margin: 0;
+    background:
+     linear-gradient(0deg,
+     rgba(var(--black-monochrome),.55) 0,
+     rgba(var(--swatch-primary-darkest),.45)) !important;
+}
+[[/module]]
+[[module css]]
+
+:root {
+    --swatch-background: var(--black-monochrome);
+    --header-subtitle: "Office of the Overseer";
+}
+
+html, body {
+    color: rgb(var(--swatch-text-light));
+}
+
+#header h2,
+#header h2 span,
+#header h2 span::before {
+    position: absolute;
+    top: 0.5rem;
+    left: 0;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 50%;
+    top: 40%;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align:  flex-end;
+    -webkit-align-items:  flex-end;
+    -moz-box-align:  flex-end;
+    -ms-flex-align:  flex-end;
+    align-items: flex-end;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -moz-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    max-height: inherit;
+    z-index: 0;
+    font-weight: 500;
+    font-family: var(--header-font);
+    text-transform: uppercase;
+    letter-spacing: 0.5em;
+    pointer-events: none;
+}
+
+.danger-diamond a,
+.danger-diamond a:hover {
+    color: rgba(0,0,0,0) !important;
+    -webkit-box-shadow: initial !important;
+       -moz-box-shadow: initial !important;
+            box-shadow: initial !important;
+}
+
+.danger-diamond > .arrows {
+    background-image: url("data:image/svg+xml,%3C%3Fxml version='1.0' encoding='utf-8'%3F%3E%3Csvg version='1.2' baseProfile='tiny' id='Layer_1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' viewBox='0 0 160 160' xml:space='preserve'%3E%3Cpath fill='%23fcfcfc' d='M136.1,133.3l23.9-23.9V51.2l-24-24l19.1-19.1l4.9,4.9l0-12.9l-12.9,0l4.9,4.9L133,24.2l-24-24H51l-24,24 L8,5.2l4.9-4.9L0,0.2l0,12.9l4.9-4.9L24,27.3l-24,24v58.2l23.9,23.9l-19,19L0,147.3l0,12.9l12.9,0L8,155.3l19-19l23.9,23.9h58.4 l23.9-23.9l19,19l-4.9,4.9l12.9,0l0-12.9l-4.9,4.9L136.1,133.3z M155.7,53v54.6l-22.6,22.6l-50-50L133,30.3L155.7,53z M52.8,4.5 h54.4l22.7,22.7L80,77.2L30.1,27.3L52.8,4.5z M4.3,107.6V53L27,30.3L77,80.2l-50,50L4.3,107.6z M107.4,155.9H52.6L30,133.3l50-50 l50,50L107.4,155.9z'/%3E%3C/svg%3E%0A");
+}
+
+#page-title {
+    min-height: 4rem;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: -webkit-calc(100% - 1em - 0.5rem);
+    width: -moz-calc(100% - 1em - 0.5rem);
+    width: calc(100% - 1em - 0.5rem);
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -moz-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -moz-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    border: initial;
+    font-size: 3em;
+    line-height: 1;
+    text-align: center;
+    color: rgb(var(--white-monochrome));
+    background-color: rgb(var(--swatch-primary));
+    padding: 0.5em;
+    border: 0.25rem solid rgb(var(--white-monochrome));
+    position: relative;
+    z-index: 1;
+}
+
+#page-title::before {
+    content: " ";
+    pointer-events: none;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-image: url(https://nu-scptheme.github.io/Black-Highlighter/img/logo.svg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    -webkit-background-size: 100% 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+    background-color: rgb(var(--swatch-primary));
+    z-index: -1;
+    opacity: 0.25;
+}
+
+table.wiki-content-table {
+    width: 100%;
+    font-size: 1.5em;
+    text-align: center;
+    margin: 0 auto;
+}
+
+table.wiki-content-table,
+table.wiki-content-table * {
+    border-color: rgb(var(--black-monochrome)) !important;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+table.wiki-content-table tr:last-of-type {
+    width: 100%;
+    display: -webkit-inline-box;
+    display: -webkit-inline-flex;
+    display: -moz-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -webkit-box-align: stretch;
+    -webkit-align-items: stretch;
+    -moz-box-align: stretch;
+    -ms-flex-align: stretch;
+    align-items: stretch;
+    margin: 0;
+    font-weight: 700;
+}
+
+table.wiki-content-table td {
+    display: -webkit-inline-box;
+    display: -webkit-inline-flex;
+    display: -moz-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -moz-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -moz-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    margin: 0;
+    -webkit-box-flex: 2;
+    -webkit-flex-grow: 2;
+    -moz-box-flex: 2;
+    -ms-flex-positive: 2;
+    flex-grow: 2;
+    -webkit-flex-basis: 50%;
+    -ms-flex-preferred-size: 50%;
+    flex-basis: 50%;
+    background-color: rgb(var(--swatch-primary-darkest));
+    color: rgb(var(--white-monochrome));
+    text-transform: uppercase;
+    line-height: 1;
+    text-align: center;
+}
+
+table.wiki-content-table td * {
+    width: 100%;
+}
+
+table.wiki-content-table td span:nth-of-type(even) {
+    font-family: var(--mono-font);
+    font-size: 0.75em;
+}
+
+.document-main .footnote_block {
+    all: initial;
+    display: -webkit-inline-box;
+    display: -webkit-inline-flex;
+    display: -moz-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    font-family: var(--body-font);
+    font-weight: 600;
+    font-size: 0.8em;
+    margin-left: -0.5em;
+    margin-right: -0.5em;
+}
+
+.document-main .footnote_content,
+.document-main .footnote_content * {
+    all: initial;
+    display: block;
+    position: absolute;
+    right: -12rem;
+    width: 8rem;
+    line-height: 1.2;
+    border: 0.125rem solid rgb(var(--swatch-primary));
+    font-family: var(--body-font);
+    font-weight: 600;
+    padding: 1rem;
+    text-shadow: initial;
+    -webkit-filter: initial;
+    filter: initial;
+    color: rgb(var(--white-monochrome));
+    -webkit-transition:
+     opacity 600ms cubic-bezier(0.4, 0.0, 0.2, 1),
+     -webkit-transform 300ms cubic-bezier(0.4, 0.0, 0.2, 1);
+    transition:
+     opacity 600ms cubic-bezier(0.4, 0.0, 0.2, 1),
+     -webkit-transform 300ms cubic-bezier(0.4, 0.0, 0.2, 1);
+    -o-transition:
+     opacity 600ms cubic-bezier(0.4, 0.0, 0.2, 1),
+     -o-transform 300ms cubic-bezier(0.4, 0.0, 0.2, 1);
+    -moz-transition:
+     opacity 600ms cubic-bezier(0.4, 0.0, 0.2, 1),
+     transform 300ms cubic-bezier(0.4, 0.0, 0.2, 1),
+     -moz-transform 300ms cubic-bezier(0.4, 0.0, 0.2, 1);
+    transition:
+     opacity 600ms cubic-bezier(0.4, 0.0, 0.2, 1),
+     transform 300ms cubic-bezier(0.4, 0.0, 0.2, 1);
+    transition:
+     opacity 600ms cubic-bezier(0.4, 0.0, 0.2, 1),
+     transform 300ms cubic-bezier(0.4, 0.0, 0.2, 1),
+     -webkit-transform 300ms cubic-bezier(0.4, 0.0, 0.2, 1),
+     -moz-transform 300ms cubic-bezier(0.4, 0.0, 0.2, 1),
+     -o-transform 300ms cubic-bezier(0.4, 0.0, 0.2, 1);
+    pointer-events: none
+}
+
+.document-main .footnote_num {
+    text-shadow: initial;
+    font-weight: 900;
+    color: rgb(var(--white-monochrome));
+    cursor: pointer;
+    -webkit-box-shadow: initial;
+    -moz-box-shadow: initial;
+    box-shadow: initial;
+    -webkit-filter: unset;
+    filter: unset;
+    -webkit-transform: unset;
+    -moz-transform: unset;
+    -ms-transform: unset;
+    -o-transform: unset;
+    transform: unset;
+    border-bottom: 0.0625rem dotted;
+    line-height: 2;
+    background-color: rgb(var(--link-color));
+    height: 1em;
+    width: 1em;
+    margin-right: 0.25rem;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -moz-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -moz-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    z-index: 1;
+}
+
+.document-main .footnote_block .footnote_content::before {
+    content: " ";
+    position: absolute;
+    font-size: 1em;
+    top: -0.5em;
+    left: -0.5em;
+    text-shadow: initial;
+    font-weight: 900;
+    color: rgb(var(--white-monochrome));
+    cursor: pointer;
+    -webkit-box-shadow: initial;
+    -moz-box-shadow: initial;
+    box-shadow: initial;
+    -webkit-filter: unset;
+    filter: unset;
+    -webkit-transform: unset;
+    -moz-transform: unset;
+    -ms-transform: unset;
+    -o-transform: unset;
+    transform: unset;
+    line-height: 2;
+    background-color: rgb(var(--link-color));
+    height: 1em;
+    width: 1em;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -moz-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -moz-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    padding: 0.25em
+}
+
+.document-main .footnote_block.one .footnote_content::before {
+    content: "1";
+}
+
+.document-main .footnote_num + span {
+    -webkit-transform: translateX(-25%);
+    -moz-transform: translateX(-25%);
+    -ms-transform: translateX(-25%);
+    -o-transform: translateX(-25%);
+    transform: translateX(-25%);
+    opacity: 0;
+}
+
+.document-main .footnote_num:hover + span {
+    -webkit-transform: translateX(0);
+    -moz-transform: translateX(0);
+    -ms-transform: translateX(0);
+    -o-transform: translateX(0);
+    transform: translateX(0);
+    opacity: 1;
+}
+
+@media only screen and (max-width: 1050px) {
+
+    .document-main .footnote_content {
+     position: fixed;
+     bottom: 1em;
+     left: 12.5%;
+     background-color: rgba(var(--white-monochrome));
+     width: 75%;
+    }
+}
+
+/* collapsible block */
+
+#page-content .collapsible-block {
+    display: block;
+    text-align: center;
+    padding: 0.75em;
+    background-color: rgba(var(--gray-monochrome),0.1);
+    border-top: 0.125rem dashed rgba(var(--dark-accent),1);
+    border-bottom: 0.125rem dashed rgba(var(--dark-accent),1);
+}
+
+#page-content .collapsible-block .collapsible-block-content {
+    text-align: left;
+}
+
+blockquote, .blockquote {
+    background-color: rgb(var(--swatch-menubg-dark-color));
+}
+
+@media only screen and (max-width: 768px) {
+    #page-title {
+     font-size: 2em;
+    }
+
+    table.wiki-content-table tr {
+     -webkit-flex-wrap: wrap;
+         -ms-flex-wrap: wrap;
+             flex-wrap: wrap;
+    }
+
+    table.wiki-content-table tr > td {
+     min-width: 100%;
+     font-size: 1rem;
+     padding: 0.5rem;
+    }
+}
+
+.document-main {
+    background-color: rgb(var(--swatch-primary), 0.15);
+    padding: 1rem 0.5em 0em 0.5em;
+    margin-top: 1rem;
+    border: 0.0625rem #CCCCCC solid;
+    border: 0.0625rem rgb(var(--swatch-border-color)) solid;
+    position: relative;
+}
+
+.document-main > br {
+    display: none;
+}
+
+.document-main > div {
+    display: block;
+    width: -webkit-calc(100% - 3rem);
+    width: -moz-calc(100% - 3rem);
+    width: calc(100% - 3rem);
+    background-color: rgb(var(--very-light-gray-monochrome), 1);
+    padding: 0.75rem 0.75rem 0.5rem;
+    margin: 1.5rem 0.5rem 0.5rem 0.5rem;
+    border: 0.25rem rgb(var(--swatch-border-color)) solid;
+    position: relative;
+    line-height: 1.5;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    -webkit-hyphens: auto;
+    -ms-hyphens: auto;
+    -moz-hyphens: auto;
+    hyphens: auto;
+    font-size: inherit;
+}
+
+.document-main > div > p:last-of-type {
+    margin-bottom: 0;
+}
+
+.document-main > div::before {
+    content: " ";
+    position: absolute;
+    top: -1.25rem;
+    left: -0.5rem;
+    padding: 0.5em 0.5em;
+    color: rgb(var(--white-monochrome));
+    font-size: -webkit-calc(12px + (14 - 12) * ( (100vw - 300px) / ( 800 - 300) ));
+    font-size: -moz-calc(12px + (14 - 12) * ( (100vw - 300px) / ( 800 - 300) ));
+    font-size: calc(12px + (14 - 12) * ( (100vw - 300px) / ( 800 - 300) ));
+    font-weight: 600;
+    letter-spacing: 0.05em;
+    text-indent: 0;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    line-height: 1;
+    white-space: nowrap;
+}
+
+.document-main > div.sp-containment,
+.document-main > div.containment,
+.document-main > div.description {
+    background-color: rgba(var(--light-gray-monochrome),0.15);
+    border-color: rgba(var(--swatch-primary-darkest),1);
+}
+
+.document-main > div.sp-containment::before,
+.document-main > div.containment::before,
+.document-main > div.description::before {
+    background-color: rgba(var(--swatch-primary-darkest),1)
+}
+
+.document-main > div.sp-containment::before {
+    content: "Special Containment Procedures 특수 격리 절차";    
+}
+
+.document-main > div.containment::before {
+    content: "Containment Specifications 격리 사양";    
+}
+
+.document-main > div.description::before {
+    content: "Description 설명";
+}
+
+.document-main > .sp-containment > .sp-containment-image {
+  grid-area: image;
+  width: 15vw;
+  float: right;
+  padding-left: 1rem;
+}
+
+.document-main > .sp-containment > .sp-containment-image img {
+  max-height: 110vh;
+}
+
+.scp-image-block {
+    -webkit-box-shadow: initial;
+       -moz-box-shadow: initial;
+            box-shadow: initial;
+}
+
+.scp-image-block .scp-image-caption {
+    background-color: rgb(var(--swatch-menubg-dark-color));
+}
+
+.containment-image {
+    margin-top: 1rem;
+}
+
+.document-main > .sp-containment .scp-image-block img {
+    max-height: 90vh;
+}
+
+/* Doc 3 GoI Entry */
+
+div.database_container,
+div.database_container * {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+div.database_container {
+    width: 100%;
+    color: rgb(var(--white-monochrome));
+    position: relative;
+    padding-top: 0.25rem;
+}
+
+div.database_main, div.database_text {
+    background-color: rgb(var(--swatch-primary-darkest), 0.5);
+    margin: 0.5rem;
+    padding: 0 0 0.75rem 0;
+    display: -ms-grid;
+    display: grid;
+            grid-template-areas:
+        "title"
+        "top"
+        "main";
+    -ms-grid-columns: 100%;
+    grid-template-columns: 100%;
+    position: relative;
+    left: 0;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    -webkit-hyphens: auto;
+    -ms-hyphens: auto;
+    -moz-hyphens: auto;
+    hyphens: auto;
+}
+
+div.database_main > .database_title {
+    -ms-grid-row: 1;
+    -ms-grid-column: 1;
+    grid-area: title;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    font-size: 2em;
+    font-weight: 900;
+    text-align: center;
+    width: 100%;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -moz-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -moz-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    font-family: var(--header-font);
+    letter-spacing: 0.025em;
+    background: rgb(var(--swatch-primary-darkest));
+    -webkit-border-top-right-radius: 0.5rem;
+    -moz-border-radius-topright: 0.5rem;
+    border-top-right-radius: 0.5rem;
+    -webkit-border-top-left-radius: 0.5rem;
+    -moz-border-radius-topleft: 0.5rem;
+    border-top-left-radius: 0.5rem;
+    color: rgb(var(--white-monochrome));
+    border-bottom: 0.5rem double;
+}
+
+.database_table_top {
+    font-size: 0.75em;
+    font-family: var(--mono-font);
+    padding: 1rem 0.5rem 0 0.5rem;
+    display: -ms-grid;
+    display: grid;
+        grid-template-areas:
+        "date secure"
+        "date recognize";
+    -ms-grid-columns: 1fr auto auto;
+    grid-template-columns: 1fr auto auto;
+    -ms-grid-rows: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+.database_table_top br {
+    display: none;
+}
+
+.database_table_top span {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+       -moz-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+       -moz-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    text-align: center;
+    padding: 1em;
+    white-space: wrap;
+    padding-bottom: 1em;
+    background-color: rgba(var(--light-gray-monochrome),0.25);
+    border: 0.125rem solid rgba(var(--light-gray-monochrome),0.5);
+}
+
+.database_table_top span:nth-of-type(1) {
+    grid-area: date;
+    font-size: 1rem;
+}
+
+.database_table_top span:nth-of-type(2) {
+    grid-area: secure;
+}
+
+.database_table_top span:nth-of-type(3) {
+    grid-area: recognize;
+}
+
+div.database_text {
+    padding: 1rem;
+    font-family: var(--mono-font);
+}
+
+.database_memo {
+    font-family: var(--body-font);
+    padding: 1rem;
+    margin: 1rem 0;
+    background-color: rgb(var(--pale-gray-monochrome),0.25);
+    font-size: 1.15em;
+    border: 0.125rem dashed rgba(var(--dark-gray-monochrome),1);
+}
+
+.database_memo p:first-of-type {
+    margin-top: 0;
+}
+
+@media only screen and (max-width: 768px) {
+    .document-main {
+        margin: 0;
+        padding: 0;
+    }
+
+    .document-main > .sp-containment .scp-image-block,
+    .document-main > .sp-containment .scp-image-caption,
+    .document-main > .sp-containment > .sp-containment-image,
+    .document-main > .sp-containment > .sp-containment-text {
+        clear: none !important;
+    }
+
+    .document-main > .sp-containment .scp-image-block.block-right {
+        max-width: 30vw;
+        float: initial;
+        margin: 0;
+    }
+
+    .document-main > .sp-containment > .sp-containment-image {
+    width: initial;
+    }
+
+    .document-main > .sp-containment > .sp-containment-image img {
+        -o-object-fit: cover;
+           object-fit: cover;
+        -o-object-position: bottom;
+           object-position: bottom;
+    }
+    .database_table_top {
+     grid-template-areas:
+     "date"
+     "secure"
+     "recognize";
+     -ms-grid-columns: 1fr;
+     grid-template-columns: 1fr;
+     -ms-grid-rows: 1fr 1fr 1fr;
+     grid-template-rows: 1fr 1fr 1fr;
+    }
+}
+[[/module]]
+
+[[table class="wiki-content-table"]]
+[[row]]
+[[hcell colspan="2"]]
+SCP-4485 PRIMARY DOCUMENT
+SCP-4485 주요문서
+[[/hcell]]
+[[/row]]
+[[row]]
+[[cell]]
+[[span]]LEVEL 6 -- COSMIC TOP SECRET 6등급 -- 우주극비[[/span]]
+[[/cell]]
+[[cell]]
+[[span]]FOR O5 COUNCIL EYES ONLY O5 평의회 열람 전용[[/span]]
+[[/cell]]
+[[/row]]
+[[/table]]
+
+[[include :scp-wiki:component:anomaly-class-bar-source
+|item-number= 4485
+|clearance= 6
+|container-class= esoteric - 난해
+|secondary-class= apollyon - 아폴리온
+|secondary-icon= http://scp-wiki.wikidot.com/local--files/component:anomaly-class-bar/apollyon-icon.svg
+|disruption-class= amida - 아미타
+|risk-class= critical - 치명
+]]
+
+------
+
+[[div class="document-main"]]
+[[div class="sp-containment"]]
+[[div_ class="sp-containment-image"]]
+[[div_ class="scp-image-block block-right"]]
+[[image http://scptestwiki.wikidot.com/local--files/members:scp-wt-woedcode-5/location-scp-0000.png]]
+[[div_ class="scp-image-caption"]]
+Entrance to DEEPWELL-9
+깊은우물-9 입구
+[[/div]]
+[[/div]]
+[[/div]]
+[[div class="sp-containment-text"]]
+SCP-4485, as well as all known individuals affected by SCP-4485 and all artifacts created by or attributed to those individuals or the Group of Interest known as HANSARP are stored in active containment within the Scranton-Jates Supra-Cultural Dissociation Engine at DEEPWELL-9, located beneath the former Site-35 at the Isar II Nuclear Power Plant near Landshut, Germany. Access to DEEPWELL-9 is permitted only to individuals assigned to SCP-4485's containment, as well as those individuals with express written permission by the DEEPWELL-9 Site Director, currently Director Viktor Jates.
+SCP-4485 및 대상의 영향을 입은 인물들, 이들이 만들었거나 이들에게 기인하는 물품들, 일명 HANSARP라는 요주의단체에 속한 인물들은, 모두 독일 란츠후트(Landshut) 인근 이사르,,Isar,, II 발전소의 전 제35기지 아래에 있는 깊은우물-9의 스캔트론-야테스 초문화 해리 엔진(Supra-Cultural Dissociation Engine) 내에 능동 격리 상태로 보관한다. 깊은우물-9에 접근할 수 있는 인원은 SCP-4485의 격리에 배당된 자, 그리고 깊은우물-9 기지 이사관 (현임자 빅토르 야테스) 에게 긴급 서면 허가를 받은 자로 제한한다.
+
+Please note that all previous personnel requirements are currently active:
+이전의 인적 요구 사항은 여전히 그대로 적용되는 점을 참고하기 바란다.
+
+[[collapsible show="+ Access Previous Containment Procedures 이전 격리 절차 보기" hide="- Close Document 문서 닫기"]]
+Access to SCP-4485 is restricted to those personnel who are certified by the on-site accredited logician, appointed by the Foundation European Regional Mathematical Studies Head. Prior to receiving access clearance to SCP-4485, subjects must show they have a mastery over the basic Three Laws of Thought and their application:
+SCP-4485에게는 기지 내 인가필 논리학자에게 증명받은 인원만이 접근할 수 있으며, 이 논리학자는 재단 유럽 지역 수리연구부장이 임명한 자라야 한다. 해당 대상자는 SCP-4485 접근 인가를 받기 전에 이하의 사고 기본 3원칙 및 그 응용에 능통함을 증명해야 한다.
+
+* **Principle of Identity** (Each thing is identical to itself)
+* **동일률** (어떤 것은 그 자신과 같다)
+* **Law of Noncontradiction** (A proposition cannot be both true and false)
+* **모순율** (명제는 참인 동시에 거짓일 수 없다)
+* **Law of Excluded Middle** (A proposition must be either true or false)
+* **배중률** (명제는 참이거나 거짓이다)
+
+Additionally, subjects must show a mastery over Schopenhauer's Four Laws as established in On the Fourfold Root of the Principle of Sufficient Reason and Boole's alternate algebraic representation as presented in An Investigation on the Laws of Thought, a thorough understanding of Russell and Whitehead's Principia Mathematica and Russell's The Problems of Philosophy, and be able to independently reason Gödel's proof.
+더불어 해당 대상자는 《충족이유율의 네 겹의 뿌리에 관하여》에서 확립된 쇼펜하우어의 4법칙, 《사고 법칙 연구》에서 소개되는 불의 대안대수표현에 능통하고, 러셀과 화이트헤드의 《수학원리》와 러셀의 《철학의 문제들》의 내용을 철저히 이해하며, 괴델의 증명을 스스로 유도할 줄 알아야 한다.
+
+Lastly, subjects must understand and apply Tarski's adaptations to the Law of Identity (Leibniz' Law, Law of Reflexivity, Law of Symmetry, Law of Transitivity and its inverse). Subjects must also be familiar with contemporary logicism, such as intuitionistic logic, paraconsistent logic, three-valued logic, modal propositional calculi, and fuzzy logic.
+마지막으로, 해당 대상자는 타르스키의 수정된 동일률 (라이프니츠 원리, 반사성, 대칭성, 추이성과 그 역) 을 이해하고 적용할 줄 알아야 한다. 또한 직관논리, 초일관논리, 3치논리, 양상논리, 퍼지논리 등 현대 논리주의에도 마찬가지로 친숙해야 한다.
+
+In short, subjects must have an absolute mastery, at the highest level achievable by human beings in our current understanding of their nature, over the ability to adeptly reason what is true and logical, or false and illogical.
+종합하자면 해당 대상자는 무엇이 참이고 논리적인지, 또 무엇이 거짓이고 비논리적인지 능숙하게 분별하는 능력에, 현재 우리가 이해하는 범위 안에서 인류가 달성 가능한 최고 수준에 이를 만큼 전적으로 능통해야 한다.
+[[/collapsible]]
+
+Objects and individuals believed to be associated with HANSARP are must be remanded to DEEPWELL-9 immediately, with objects being housed in individualized secure item lockers and human subjects being contained in long-term cryogenic stasis. Manual operation of the Dissociation Engine Core for the purposes of adding objects and individuals to the central containment cells should only be undertaken by members of the Foundation Corp of Anengineers, with any appropriate supervisors.
+HANSARP와 관계된 것으로 추정되는 물체 및 인물은 즉시 깊은우물-9 내로 구금하고, 물체는 개별 보안 보관함에, 인물은 장기 극저온 안정 상태로 수용한다. 중앙 격리실에 물체 및 인물을 더할 목적으로 해리 엔진 코어를 수동 조작하고자 한다면, 알맞은 감독자의 지휘 하에 재단 반공학자,,anengineer,,들이 해당 작업을 수행한다.
+
+SCP-4485의 영향을 입은 재단 유럽 기지는 모두 추후 공지 시까지 무기한 폐쇄한다. 현재 알려진 바로는 재단에서 활동하는 유럽 직원 92%
+All European Foundation sites affected by SCP-4485 are closed indefinitely until further notice. It is currently understood that 92% of active Foundation Europe staff members[[span class="footnote_block one"]][[span class="footnote_num"]]1[[/span]][[span class="footnote_content"]]Specifically, all those from sites outside of Site-77. 구체적으로는 제77기지 이외의 모든 인원.[[/span]]
+[[/span]]  are at risk for being affected by SCP-4485. Site-77 will be the primary European containment and research facility, with DEEPWELL-9 housing research and containment efforts for SCP-4485 specifically.
+가 SCP-4485에게 노출될 위험이 있다. 제77기지는 유럽 내 1차 격리 및 연구시설로서 기능하며, 마찬가지로 SCP-4485를 특히 연구 및 격리하는 데 집중하는 깊은우물-9가 이에 함께한다.
+
+Containment of SCP-4485 has also required institutional alterations to The Foundation. The following is a list of all current initiatives:
+SCP-4485를 격리하려면 또한 재단에게는 제도 차원에서 변화가 필요하다. 이하는 현재 재단이 추진하는 내용의 목록이다.
+
+* Logical assessment, forwardly known as an "Orientation," of all current employees at all levels. Any employees shown to lack an acceptable degree of rational and logical thought will be deemed a hazard to The Foundation and immediately terminated. Due to the risk of these individuals possibly being previously tainted, termination will result in containment within the Scranton-Jates Supra-Cultural Dissociation Engine.
+* 논리 평가, 일명 "오리엔테이션"을 전 등급의 모든 직원에게 실시한다. 이성적/논리적 사고가 흡족한 수준에 미치지 못하는 직원은 재단에게 위험요소가 되는 것으로 간주하여 즉시 처분한다. 해당 인원들이 이미 이전에 오염되었을 위험이 있으므로, 처분 후에는 스캔트론-야테스 초문화적 해리 엔진 내에 격리해야 한다.
+* Dissolution of the Ethics Committee. As voted by the O5 Council (11-2), the Ethics Committee is found to be both unnecessary and actively detrimental to the containment and elimination of HANSARP. All members of the Ethics Committee were deemed unfit and possibly tainted.
+* 윤리위원회는 해체한다. O5 평의회 투표 (11-2) 에 따라 윤리위원회는, HANSARP를 격리 및 말살시키는 데 불필요하며 오히려 유해한 것으로 간주되었다. 윤리위원회 위원들은 전원 기능에 부적합하며 오염의 소지가 있다고 간주되었다.
+[[/div]]
+[[/div]]
+[[div class="containment"]]
+[[div_ class="containment-image"]]
+[[div_ class="scp-image-block"]]
+[[image http://scptestwiki.wikidot.com/local--files/members:scp-wt-woedcode-5/Scranton-JatesEngine.png]]
+[[div_ class="scp-image-caption"]]
+Dissociation Engine Core being lowered into its permanent housing above cryogenic containment cells.
+극저온 격리실 위의 영구 하우징 내로 하강 중인 해리 엔진 코어.
+[[/div]]
+[[/div]]
+[[/div]]
+[[div class="containment-text"]]
+The Scranton-Jates Supra-Cultural Dissociation Engine exists solely to house artifacts and entities that, as an aspect of their nature, violate the innate conventions and structures of the human cultural egoplex, as well as adversely impact the established conventional reality as established by the SCP Foundation Overseer Council. Operation and maintenance of the Scranton-Jates Engine is carried out by the DEEPWELL-9 Operations Control Group in conjunction with the SCPF Department of Energy Control and Resource Consolidation.
+스캔트론-야테스 초문화적 해리 엔진은 오로지, 어떤 물체 또는 독립체가 자신의 특성 측면에서 인간의 문화적 자아복합체,,egoplex,,의 선천적 관습 및 구조를 위반하거나 SCP 재단 감독관 평의회에서 확립한 관습현실에 부정적 영향을 끼칠 경우 이들을 수용할 목적으로 존재한다. 스캔트론-야테스 엔진의 운용 및 정비 작업은 깊은우물-9 운용제어단이 SCPF 에너지제어 및 자원강화부와 협력하여 담당한다.
+
+The Scranton-Jates Engine consists of three distinct subsystems that make up the greater portion of the array:
+스캔트론-야테스 엔진은 이하의 3가지 개별 하위 시스템이 모여 어레이를 이루는 방식이다.
+
+> **Containment Shielding:** The outermost layer of the Scranton-Jates Engine is the containment shielding. This shielding is composed of titanium-alloy plates over a layer of ballistic nanofibers. Per class-appropriate engineering protocols, this shielding combined with the depth of the DEEPWELL site is designed to withstand a direct surface-level impact of a 5mt nuclear yield.
+> **격리 차폐막:** 스캔트론-야테스 엔진의 최외층은 격리 차폐막으로, 탄도나노섬유층 위로 티탸늄 합금판을 덮어 이루어진다. 등급에 걸맞은 제작 프로토콜을 따른다면 이 차폐막은 깊은우물 기지의 깊이에 힘입어 지표면에서 5mt급 핵폭탄이 터지더라도 그 충격을 견뎌낼 수 있다.
+
+> **Containment Housing:** The inner layer of the Scranton-Jates Engine is the containment housing, composed primarily of concrete and steel. This section is comprised of multiple large, hollow rings of channeled concrete (4m high x 30m in diameter) stacked vertically down into the DEEPWELL shaft. The current configuration of the containment housing allows for eleven such sections, with room for an additional fifteen below as they become necessary. A powered elevator system allows for all current sections to be lowered for the placement of additional sections at the top of the array.
+> **격리 하우징:** 스캔트론-야테스 엔진의 중간층은 격리 하우징으로, 주로 콘크리트위 강철로 이루어진다. 해당 구획을 구성하는 부품은 안쪽을 비워 홈을 파놓은 거대한 원통 (높이 4m × 지름 30m) 으로, 이들이 수직으로 쌓여 깊은우물의 통로를 이룬다. 현재 격리 하우징들은 배치상으로 모두 11개 구획을 이룰 수 있으며, 필요 시 15개 구획을 추가로 구성할 공간이 남아 있다. 현재 구획 상부에 추가 구획 부품을 배치하면 자동으로 하강할 수 있는 전동 엘리베이터 시스템 또한 구비되었다.
+> 
+> Each containment section is capable of holding up to two-hundred pacified human subjects in cryogenic stasis. Additionally, each section contains lockers for a variety of artifacts and objects related to SCP-4485. These lockers and cryogenic modules are sustained by liquid nitrogen pumped from storage containers at the surface, and recycled at a substation nearby. A cryogenic fail-safe will flush the each cylinder section with liquid oxygen to sustain containment in the event of a loss of power to the Engine or to the liquid nitrogen pumps.
+> 각 격리 구획은 하나마다 극저온 안정 상태를 유도한 인간 200명을 수용할 수 있다. 더불어 각 구획에는 SCP-4485 관련 물품 및 개체를 다수 가지고 있을 보관함이 딸려 있다. 이 보관함, 그리고 극저온 모듈들은 지표면상의 보관 용기에서 공급하는 액체질소로 기능을 지속하며, 인근 변전소에서 재생 과정을 거친다. 엔진이나 액체질소 펌프가 갑자기 동력을 상실했을 경우, 극저온 자동안전장치가 발동되어 각 구획을 액체산소로 채움으로써 격리 상태를 긴급 유지한다.
+
+> **Dissociation Engine Core:** The innermost component of the Scranton-Jates Engine is the Dissociation Engine Core, formerly classified as SCP-████-█. The Engine Core functions by dissociating cognition from psychological response, neutering the effects of SCP-4485-A and -B instances contained within.
+> **해리 엔진 코어:** 스크랜턴-야테스 엔진의 최내층은 해리 엔진 코어로, 이전에는 SCP-████-█로 등록되었던 바 있다. 엔진 코어는 심리 반응 내에서 인식 능력을 해리시킴으로써 안에 격리된 SCP-4485-A와 -B 개체들의 효과를 무효화한다.
+> 
+> //Under no circumstances should Foundation personnel enter the Engine Core while it is active; exposure to the core is acutely devastating to human psychology and, in the majority of cases, will lead to immediate or regressive brain death.//
+> //어떠한 상황에서도 재단 인원은 작동 중인 엔진 코어 내로 진입하지 못한다. 코어에 노출되면 심리 상태가 급속도로 파괴되며, 대부분은 뇌가 뇌사나 퇴행 상태에 빠지게 된다.//
+> 
+> The Engine Core also acts as a time sink when active, with an effective radius encompassing the entirety of the Scranton-Jates Engine. The current sustainable ratio is [1] day within the core to [46] days without.
+> 또한 엔진 코어는 작동 시 시간 침강 기능 또한 수행하며, 그 범위 반경은 스캔트론-야테스 엔진 전체를 망라하는 데 충분하다. 현재 지속 가능한 비율은 코어 외부 [46]일 대비 내부 [1]일이다.
+
+Despite the procedures listed above, SCP-4485 is currently considered outside of the Foundation's ability to contain. //See Dr. Yoss' reports below for more details.// The 05 Council has given special permission to take any and all actions in order to contain SCP-4485. Approval is not required.
+이상의 절차에도 불구하고 SCP-4485는, 현재 재단의 격리 능력을 넘어선 것으로 간주된다. //자세한 사항은 이하의 요스 박사 보고서 참조.// 05 평의회는 SCP-4485를 격리할 수 있다면 그 어떤 수단을 동원해도 좋다고 특별히 허가하였다. 승인은 불필요하다.
+[[/div]]
+[[/div]]
+[[div class="description"]]
+SCP-4485 is a small leather-bound book written by German-French artist Jean "Hans" Arp. SCP-4485 itself is unremarkable in appearance, being moderately worn and slightly faded. The name of the author is pressed into the leather on the back of the journal in block capitalization. Within the front cover of SCP-4485 are the words "gott ist ohne zweck" beneath a crude drawing of a fish.
+SCP-4485는 독일계 프랑스 예술가 장 "한스" 아르프,,Jean "Hans" Arp,,가 집필한 작은 가죽표지 책이다. SCP-4485 자체는 평범하게 생겼으며, 다소 해지고 약간 빛이 바랐다. 책등에는 저자의 이름이 블록체 대문자로 가죽에 찍혀 있다. SCP-4485의 앞표지에는 "gott ist ohne zweck"라는 말이 간단한 물고기 그림 아래에 쓰여 있다.
+
+SCP-4485 is not acutely anomalous; however, individuals who read SCP-4485 are anomalously affected by the words contained therein. SCP-4485 is filled with writing in the dadaist tradition, most of which is nonsensical with little connection between passages. These passages are interwoven with abstract drawings of shapes, animals, and human beings. Individuals who read SCP-4485 become affected by it in one of two distinct ways:
+SCP-4485는 급성 변칙성을 띠지는 않으나, 대상을 읽은 인물은 그 안에 든 단어들에게 변칙적 영향을 입게 된다. SCP-4485 안에는 다다이즘 유풍의 문장들이 쓰여 있는데, 이들 대부분은 아무 의미 없는 내용이며 문장끼리 서로 관련도 없다. 문장들 사이에는 추상적 도형, 동물, 사람 그림들이 그려져 있다. SCP-4485를 읽은 인물에게는 다음 두 가지 현상 중 하나가 나타난다.
+
+* **(SCP-4485-A)** Individuals who read SCP-4485 and have, in their recent past, had strongly-held political or cultural opinions will strongly reject the "nonsense" contained within SCP-4485. These individuals will at first become more vocal about their positions, regardless of what they are, until eventually becoming seemingly unable to speak about anything else, and becoming violent towards those who would question their position. Over time, these individuals will experience physical changes as well, forming hardened crystalline structures composed primarily of calcium over much of their bodies. These structures will eventually cover the entire body, though locomotion is still possible by way of levitation. The means by which this is accomplished is currently unknown. These individuals are invariably hostile, and serve as vectors for the creation of both SCP-4485-B instances and other SCP-4485-A instance.
+* **(SCP-4485-A)** SCP-4485를 읽었으며 최근에 정치적/문화적 견해를 강력하게 지니던 사람은, SCP-4485 속에 든 "헛소리"를 극렬하게 거부한다. 해당 인물들은 처음에는 종류를 막론하고 자신의 입장을 더욱 강경하게 주장하다가, 나중에는 그 외의 화제로는 아예 이야기를 하지 못하며 자기 입장에 의문을 품는 자에게 언행이 거칠어진다. 시간이 지나며 해당 인물들에게는 물리적 변화 또한 발생하는데, 자기 몸 대부분 위로 단단한 수정체 구조가 (주로 칼슘으로 이루어져서) 생겨난다. 이 구조는 나중에는 온몸을 모두 뒤덮어 버리는데, 이때도 해당 인물들은 공중에 떠다니는 채로 움직일 수가 있다. 이 현상의 기작은 현재 불명이다. 해당 인물들은 항상 적대적 태도를 표시하며, SCP-4485-B 개체들과 다른 SCP-4485-A 개체들을 만드는 매개체로 작용할 수 있다.
+* **(SCP-4485-B)** Individuals who read SCP-4485 and are not aligned with a specific ideology or political philosophy will experience a sharp increase in apathetic behavior. This will be followed by additional erratic behaviors: subjects will begin to ask strange, nonsensical questions or make comments that do not make sense. Any other individuals who engage with these subjects will inevitably succumb to the same anomalous influence as these subjects, who are able to self-propagate by audio and visual means. Over time these individuals will also experience physical changes, becoming less distinct in appearance and more incorporeal. It is the accumulation of these instances in a location that results in the breakdown of the logical super-construction in an area. The advancement of these effects are difficult to quantify, though the affected radius appears to follow exponential trends.
+* **(SCP-4485-B)** SCP-4485를 읽었으며 특별히 이념이나 정치철학을 굳게 고수하지 않던 사람은, 행동에서 무감정한 태도가 급증하게 된다. 그리고 머지않아 추가로 기이한 행동들이 잇따른다. 해당 인물들은 이상하고 무의미한 질문을 던지거나 앞뒤가 맞지 않는 말을 꺼내기 시작한다. 해당 인물들과 대화하는 다른 인물들 역시 나중에 똑같은 변칙적 영향을 받게 되며, 이 영향은 어떤 시청각적 수단을 이용하더라도 퍼질 수 있다. 시간이 지나며 해당 인물들에게도 물리적 변화가 발생하는데, 서로 사이의 차이점이 줄어들며 점점 더 단순한 형태로 몸이 바뀐다. 어떤 위치에 해당 인물들이 축적된다면 그 구역의 논리적 초구성,,logical super-construction,,은 와해된다. 해당 효과의 발전 과정은 정량적으로 표현하기 어려우나, 영향 반경은 기하급수적 추세를 따르는 것으로 보인다.
+
+For more information regarding SCP-4485-A and SCP-4485-B instances, please see Dr. Yoss' reports below.
+SCP-4485-A 및 SCP-4485-B 개체들 관련 자료를 보려면 아래의 요스 박사 보고서 참조.
+[[/div]]
+[[/div]]
+
+[[div_ class="database_container"]]
+    [[div_ class="database_main"]]
+     [[div_ class="database_title"]]
+     Secure Progress Report to 05 Council 05 평의회 제출용 보안 진행 보고서
+     [[/div]]
+     [[div_ class="database_table_top"]]
+     [[span]]submitted: 09.30.2019 제출 일자: 2019.09.30[[/span]]
+     [[span]]secure channel 보안 채널: 37066A983DBEF644B6E4CCF6D1E2456D[[/span]]
+     [[span]]recognize: Dr. Inan Yoss, SCP-4485 Head Researcher 제출자: SCP-4485 연구수석 이난 요스(Inan Yoss)[[/span]]
+     [[/div]]
+    [[/div]]
+    [[div class="database_text"]]
+    Good afternoon, esteemed council members. Please find the memo I sent to The Foundation at large below:
+    존경하는 평의회 의원 여러분 안녕하십니까. 우선 제가 재단 인원 전체에게 발송한 다음 공문을 읽어주시기 바랍니다.
+    [[div class="database_memo"]]
+
+    I know there have been a lot of questions recently concerning the situation in Europe. Understandably, there are some serious and legitimate concerns about our ability to contain the anomalous characteristics attributed to the HANSARP Group of Interest. Allow me to preface by saying that our containment of SCP-4485 and HANSARP as a whole has never before been as secure as it is today. We believe that at least 99.6% of all individuals associated with HANSARP are now in Foundation custody at DEEPWELL-9. However, to ensure we all understand the exact nature of this new threat, it is important for us to make available information regarding what HANSARP is, where it came from, and what it intends to accomplish.
+    유럽의 현 상황에 관련된 걱정 어린 질문들이 많았음을 저도 알고 있습니다. 당연하겠습니다만 요주의단체 HANSARP의 변칙적 특성을 격리할 우리의 능력이 어떻게 되는지 진지하고도 타당한 우려가 많습니다. 맨 먼저 제가 말씀드리고 싶은 것은 저희의 SCP-4485 및 HANSARP 격리 활동 일체는 현재 그 어느 때보다도 안전하다는 것입니다. HANSARP와 관련된 인물 최소 99.6%가 현재 재단 깊은우물-9 속에 격리된 것으로 저희는 파악하고 있습니다. 그러나 이 신종 위협의 정확한 본질을 이해할 수 있도록 HANSARP가 뭔지, 어디서 유래했는지, 이루고자 하는 바가 무엇인지 같은 정보를 알아두시는 것 또한 중요하리라 생각합니다.
+
+    SCP-4485 is the source of a self-propagating cultural consciousness that we now believe self-realized shortly after Jean Arp's death in 1966. We have no reason to suspect that Arp utilized anomalous means to propagate HANSARP, nor do we suspect that Arp himself was somehow anomalous. Analysis of SCP-4485 has shown no evidence that SCP-4485 itself is somehow anomalous.
+    SCP-4485는 자체전파성 문화적 의식의 원천으로, 1966년 장 아르프가 사망하고 머지않아 스스로 발현했다고 저희는 여기고 있습니다. 아르프가 HANSARP를 퍼뜨리고자 변칙 수단을 이용했는지, 아니면 아르프 본인이 변칙성을 띠고 있었는지는 확신할 만한 근거가 없습니다. SCP-4485를 분석한 결과 대상 자체가 변칙성을 띤다는 증거는 나타나지 않았습니다.
+
+    We now believe that the source of the anomalous characteristics associated with SCP-4485 rest entirely within human interaction with the source. SCP-4485 does not change people; people are changed upon reading SCP-4485, or hearing about its contents. SCP-4485 is like a key, perfectly randomly shaped to fit a lock within the human psyche that demands order. Once unlocked, the mind begins to change itself, and the world around that mind follows.
+    현재 저희는 SCP-4485와 관련된 변칙성의 원천이 전적으로 인간의 상호작용 속에 깃들어 있다고 생각하는 중입니다. SCP-4485는 인간을 바꾸지 않습니다. SCP-4485를 읽거나 그 내용을 들음으로써 인간이 바뀔 뿐입니다. SCP-4485는 마치 열쇠와 같습니다. 완전히 무작위로 뽑힌 형태를 지녔지만, 요구를 내리는 인간의 정신세계 속 자물쇠에 정확히 맞아들어갑니다. 자물쇠가 열리면 정신은 스스로 바뀌고, 정신이 따르는 그 주위 세계가 바뀌게 됩니다.
+
+    SCP-4485-A and SCP-4485-B instances represent the two reactions to being exposed to this kind of weaponized meaninglessness - apathy and rejection.
+    SCP-4485-A와 SCP-4485-B가 대변하는 것은 이 무기가 된 무의미함을 대면했을 때 나타나는 두 가지 반응입니다. 바로 무감과 거부감입니다.
+
+    Those who are not prone to holding strong positions, when exposed to the patterns of meaninglessness espoused by SCP-4485 or other SCP-4485-A individuals, will themselves become SCP-4485-B. These individuals, as well as the superego they represent, is what we identify as HANSARP. It is a metaconstructure of disorganized thought that exists for a single purpose - to annihilate reason.
+    자기 입장을 강경하게 표시하지 않는 사람은, SCP-4485나 다른 SCP-4485-A 개체가 신봉하는 무의미의 패턴에 노출되면 SCP-4485-B가 됩니다. 이 대상들을 이들이 대변하는 초자아와 합쳐서, 저희는 HANSARP라고 부릅니다. 이는 무질서한 생각으로 된 메타구조이며, 단 한 가지 목적으로 존재합니다. 이성을 말살하는 것입니다.
+
+    The way this is accomplished is with the creation of SCP-4485-A instances, the logical inverse of SCP-4485-B instances. SCP-4485-A instances are individuals who have rejected the notions of meaninglessness and disorder as proclaimed by SCP-4485-B instances.
+    이 목적을 성취하는 수단이 바로 SCP-4485-B의 논리적 정반대 개념, SCP-4485-A가 만들어지는 것입니다. SCP-4485-B 개체들이 보여주는 무의미와 무질서의 개념들을 거부하는 이들이 바로 SCP-4485-A 개체들입니다.
+
+    If SCP-4485-B instances are the consciousness of HANSARP trying to free itself from the hull of its humanity with a blender, SCP-4485-A instances are the blades.
+    SCP-4485-B가 HANSARP의 의식으로서 자신을 인간성의 껍질 속에서 떼어내고자 믹서기를 동원하고 있다 한다면, SCP-4485-A가 그 칼날입니다.
+
+    The presence of SCP-4485-A instances is enough to drive the alteration of susceptible persons into new instances of SCP-4485-B at rates much higher than what is typical naturally.
+    SCP-4485-A 개체가 민감한 인물과 접촉한다면 SCP-4485-B로 변화하는 과정을 유도하기에 충분합니다. 보통의 자연적인 속도보다 더 빠르게.
+
+    Individuals who are exposed to SCP-4485-A instances react with shock, fear, and then either rejection or apathy.
+    SCP-4485-A에게 노출된 인물은 충격과 공포에 휩싸였다가, 이내 거부감 또는 무감으로 뒤덮입니다.
+
+    It is important in times like this that we keep calm and rational in our actions in response to these threats to The Foundation as well as reality itself. In the coming months, each and every Foundation employee will be asked to take a compulsory orientation on SCP-4485. It is within the best interest of The Foundation and yourself to complete this orientation as soon as possible. Your supervisor will contact you for further details.
+    이런 때일수록 우리에게는 더욱 침착하게 이성적으로, 재단과 현실에 닥쳐온 이 위협에 대응하는 자세가 중요합니다. 몇 달 이내로 재단 직원들은 모두 SCP-4485 의무 오리엔테이션을 받게 됩니다. 해당 오리엔테이션을 최대한 일찍 마치는 것이 재단과 여러분에게 최선의 이익이 됩니다. 자세한 상황은 추후에 상사에게 직접 설명을 들으십시오.
+
+    With the continued cooperation of all Foundation personnel and pointed actions of the 05 Council, this threat will be eliminated.
+    재단 직원들이 끊임없이 협동하고 05 평의회가 정교한 조치를 내린다면, 이 위협은 제거할 수가 있습니다.
+    [[/div]]
+    As you all well know, this caused some measure of fervor within certain more rebellious individuals, particularly those that have persisted since prior to the dissolution of the Ethics Committee. I can assure you that these individuals are being watched and will be terminated if we find them detrimental to continued containment.
+    여러분께서도 아시다시피 이 공문은 반항하는 움직임을 보이는 인물들, 특히 윤리위원회가 해체되기 전부터 완고하게 저항하던 자들에게 어느 정도 열의를 이끌어내는 데 성공한 바 있습니다. 해당 인물들은 전부 저희가 감시 중이며, 격리 지속에 불리할 시 얼마든지 처리할 수 있음을 알려드립니다.
+
+More importantly, I need to report this: Make no mistake; we were targeted specifically. Thousands of personnel were exposed to SCP-4485 in some form or another, all across Europe. Not just through exposure to SCP-4485 itself, but through exposure to artifacts and art pieces they knew we would be forced to clean up. We were fortunate, perhaps, that the majority of our sites were located in more remote locales. The total body count is nearly impossible to figure, but suffice to say that only Site-77 with its primarily internal rotation schedule was mostly spared. We have closed over three-hundred sites across the continent and had to clandestinely move hundreds of artifacts and entities to secure facilities elsewhere. The expense of this effort nearly bankrupted us. We have already begun rebuilding some of our outposts, but to train the required personnel and reinforce the existing structures will take decades, and billions of dollars, or more. As of right now, Europe as a whole is effectively lost to us.
+더 중요한 사항은 이렇습니다. 확고하게 말씀드립니다만, 대상은 처음부터 저희를 노렸습니다. SCP-4485에게 유럽 전역의 수천 명이 제각기 다른 방식으로 노출되었습니다. 그저 SCP-4485에게 직접 노출된 것만이 아니라, 갖가지 물품들과 예술 작품들에 노출되었습니다. 저희가 치우러 나설 수밖에 없었던. 그래도 우리는 운이 좋았을지도 모릅니다. 기지들이 대부분 현장에서 멀리 떨어진 곳에 있었으니. 피해자 수는 이제 아예 셀 수가 없는 지경에 이르렀지만, 내부 교대 체계를 주로 적용한 제77기지 사실상 한 곳만이 살아남았다고 표현할 수는 있습니다. 대륙 전역에 걸쳐 300개 넘는 기지를 폐쇄했고, 수백 가지 물품들과 독립체들을 다시 안전한 시설로 비밀을 유지하는 채로 옮겨야 했습니다. 이 작업의 비용 때문에 저희는 파산 일보직전입니다. 전초기지를 다시 건설하고는 있으나, 필요 인원을 훈련하고 기존 시설을 강화하는 데만 몇십 년이 걸릴뿐더러 수억 달러가 넘는 돈이 필요합니다. 지금으로서 유럽을 저희는 상실했다고 봐야만 합니다.
+
+This is made worse by the fact that, despite our thoughtful actions, we **have not** contained HANSARP.
+설상가상인 점은 저희가 세심하게 행동에 나섰는데도 HANSARP는, 우리가 **격리하지 못했다는** 점입니다.
+
+All of the people in stasis within the Dissociation Engine were Foundation personnel who were within locked sites and could be easily transported. We can't account for some 65% of security personnel, or janitorial. People who were on leave. Doctors en route to other sites who disappeared under mysterious circumstances. There could be hundreds, thousands out there who now a functional super-intelligence and we have no idea how to find them. All the while, our impact teams are finding more HANSARP artifacts everyday.
+해리 엔진 내에 수용된 사람들은 폐쇄된 기지 내에 있던, 쉽게 이송할 수 있었던 직원들뿐입니다. 보안 인원이나 잡역부, 휴가 나간 사람, 다른 기지로 가다가 불명의 사건 때문에 실종된 사람, 그렇게 다 해서 65%를 저희는 처리하지 못하고 있습니다. 아직도 수백 수천 명이 초지능이 기능한 채로 있을 텐데 저희는 어떻게 찾을지도 모릅니다. 게다가 저희 충격팀은 나날이 HANSARP 물품을 끊임없이 발견하고 있습니다.
+
+It is no longer isolated to Europe. It is unsustainable. There is not a site large enough to contain HANSARP, and HANSARP grows larger everyday.
+더 이상 대상은 유럽에 갇혀 있지 않습니다. 그 어떤 격리도 지속 불가능합니다. HANSARP를 격리할 만큼 큰 기지는 없고, HANSARP는 매일 더 자라납니다.
+
+The worst of all of this is that SCP-4485-B instances have a more potent detrimental effect on logic when they're together. A group of a dozen in a village can ruin reason in an area for months. For better or worse, we've got a thousand of these individuals in a bubble the size of an apartment building underground. Don't be mistaken - the Dissociation Engine is a miracle, but it's a machine. The backups are machines. Everything that secures this device is a machine, and if HANSARP finds a workaround to those systems, that's it.
+최악의 사실은 SCP-4485-B들이 같이 있으면 논리에 미치는 유해한 효과가 더욱 강렬해진다는 점입니다. 십여 명만 한 마을에 모여도 그 반경을 몇 달은 황폐화시킵니다. 좋건 싫건 저희는 벌써 그런 사람들 수천 명을 지하의 아파트 건물 크기 거품 하나 속에 몰아넣어 뒀습니다. 다시, 확고하게 말씀드립니다. 해리 엔진은 기적 같은 기계이기 앞서 한갓 기계입니다. 예비 기계 또한 기계일 뿐입니다. 이 장치의 안전을 담보하는 것들은 다 기계고, HANSARP가 이 시스템을 뚫고 들어올 방법을 찾아낸다면 그 이후는 생각할 필요도 없습니다.
+
+In our attempts to save ourselves we have built a bomb filled to the brim with the most potent of payloads. We have armed it with a fuse that logically cannot be lit, and are hoping to keep it safe from an intelligence that does not care whether the facts say it can or cannot.
+어떻게든 살아보겠다고 발버둥치다가 우리는 폭발력 가공한 폭탄들을 그릇 찰랑찰랑하게 채워넣어 버렸습니다. 그리고 논리적으로는 불 붙일 수 없다는 심지를 달아놓고, 기적처럼 살아나기만을 바라고 있습니다. 사실에 따르면 불이 붙는지 안 붙는지 신경쓰지도 않을 놈들한테서.
+
+I am attaching a document to this report. It was recovered during a sweep of the last site we had to burn to the ground. Based on this document, __HANSARP knows.__ They are among us, dear council members. We must act swiftly.
+이 보고서에 문서 하나를 첨부합니다. 저희가 마지막으로 불태운 기지를 일소할 때 회수했습니다. 이 문서를 살펴본 제 결론으로는, __HANSARP는 압니다.__ 이미 우리 안에 있습니다, 존경하는 평의회 의원 여러분. 빨리 행동하십시오.
+[[collapsible show="+ View Recovered Document 회수한 문서 보기" hide="- Hide Recovered Document 회수한 문서 접기"]]
+[[div_ class="scp-image-block"]]
+[[image http://scptestwiki.wikidot.com/local--files/members:kollab-main-6/LHOOQ.png]]
+[[div_ class="scp-image-caption"]]
+Recovered document taken from Site-39. Image is of a sluice gate in service to DEEPWELL-9. Origin of photograph is unknown.
+제39기지에서 회수한 문서. 사진은 깊은우물-9에서 운용 중인 수문이다. 사진의 기원은 불명이다.
+[[/div]]
+[[/div]]
+[[/collapsible]]
+    [[/div]]
+[[/div]]
+@@ @@ 
+
+fragment:dark-light-5 Dark Light 5
+Parent : SCP-4485
