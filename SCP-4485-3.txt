@@ -258,7 +258,7 @@ div.collapsible-block:nth-child(10) > div:nth-child(2) > div:nth-child(1) > a:nt
 }
 
 div.collapsible-block:nth-child(10) > div:nth-child(2) > div:nth-child(1) > a:nth-child(1)::before {
-  content: "SECOND ATTEMPTS WILL BE NOTED.";
+  content: "SECOND ATTEMPTS WILL BE NOTED. 재시도 시 기록됩니다.";
   width: 10rem;
   height: auto;
   position: fixed;
@@ -942,7 +942,7 @@ This is taking a while, isn't it?
 시간 많이 잡아먹히시죠?
 
 3 of 8. That's a whole lot to read. I'll help you along, though.
-8의 3입니다. 읽을 거 되게 많네요. 그래도 계속 도와드리겠습니다.
+8의 3입니다. 읽을 거 되게 많네요. 그래도 기꺼이 도와드리겠습니다.
 
 Don't worry about it, okay.
 걱정하지 마세요, 아시겠죠.
@@ -955,7 +955,7 @@ Just give me a little time.
 And especially do not worry about Lloyd. I asked to make sure he doesn't come back.
 그리고 로이드는 걱정하지 마시구요. 못 돌아오게 해달라고 부탁을 드렸으니까.
 Careful on the survey, though. That goes straight to the Reason Council and I can't stop them if they notice you failing that one.
-설문조사 하실 때는 조심해요. 이성위원회로 바로 가니까 여기서 까딱한 거 거기서 알아채면 제가 못 도와드려요.
+설문조사 하실 때는 조심해요. 이성심의회로 바로 가니까 여기서 까딱한 거 거기서 알아채면 제가 못 도와드려요.
 
 Dr. Gary Lark
 개리 라크 박사
@@ -978,7 +978,7 @@ SCP-4485 문서 6
 [[span]]DISCOVERED 20 AUGUST, 1996 1996년 8월 20일 발견[[/span]]
 [[/cell]]
 [[cell]]
-[[span]]LOCATED ON FOUNDATION DATABASE 재단 데이터베에스 상에서 발견[[/span]]
+[[span]]LOCATED ON FOUNDATION DATABASE 재단 데이터베스 상에서 발견[[/span]]
 [[span]]METHOD OF INSERTION UNKNOWN 삽입 경위 불명[[/span]]
 [[/cell]]
 [[/row]]
