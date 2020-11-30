@@ -1488,13 +1488,13 @@ SCP-4485 오리엔테이션 8 의 2
 [[/div]]
 [[div class="warning-body"]]
 Your progression is most satisfactory. Dr. Lark has joined me and requested to observe your progress in person. However, his request was denied. It is imperative that you complete the orientation in isolation until an acceptable level of comprehension is observed.
-당신의 진행 경과는 굉장히 만족스럽습니다. 라크 박사가 제가 합류해, 당신의 진행을 직접 관찰할 수 있겠냐고 요청했습니다. 그러나 해당 요청은 거부되었습니다. 당신은 파악 정도가 부합하는 수준으로 이를 때까지 혼자서 본 오리엔테이션을 마쳐야 합니다.
+당신의 진행 경과는 굉장히 만족스럽습니다. 라크 박사가 제게 합류해, 당신의 진행을 직접 관찰할 수 있겠냐고 요청했습니다. 그러나 해당 요청은 거부되었습니다. 당신은 파악 정도가 흡족한 수준으로 이를 때까지 혼자서 본 오리엔테이션을 마쳐야 합니다.
 
 I already anticipate you have many questions. However, all out-going communication is forbidden. As such, I can give you answers to a few common inquiries that other employees have had:
 질문하실 바가 많으리라 생각합니다. 그러나 당신에게 발신은 금지되어 있습니다. 그러므로 다른 분들이 자주 질문하는 몇 가지 사항을 대신 대답해 드리고자 합니다.
 
 # **What level of comprehension is deemed acceptable?:** This is on a supervisor to supervisor basis. The Foundation has requested that we accept nothing but a perfect level of understanding. However, I tend to only require this if the Researcher will be directly involved in SCP-4485. As you will be directly involved, I will accept nothing but perfection.
-# **부합하는 파악 수준이 어느 정도인가요?:** 상자에 따라 다릅니다. 재단은 한 치의 흠도 없이 완벽한 수준을 요구한 바 있습니다. 그러나 저는 당신이 SCP-4485와 직접 연관되는 수준만을 요구하고자 합니다. 당신이 직접 연관되는 대로 저는 완벽한 수준으로 받아들이겠습니다.
+# **흡족한 파악 수준이 어느 정도인가요?:** 상사에 따라 다릅니다. 재단은 한 치의 흠도 없이 완벽한 수준을 요구한 바 있습니다. 그러나 저는 연구원이 SCP-4485와 직접 연관될 경우만 이를 요구하고자 합니다. 당신은 직접 연관되는 인원인 관계로 저는 완벽만을 요구하겠습니다.
 # **What will happen if I am found to fail the orientation?:** You will be terminated.
 # **오리엔테이션을 제대로 마치지 못하면 어떻게 되나요?:** 제거됩니다.
 # **What does "comprehension" mean?:** A depressingly common question. It means you must understand the risk and logical danger that SCP-4485 poses. If you need to ask this question, you likely will not pass.
@@ -1526,7 +1526,7 @@ SCP-4485 문서 3
 [[cell]]
 [[span]]GROUP OF INTEREST 요주의 단체[[/span]]
 [[span]]DATABASE ENTRY 데이터베이스 항목[[/span]]
-[[span]]"HANSARP" "한스아르프"[[/span]]
+[[span]]"HANSARP" ("한스아르프")[[/span]]
 [[/cell]]
 [[cell]]
 [[span]]Originally filed: 생성 일자:[[/span]]
@@ -1659,16 +1659,16 @@ body {
     해당 단체는 주로 변칙예술 작품이나 변칙적 기계를 창조한다. 이 작품들의 스타일 및 구조는 각자 다양하지만, 한 가지 공통점은 현실을 조정하는 목적으로 만들어졌다는 것이다.
 
     What is most unusual, however, is the transient nature of these pieces and machines. In the case of nearly all recovered artifacts, the pieces have been placed in locations where they would be visible to a large number of civilians (typically at intersections, within shopping centers, on the sides of buildings, etc.) but do not remain long after they are noticed. In many cases, the pieces have self-removed by the time Foundation assets have moved to intercept them. To date, all pieces have been tagged with the word "HANSARP" in orange spray paint, and signed with a crude drawing of a vertical fish.
-    그러나 이 작품들의 특이한 점은 자신의 출현이 일시적이라는 것이다. 회수된 물품 거의 전원은 수많은 민간인이 목격할 법한 장소 (보통 교차로, 쇼핑몰, 건물 옆 등) 에 있었다가 발견되고 얼마 지나지 않아 사라졌다. 많은 경우 이 물품들은 재단 자산이 이들을 회수하고자 도착했을 때쯤 스스로 사라졌다. 지금까지 모든 작품에는 주황색 스프레이 페인트로 "HANSARP"라는 말이 쓰여 있으며 간단한 물고기 그림 하나가 세로로 그려져 있었다.
+    그러나 이 작품들의 가장 특이한 점은 출현이 일시적이라는 것이다. 회수된 물품 거의 전부는 수많은 민간인이 목격할 법한 장소 (보통 교차로, 쇼핑몰 내, 건물 옆 등) 에 있었다가 발견되고 얼마 지나지 않아 사라졌다. 많은 경우 이 물품들은 재단 자산이 이들을 회수하고자 도착했을 때쯤 스스로 사라졌다. 지금까지 모든 작품에는 주황색 스프레이 페인트로 "HANSARP"라는 말이 쓰여 있으며 간단한 물고기 그림 하나가 세로로 그려져 있었다.
      [[/div]]
      [[/div]]
      [[div_ class="cell"  data-label="Group Description"]]
      [[div]]
     It is currently believed that "HANSARP" is a cultural evolution within a south German "Are We Cool Yet?" sect, designed to disrupt the tenuous peace within the civilian population in the area. Like many AWCY? sects, "HANSARP" creates pieces of obscene or provocative "art", which are then placed in areas where they would do the most harm and left to disturb population centers. The primary differentiation between the two groups, however, is that while artists within AWCY? sects tend to seek attention personally through the use of pseudonyms, "HANSARP" members do not identify themselves by any name other than "HANSARP".
-    현재로서 "HANSARP"는 독일 남부 "Are We Cool Yet?" 분파 내에서 문화적으로 진화된, 해당 지역 주민에게 만연한 평화를 어지럽히려는 조직으로 여겨진다. 다른 AWCY? 분파들처럼 "HANSARP" 역시 외설적이거나 도발적인 "예술" 작품을 창작하여 최대한 피해를 끼치고 인구 밀집 지역을 어지럽힐 수 있는 곳에 이를 전시한다. 그러나 두 조직의 중요한 차이는, AWCY? 예술가들은 필명을 사용함으로써 스스로를 홍보하려고 도모하지만 "HANSARP" 예술가들은 자신들을 지칭할 때 "HANSARP" 이외의 이름을 사용하지 않는다는 점이다.
+    현재로서 "HANSARP"는 독일 남부 "Are We Cool Yet?" 분파 내에서 문화적으로 진화된, 해당 지역 주민에게 만연한 살얼음같은 평화를 어지럽히려는 조직으로 여겨진다. 다른 AWCY? 분파들처럼 "HANSARP" 역시 외설적이거나 도발적인 "예술" 작품을 창작하여 최대한 피해를 끼치고 인구 밀집 지역을 어지럽힐 수 있는 곳에 이를 전시한다. 그러나 두 조직의 중요한 차이는, AWCY? 예술가들은 필명을 사용함으로써 스스로를 홍보하려고 도모하지만 "HANSARP" 예술가들은 자신들을 지칭할 때 "HANSARP" 이외의 이름을 사용하지 않는다는 점이다.
 
     Documents recovered from a coordinated information exchange with the Global Occult Coalition European Taskforce indicate that "HANSARP" has additional ties to high-ranking members of the Church of the Broken God. These connections are likely the source of the anomalous machinery often discovered at "HANSARP" activity sites, though their relation to the Church of the Broken God is still unknown. Analysis of these machines prior to their self-removal has resulted in no definitive answer to their purpose; the machines simply perform a function for a short period of time, and then disassemble afterwards. While it is assumed that they, like the anomalous art pieces attributed to "HANSARP", exist only to disrupt the public, this assumption is not conclusive.
-    세계 오컬트 연합 유럽 특무부대의 협조를 얻어 입수한 문서에 따르면, "HANSARP"는 부서진 신의 교단 고위급 인물들과 따로 친밀한 관계를 맺고 있다. 이 관계는 "HANSARP" 활동 지역에서 종종 발견되는 변칙적 기계의 원천일 수 있으나, 교단과 정확히 어떤 관계에 있는지는 아직도 불명이다. 스스로 사라지기 전에 해당 기계들을 분석해 보았으나 이들의 목적을 확정적으로 밝혀낼 수는 없었다. 기계들은 짧은 시간 자기 기능을 수행하다가 분해될 뿐이었다. 이들도 "HANSARP"라는 이름을 단 다른 변칙예술 작품들처럼 공공에 혼란을 야기하는 목적만을 띤다고 추정하고는 있으나, 결정적으로 판단할 만한 근거는 없다.
+    세계 오컬트 연합 유럽 특무부대의 협조로 정보교환을 거쳐 입수한 문서에 따르면, "HANSARP"는 부서진 신의 교단 고위급 인물들과 따로 모종의 관계를 맺고 있다. 이 관계는 "HANSARP" 활동 지역에서 종종 발견되는 변칙적 기계의 원천일 수 있으나, 교단과 정확히 어떤 관계에 있는지는 아직도 불명이다. 스스로 사라지기 전에 해당 기계들을 분석해 보았으나 이들의 목적을 확정적으로 밝혀낼 수는 없었다. 기계들은 짧은 시간 자기 기능을 수행하다가 분해될 뿐이었다. 이들도 "HANSARP"라는 이름을 단 다른 변칙예술 작품들처럼 공공에 혼란을 야기하는 목적만을 띤다고 추정하고는 있으나, 결정적으로 판단할 만한 근거는 없다.
      [[/div]]
      [[/div]]
      [[/div]]
@@ -1713,11 +1713,11 @@ SCP-4485 문서 4
      [[/div]]
      [[div_ class="table_data" data-label="SUBJECT & EFFECTS 물체 & 효과"]]
      Watercolor painting of an artist painting a watercolor painting. The artist's head is located on its back, facing down, and its features are indistinguishable. Exposed subjects reported seeing duplicates of themselves, and duplicates of the duplicates within the restaurant.
-     수채화를 그리는 화가를 그린 수채화. 머리는 등에 붙어 아래를 내려다보고, 이목구비는 뚜렷하지 않다. 노출된 자들은 식당에 자신과 똑같은 사람들, 그리고 똑같은 사람들과 똑같은 사람들이 보였다고 알렸다.
+     수채화를 그리는 화가를 그린 수채화. 머리는 등에 붙어 아래를 내려다보고, 이목구비는 뚜렷하지 않다. 노출된 자들은 식당에 자신과 똑같은 사람들, 그리고 똑같은 그 사람들과 똑같은 사람들이 보였다고 알렸다.
      [[/div]]
      [[div_ class="table_data" data-label="CURRENT LOCATION 현위치"]]
      N/A. Painting was reduced to colored water after two hours.
-     N/A. 그림은 2시간 후 녹아내려 물감이 되었다.
+     N/A. 그림은 2시간 후 녹아내려 색깔 띤 물이 되었다.
      [[/div]]
     [[/div]]
     [[div_ class="table_row"]]
@@ -1737,11 +1737,11 @@ SCP-4485 문서 4
      서독 뮌헨 법원 건물
      [[/div]]
      [[div_ class="table_data" data-label="SUBJECT & EFFECTS 물체 & 효과"]]
-     A rough pencil sketch of three children consuming each others' feet. Two of the children appear to be weeping, one is laughing. Individuals exposed to the piece began to suffer from the inability to pass through doorways, and were unable to escape the building for some time. This continued until the piece self-removed from the first floor lobby wall. 서로의 발을 먹고 있는 어린이 3명의 간단한 스케치. 어린이 두 명은 울고, 한 명은 웃고 있다. 작품에 노출된 자들은 출입구를 통과하지 못하게 되며, 이 때문에 잠시 건물에서 나가지 못하게 된다. 이 효과는 작품이 1층 로비 벽에서 스스로 사라질 때까지 지속되었다.
+     A rough pencil sketch of three children consuming each others' feet. Two of the children appear to be weeping, one is laughing. Individuals exposed to the piece began to suffer from the inability to pass through doorways, and were unable to escape the building for some time. This continued until the piece self-removed from the first floor lobby wall. 서로의 발을 먹고 있는 어린이 3명의 간단한 연필 스케치. 어린이 두 명은 울고, 한 명은 웃고 있다. 작품에 노출된 자들은 출입구를 통과하지 못하게 되었으며, 이 때문에 잠시 건물에서 나가지 못했다. 이 효과는 작품이 1층 로비 벽에서 스스로 사라질 때까지 지속되었다.
      [[/div]]
      [[div_ class="table_data" data-label="CURRENT LOCATION 현위치"]]
      N/A. The piece is reported to have begun curling up on itself after several hours, and continued to roll tighter until it no longer existed.
-     N/A. 몇 시간 뒤 작품은 스스로 오그라들더니, 점차 계속 말리다가 완전히 사라졌다.
+     N/A. 몇 시간 뒤 작품은 스스로 둘둘 말리더니, 점차 세차게 말아지다가 완전히 사라졌다.
      [[/div]]
     [[/div]]
     [[div_ class="table_row"]]
@@ -1761,7 +1761,7 @@ SCP-4485 문서 4
      [[/div]]
      [[div_ class="table_data" data-label="SUBJECT & EFFECTS 물체 & 효과"]]
      A small, vinyl-covered clockwork machine that produces a small, two dimensional paper fish once every sixteen minutes. Each fish contains the text of a single racial epithet, though these words only appear offensive or obscene to individuals of a different ethnic background, and appear to be the words "what will you do?" to those of the intended background.
-     비닐로 감싼 작은 태엽장치 기계로, 조그만 2차원 종이물고기를 16분마다 내뱉는다. 물고기에는 각각 인종차별적 욕설 하나가 적혀 있는데, 욕설 내용은 다른 민족 계통의 인물에게만 불쾌하거나 외설스럽다고 느껴지며 해당 인물들에게 "넌 어쩔래?"라는 내용으로 인식되는 것으로 보인다.
+     비닐로 감싼 작은 태엽장치 기계로, 조그만 2차원 종이물고기를 16분마다 내뱉는다. 물고기에는 각각 인종차별적 욕설 하나가 적혀 있는데, 욕설 내용은 다른 민족 계통의 인물에게만 불쾌하거나 외설스럽다고 느껴지며 해당 인물들에게 "넌 어쩔래?"라는 내용으로 인식된다.
      [[/div]]
      [[div_ class="table_data" data-label="CURRENT LOCATION 현위치"]]
      Currently in a storage locker at Site-35. Ceased functioning after it was removed from the house. Believed to have generated over 1,900 pieces of paper fish prior to its discovery.
@@ -1786,7 +1786,7 @@ SCP-4485 문서 4
      [[/div]]
      [[div_ class="table_data" data-label="SUBJECT & EFFECTS 물체 & 효과"]]
      A green arrow painted on a lamp post pointed upwards. Individuals exposed to this piece directly begin to feel severe anxiety and self-loathing. Spreads to individuals who interact with these individuals
-     가로등에 그려진 위쪽을 가리키는 초록색 화살. 이곳에 노출된 이들은 곧바로 불안과 자기혐오를 격심하게 호소한다. 해당 인물들과 상호작용하는 것만으로도 이 효과는 퍼진다
+     가로등에 그려진 위쪽을 가리키는 초록색 화살. 해당 작품에 노출된 이들은 곧바로 불안과 자기혐오를 격심하게 호소한다. 해당 인물들과 상호작용하는 것만으로도 이 효과는 퍼진다
      [[div_ class="footnote_block seven"]]
      [[div_ class="footnote_num"]]
                                  7  
@@ -1811,7 +1811,7 @@ SCP-4485 문서 4
                          [[/div]]
      [[div_ class="footnote_content"]]
      Contents redacted due to memetic effect of the location and description of the artifact. First instance of a "HANSARP" artifact showing anomalous effects without need for its physical presence.
-     해당 물품의 장소 및 설명 속 밈 효과로 말미암아 내용 편짐. "HANSARP" 물체 중 물리적으로 실존하지 않고도 변칙효과를 일으킨 최초 사례다.
+     해당 물품의 장소 및 설명 속 밈 효과로 말미암아 내용 편집. "HANSARP" 물체 중 물리적으로 실존하지 않고도 변칙효과를 일으킨 최초 사례다.
      [[/div]]
                         [[/div]]
      [[/div]]
@@ -1852,7 +1852,7 @@ SCP-4485 문서 4
      [[/div]]
      [[div_ class="table_data" data-label="SUBJECT & EFFECTS 물체 & 효과"]]
      Phenomenon affecting a group of Foundation personnel at Site-35. Attributed to "HANSARP" in letter to the editor published in local newspaper.
-     제35기지 재단 인원에게 발생하는 현상. 지역 신문에 실린 편집인에게 보내는 편지 때문에 소행으로 특정되었다.
+     제35기지 몇몇 재단 인원에게 발생하는 현상. 지역 신문에 실린 편집인에게 보내는 편지 상에서 소행으로 특정되었다.
      [[/div]]
      [[div_ class="table_data" data-label="CURRENT LOCATION 현위치"]]
      Contained at Site-35, pending further evaluation (See Document 5).
@@ -1897,7 +1897,7 @@ SCP-4485 문서 5
      [[div_ class="interview-main"]]
                      [[div class="jates"]]
                 Dr. Harmon, hello. Dr. Fitzwell, thank you both for taking my call.
-                하먼 박사, 반갑습니다. 피츠월 박사, 둘 다 전화 받아주셔서 감사합니다.
+                하먼 박사, 반갑습니다. 피츠웰 박사, 둘 다 전화 받아주셔서 감사합니다.
                 [[/div]]
                 [[div class="harmon"]]
                 Of course.
@@ -1913,11 +1913,11 @@ SCP-4485 문서 5
                 [[/div]]
                 [[div class="jates"]]
                 I was hoping you could, uh, illuminate him, on-
-                좀더 분명하게 설명해 줬다면 금상첨화였을-
+                좀더 분명하게 설명해 준다면 금상첨화일-
                 [[/div]]
                 [[div class="harmon"]]
                 I'm just trying to wrap my head around what you're saying here, Fitz. About this whole art thing, it sounds like you're saying nothing we've done here has accomplished anything.
-                아직도 무슨 설명인지 이해하느라 골머리 빠집니다, 피즈. 이 예술 작품들 이야기를 보면, 우리가 했던 것들이 다 아무 쓸모 없었다는 말처럼 들리는데요.
+                아직도 무슨 설명인지 이해하느라 골머리 빠집니다, 피츠. 이 예술 작품들 이야기를 보면, 우리가 했던 것들이 다 아무 쓸모 없었다는 말처럼 들리는데요.
                 [[/div]]
                 [[div class="fitzwell"]]
                 Well that's just it, Isaac. We've missed the forest for the trees on this one, and I think we're in dire trouble.
@@ -1956,7 +1956,7 @@ SCP-4485 문서 5
                 [[/div]]
                 [[div class="jates"]]
                 That was our question. The Critic claims that the studio in question, some hundred or so individuals, has just dropped off the face of the earth. Local authorities weren't able to help, and they were worried that contact the Coalition would result in more deaths than recoveries.
-                저희도 그게 의문입니다. "비평가"는 문제의 그 스튜디오에서, 기백 명 되는 사람들이 갑자기 한꺼번에 잠적했다고 말했습니다. 지역 당국의 도움을 받을 수도 없는데다, 세계 오컬트 연합이 개입했다간 되찾은 사람보다 죽은 사람이 더 많아질 거라고 걱정하더군요.
+                저희도 그게 궁금했습니다. "비평가"는 문제의 그 스튜디오에서, 기백 명 되는 사람들이 갑자기 한꺼번에 잠적했다고 말했습니다. 지역 당국의 도움을 받을 수도 없는데다, 세계 오컬트 연합이 개입했다간 되찾은 사람보다 죽은 사람이 더 많아질 거라고 걱정하더군요.
                 
                 So they contacted us instead.
                 그래서 저희한테 접촉했다고 합니다.
@@ -1999,17 +1999,17 @@ SCP-4485 문서 5
                 [[/div]]
                 [[div class="jates"]]
                 There's a growing sentiment within that community that the effort to produce creatively is not worth the outcome, because they are no closer to self-actualization.
-                이 조직에서는 창의적 생산에 노력하는 것이 결과적으로 아무 쓸모가 없다는 정서가 팽배했다고 합니다. 자아실현에 조금도 도움이 되지 않았기 때문이죠.
+                그 사람들 사이에서는 창의적 생산에 노력하는 것이 결과적으로 아무 쓸모가 없다는 기류가 피어올랐다고 합니다. 자아실현에 조금도 도움이 되지 않았기 때문이죠.
                 
                 They call it wanting to become "cool", but it's just a desire to reach some state of synthesis with themselves and their artform. Their inability to unify the "self" and the "cool" is what we typically see as a motivating factor for the group.
-                그걸 그 사람들 용어로는 "쿨한 것"이라고 부르는데, 자신과 예술 행위를 거쳐서 모종의 통합을 이룩하고자 하는 욕망을 지칭합니다. "자신"과 "쿨함"을 아직 통합시키지 못한 것이 바로 우리가 대개 이 단체의 동기부여 요인으로 인식하는 그것이죠.
+                그걸 그 사람들은 "쿨해지고" 싶어하는 거라고들 하는데, 자신과 예술 행위의 모종의 통합을 이룩하고자 하는 욕망을 지칭합니다. "자신"과 "쿨함"을 아직 통합시키지 못한 것이 바로 우리가 대개 이 단체의 동기부여 요인으로 인식하는 그것이죠.
                 [[/div]]
                 [[div class="fitzwell"]]
                 The Critic poses that the most vocal voices of displeasure have come out of south Germany, where more and more of them are turning to violence and sadism in attempting to reach this state of "cool". The Critic says he's been able to moderate most of the more radical influences, but not HANSARP.
                 "비평가"는 그런 불쾌함을 가장 언성 높여서 호소하는 곳이 남부 독일이었고, 점차 더 많은 이들이 급기야 "쿨함"에 이르고자 폭력과 가학을 동원하게 됐다고 말했습니다. "비평가"의 말로는 자신이 제일 급진적인 영향에 빠진 곳들은 어떻게 누그러뜨리긴 했지만, HANSARP는 그러지 못했다는군요.
                 
                 Something about HANSARP has really set these people off, and then they disappear suddenly.
-                HANSARP가 뭔가 정말 뭔가 일을 크게 터뜨려놨대 싶은, 그때 그 사람들이 갑자기 사라졌다고 합니다.
+                무슨 일 때문인지 HANSARP로 말미암아서 뭔가 정말 큰일이 벌어졌고, 그때 그 사람들이 갑자기 사라졌다고 합니다.
                 [[/div]]
                 [[div class="harmon"]]
                 I still- I don't understand this, Leonard. This HANSARP and Are We Cool Yet?, our documentation says that they're the same group, but you're suggesting they're separate? Where are you getting this information from?
@@ -2023,7 +2023,7 @@ SCP-4485 문서 5
                 변칙예술 작품을 만드는 것 빼고 둘은 완전히 다릅니다. Are We Cool Yet?이 예술품을 제작하는 건 창작자가 조직 내에서 자기 위상을 드높이려는 이유 때문이죠. 뭐랄까 나는 남들보다 "쿨하다" 하고 자랑하는 겁니다.
                 
                 HANSARP doesn't care about creators, or about the art work at all. HANSARP's pieces aren't trying to create status or position, they're nothing. They don't mean anything. There's no linearity between them, and yet they continue to be created. More people are disappearing, specifically those who encountered these pieces.
-                HANSARP는 창작자한테, 그리고 작품한테도 아무 신경 쓰지 않아요. HANSARP의 작품은 지위나 위상 같은 것도 관심이 없고, 아무것도 관심이 없습니다. 의미란 게 전혀 없어요. 둘 사이에 아무 상관관계가 없는데도 작품은 계속해서 나옵니다. 사람들은 자꾸 사라지고요. 특히 이 작품들과 접촉한 사람들이.
+                HANSARP는 창작자한테, 그리고 작품한테도 아무 신경 쓰지 않아요. HANSARP 작품의 의도는 지위도 아니고 위상도 아니고, 그냥 아무것도 없습니다. 의미란 게 전혀 없어요. 둘 사이에 아무 상관관계가 없는데도 작품은 계속해서 나옵니다. 사람들은 자꾸 사라지고요. 특히 이 작품들과 접촉한 사람들이.
                 
                 That chapter of Are We Cool Yet? They were exposed to a piece the week before, hung right outside their studio. Now they're gone.
                 이 동네 Are We Cool Yet?이요? 일주일 전에 작품 하나와 접촉했다고 합니다. 스튜디오 바로 바깥에 걸려 있었던 작품이요. 그리고 지금 사라졌죠.
@@ -2074,7 +2074,7 @@ SCP-4485 문서 5
                 그 전에 하나 이해하셔야 할 게 있어요. HANSARP는 다다이스트 운동입니다.
                 
                 Within dada, there is no meaning - reason and logic are considered detrimental to the human condition in favor of disorder. They don't have a set of beliefs that you could call consistent because they have given up on consistency.
-                다다에는 의미가 없습니다. 조리와 논리를 인간의 조건에 걸림돌만 되는 유해한 개념으로 받아들이죠. 다다에는 일관성이라고 부를 만한 신념이 깃들어 있지 않습니다. 일관성 자체를 단념했으니까요.
+                다다에는 의미가 없습니다. 조리와 논리를 인간의 조건에 걸림돌만 되는 유해한 개념으로 받아들이죠. 다다에는 일관성 있다고 할 만한 신념이 깃들어 있지 않습니다. 일관성 자체를 단념했으니까요.
                 [[/div]]
                 [[div class="fitzwell"]]
                 It's not shocking that they would target groups who are at a growing risk of frustration due to the impossibility of their goals, because HANSARP's philosophy precludes the possibility of "goals" as a concept. You can't have "goals" when there is nothing to be gained.
@@ -2106,7 +2106,7 @@ SCP-4485 문서 5
                 그 책이 현실을 조정한다고 저희는 생각했지만 그건... 책은 저희가 격리하고 나서 아무것도 하지 않았습니다.
                 
                 The art pieces don't //do// anything when we put them in containment. We only see the sort of anomalous activity we associate with the book when other people are involved. People who see these art pieces, or who read SCP-4485, they're exposed to something that makes them question fundamental truths about their lives. It happened here, at Site-35.
-                작품들 또한 격리하고 나서 //아무것도// 한 적 없습니다. 저희가 사람들이 연루된 변칙활동을 목격한 다음에 그걸 책과 결부지었을 뿐이죠. 그 작품들을 보거나 SCP-4485를 읽은 사람들은, 자신의 생에게 근본적인 질문을 던지도록 만드는 무언가에 노출되었을 뿐입니다. 그게 지금 여기, 제35기지에서 진행 중이고요.
+                작품들 또한 격리하고 나서 //아무것도// 한 적 없습니다. 우리가 그 책과 결부지은 변칙활동을 목격한 건 사람들이 연루되었을 때뿐이죠. 그 작품들을 보거나 SCP-4485를 읽은 사람들이 노출된 대상은, 자신의 생에게 근본적인 질문을 던지게 됩니다. 그게 지금 여기, 제35기지에서 진행 중이고요.
                 [[/div]]
                 [[div class="harmon"]]
                 What? What happened?
@@ -2126,7 +2126,7 @@ SCP-4485 문서 5
                 심리학 직원 쪽에서 이들에게 접근해 배경 사항을 점검해 봤습니다. 폭력성을 띤 사람들은 어떤 이슈에서, 말하고 다니는 그 화제에서 강경한 입장을 띠어본 사람들이었습니다. 정치 운동, 직장 문제 등등처럼요.
                 
                 The rest just- just hadn't. But they were all being changed, like HANSARP was crystallizing their apathy, or their zealotry. When they started to change, the site started to change.
-                나머지는 그냥- 그냥 그렇지 않았습니다. 하지만 이들도 바뀌기 시작했죠. 마치 HANSARP가 이들 속에 무감함과 열성의 결정을 맺듯이요. 이들이 바뀌기 시작하자, 이 기지 또한 바뀌었습니다.
+                나머지는 그냥- 그냥 그렇지 않았습니다. 하지만 이들도 바뀌기 시작했죠. 마치 HANSARP가 이들 속에 무감함과 열성을 빡빡히 다지듯이요. 이들이 바뀌기 시작하자, 이 기지 또한 바뀌었습니다.
                 [[/div]]
                 [[div class="harmon"]]
                 How?
@@ -2134,7 +2134,7 @@ SCP-4485 문서 5
                 [[/div]]
                 [[div class="jates"]]
                 People began to see things that weren't there. Doors that didn't exist, impossible changes in geometry. HANSARP took credit for this in a local paper, but there had been no contact with these people and HANSARP, except by reading the book.
-                사람들이 없는 걸 보인다고 말하기 시작했습니다. 없는 문이 생겨나고, 기하학적으로 불가능한 모양이 있다고 말했죠. 지방신문에서 이 이유로 HANSARP를 꼽기도 했지만, 이 사람들과 HANSARP는 접촉한 적이 없었습니다. 책을 읽었던 걸 빼면요.
+                사람들이 없는 걸 보인다고 말하기 시작했습니다. 없는 문이 생겨나고, 기하학적으로 불가능한 모양이 있다고 말했죠. 지방신문에서 HANSARP가 자기 소행이라 밝힌 적도 있지만, 이 사람들과 HANSARP는 접촉한 적이 없었습니다. 책을 읽었던 걸 빼면요.
                 
                 Over time, the same thing happened to the psychologists. Talking to these people changes the way you see the world, and once you've become like they are, the world changes to fit what you see. Madness.
                 시간이 지나며 심리학 직원들도 똑같아졌습니다. 그 사람들한테 말하는 것만으로 세상을 보는 방식이 달라지고, 마침내 그 사람들과 똑같아지면 세상이 보이는 대로 변화하게 되는 겁니다. 광기죠.
@@ -2166,7 +2166,7 @@ SCP-4485 문서 5
                 아이작, 모든 곳에 그들이 있어요. 저희가 모든 곳의 연구원에게 손을 대버렸다구요.
                 
                 And it doesn't take much - they'll ask an innocuous question, maybe questioning a strongly held position. But something about HANSARP makes those questions stick, and then... then they become carriers for it. They become HANSARP.
-                그것도 별로 어렵지 않게. 그들이 겉보기에 무해한 질문을 던집니다. 아무래도 강경한 어조로요. 그런데 HANSARP의 무언가가 그 질문에 붙어가고, 그 다음엔... 전파자가 되어 버리죠. HANSARP가 되는 겁니다.
+                그것도 별로 어렵지 않게. 그들이 겉보기에 무해한 질문을 던집니다. 아무래도 확고부동하던 자신의 입장에다가요. 그런데 HANSARP의 무언가가 그 질문을 머릿속에서 요동시키고, 그 다음엔... 전파자가 되어 버리죠. HANSARP가 되는 겁니다.
                 [[/div]]
                 [[div class="harmon"]]
                 This... the staff rotations... all of Europe, all of our sites...
@@ -2189,7 +2189,7 @@ SCP-4485 문서 5
                 아니- (//말 멈췄다가//) -그래요.
                 
                 I will discuss this with my team. We will work on taking the necessary steps to mitigate this issue.
-                저희 팀과 논의해 보겠습니다. 이 이슈를 대체하는 데 필요한 단계를 수립해야겠어요.
+                저희 팀과 논의해 보겠습니다. 이 이슈를 대처하는 데 필요한 대책을 수립해야겠어요.
                 
                 (//Pauses//)
                 (//멈춤//)
@@ -2202,7 +2202,7 @@ SCP-4485 문서 5
                 아뇨, 아이작.
                 
                 There is work that needs to be done here. We can still communicate with those affected. Another group went missing recently, Broken God faithful each, and the connection between the two is undeniable. We... I will know when it is too late for us to accomplish anything here, Isaac. Then I will leave.
-                여기서밖에 처리할 수 없는 일이 있습니다. 저희는 피영향자들과 대화할 수가 있죠. 최근에 부서진 신 신도들이 한 무더기로 실종되었는데, 이 둘 사이에 무슨 관계가 있는지는 또 아직 모릅니다. 저희는... 뭘 어떡할 수 없을 만큼 늦은 때가 언제인지 정도는 감을 잡습니다, 아이작. 그때 저는 나올 겁니다.
+                여기서밖에 처리할 수 없는 일이 있습니다. 저희는 피영향자들과 대화할 수가 있죠. 최근에 부서진 신 신도들이 한 무더기로 실종되었는데, 이 둘 사이에 무슨 관계가 있는지는 명명백백니다. 저희는... 뭘 어떡할 수 없을 만큼 늦은 때가 언제인지 정도는 감을 잡습니다, 아이작. 그때 저는 나올 겁니다.
                 [[/div]]
                 [[div class="harmon"]]
                 Please do. We need you, Leonard. Now more than ever.
@@ -2274,7 +2274,7 @@ SCP-4485 문서 5
                 그냥 읽기만 하면서.
                 
                 Trying to see what in it could compel a man to remove his own face, just in order to see... to see something. We should have rules for that sort of thing.
-                그 안에 어떤 게 사람에게 얼굴을 스스로 벗겨내게 시켜서 본 다음에, 그저... 뭔가 보려고. 그런 짓일지라도 원칙을 세워야만 했어요.
+                그 안에 어떤 게 사람에게 얼굴을 스스로 벗겨내게 시켜는지, 그저... 뭐라도 보고 싶어서. 그런 것일지라도 원칙을 세워야만 했어요.
                 [[/div]]
                 [[div class="jates"]]
                 I know.
@@ -2282,7 +2282,7 @@ SCP-4485 문서 5
                 [[/div]]
                 [[div class="fitzwell"]]
                 Viktor, I- have I said anything to you yet? Anything that you- that you could see didn't make sense? Something out of place? I think, I've tried to think and see, if there would be anything.
-                빅터, 혹시 저- 제가 그런 말 한 적 없습니까? 보시기로- 보시기에 말이 안되는? 뭔가 영 엉뚱한? 제 생각엔, 제가 생각하려고 하면서 보기는, 그런 게 있을지 최대한 안 하려고 그랬는데.
+                빅토르, 혹시 저- 제가 그런 말 한 적 없습니까? 보시기로- 보시기에 말이 안되는? 뭔가 영 엉뚱한? 제 생각엔, 제가 생각하려고 하면서 보기는, 그런 게 있을지 최대한 안 하려고 그랬는데.
                 
                 Tell me truthfully, Viktor. Please.
                 솔직히 말씀해 주세요, 빅토르. 부탁입니다.
