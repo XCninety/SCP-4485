@@ -252,9 +252,9 @@ It calls for me and I ignore it.
 저를 부르지만 저는 무시합니다.
 
 Soon it will have me.
-곧 저에게 있겠죠.
+곧 저를 삼키겠죠.
 And you.
-당신에게도.
+당신도.
 
 And nothing, if you ask me.
 그리고 말하자면, 아무것도 없습니다.
@@ -347,11 +347,11 @@ SCP-4485 PRIMARY DOCUMENT SCP-4485 주 문서
                 </section>
                 <section>
                     <p class="labeltext">understanding is searching for an empty cup from which to drink air 이해란 공기를 담아마실 빈 컵을 찾는 것</p>
-                    <p class="labeltext">listening is a quality of which only canines find within their expertise 듣기란 강아지들이나 경험 속에서 찾아낼 자질</p>
+                    <p class="labeltext">listening is a quality of which only canines find within their expertise 듣기란 강아지들이나 경험 속에서 찾아낼 기술</p>
                     <p class="labeltext">DADA is missing. DADA is found. DADA가 사라졌다. DADA를 찾아냈다.</p>
                 </section>
                 <section>
-                    <p>DADA is the rising lights within the singed forest of turgid education DADA는 부풀은 교육의 그슬린 숲 속 떠오르는 빛</p>
+                    <p>DADA is the rising lights within the singed forest of turgid education DADA는 부푼 교육의 그슬린 숲 속 떠오르는 빛</p>
                 </section>
                 <section>
                     <figure>
@@ -364,7 +364,7 @@ SCP-4485 PRIMARY DOCUMENT SCP-4485 주 문서
                 <section>
                     <p class="labeltext">hide hide hide 숨어 숨어 숨어</p>
                     <p class="labeltext">it searches for you 너를 찾고 있어</p>
-                    <p>complacency and that which shatters the dark matter in which you sit 안일함과 암흑물질 흐트리는 이들이 네 자리에 앉아</p>
+                    <p>complacency and that which shatters the dark matter in which you sit 안일함과 네가 앉은 암흑물질 흩트리는 이들이</p>
                     <p>glowing in the horrid and lovely 흉측함과 사랑스러움 속에 빛나</p>
                 </section>
             </div>
@@ -372,9 +372,9 @@ SCP-4485 PRIMARY DOCUMENT SCP-4485 주 문서
         <div class="page-container">
             <div id="page2">
                 <section>
-                    <p class="labeltext">i sit among the degloved hand of justice dripping her dark essence 여자의 어두운 정수 뚝뚝 떨어지는 장갑 벗은 정의의 손 가운데 나 앉아</p>
+                    <p class="labeltext">i sit among the degloved hand of justice dripping her dark essence 살갗 벗겨져 그 어두운 정수 뚝뚝 떨구는 정의의 손 가운데 나 앉아</p>
                     <p class="labeltext">sinking through the cracks of cancerous bone 암덩어리 뼈의 금 속으로 가라앉네</p>
-                    <p class="labeltext">holding my feet above the rolling contradiction among all things 모두를 관통하며 구르는 모순 위로 발을 쳐들고</p>
+                    <p class="labeltext">holding my feet above the rolling contradiction among all things 모두 가운데서 구르는 모순 위로 발을 쳐들고</p>
                     <p class="labeltext">drink drink inhale breath 마셔 마셔 들이쉬어 숨쉬어</p>
                 </section>
                 <section>
@@ -392,7 +392,7 @@ SCP-4485 PRIMARY DOCUMENT SCP-4485 주 문서
                     <figure>
                         <picture>
                             <source srcset="http://scp-wiki.wdfiles.com/local--files/fragment%3Adark-light-4/watchingone.svg" type="image/svg">
-                            <img src="http://scp-wiki.wdfiles.com/local--files/fragment%3Adark-light-4/watchingone.svg" alt="저 위에서, 너를 거꾸로 된 모습으로 오네 up above, coming for your upside down looks">
+                            <img src="http://scp-wiki.wdfiles.com/local--files/fragment%3Adark-light-4/watchingone.svg" alt="저 위에서, 거꾸로 된 네 모습에게 찾아오네 up above, coming for your upside down looks">
                         </picture>
                     </figure>
                 </section>
