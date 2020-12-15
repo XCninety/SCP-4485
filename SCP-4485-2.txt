@@ -1761,7 +1761,7 @@ SCP-4485 문서 4
      [[/div]]
      [[div_ class="table_data" data-label="SUBJECT & EFFECTS 물체 & 효과"]]
      A small, vinyl-covered clockwork machine that produces a small, two dimensional paper fish once every sixteen minutes. Each fish contains the text of a single racial epithet, though these words only appear offensive or obscene to individuals of a different ethnic background, and appear to be the words "what will you do?" to those of the intended background.
-     비닐로 감싼 작은 태엽장치 기계로, 조그만 2차원 종이물고기를 16분마다 내뱉는다. 물고기에는 각각 인종차별적 욕설 하나가 적혀 있는데, 욕설 내용은 다른 민족 계통의 인물에게만 불쾌하거나 외설스럽다고 느껴지며 해당 인물들에게 "넌 어쩔래?"라는 내용으로 인식된다.
+     비닐로 감싼 작은 태엽장치 기계로, 조그만 2차원 종이물고기를 16분마다 내뱉는다. 물고기에는 각각 인종차별적 욕설 하나가 적혀 있는데, 욕설 내용은 다른 민족 계통의 인물에게만 불쾌하거나 외설스럽다고 느껴지며, 그 외 계획된 인물들에게는 "넌 어쩔래?"라는 내용으로 인식된다.
      [[/div]]
      [[div_ class="table_data" data-label="CURRENT LOCATION 현위치"]]
      Currently in a storage locker at Site-35. Ceased functioning after it was removed from the house. Believed to have generated over 1,900 pieces of paper fish prior to its discovery.
@@ -2106,7 +2106,7 @@ SCP-4485 문서 5
                 그 책이 현실을 조정한다고 저희는 생각했지만 그건... 책은 저희가 격리하고 나서 아무것도 하지 않았습니다.
                 
                 The art pieces don't //do// anything when we put them in containment. We only see the sort of anomalous activity we associate with the book when other people are involved. People who see these art pieces, or who read SCP-4485, they're exposed to something that makes them question fundamental truths about their lives. It happened here, at Site-35.
-                작품들 또한 격리하고 나서 //아무것도// 한 적 없습니다. 우리가 그 책과 결부지은 변칙활동을 목격한 건 사람들이 연루되었을 때뿐이죠. 그 작품들을 보거나 SCP-4485를 읽은 사람들이 노출된 대상은, 자신의 생에게 근본적인 질문을 던지게 됩니다. 그게 지금 여기, 제35기지에서 진행 중이고요.
+                작품들 또한 격리하고 나서 //아무것도// 한 적 없습니다. 우리가 그 책과 결부지은 변칙활동을 목격한 건 사람들이 연루되었을 때뿐이죠. 그 작품들을 본 사람들, 또 SCP-4485를 읽은 사람들, 이들이 노출된 대상은 자기 삶에 관련된 근본적 진리를 의심하도록 만듭니다. 그게 지금 여기, 제35기지에서 진행 중이고요.
                 [[/div]]
                 [[div class="harmon"]]
                 What? What happened?
