@@ -2189,7 +2189,7 @@ SCP-4485 문서 5
                 아니- (//말 멈췄다가//) -그래요.
                 
                 I will discuss this with my team. We will work on taking the necessary steps to mitigate this issue.
-                저희 팀과 논의해 보겠습니다. 이 이슈를 대처하는 데 필요한 대책을 수립해야겠어요.
+                저희 팀과 논의해 보겠습니다. 이 이슈에 대처하는 데 필요한 대책을 수립해야겠어요.
                 
                 (//Pauses//)
                 (//멈춤//)
@@ -2274,7 +2274,7 @@ SCP-4485 문서 5
                 그냥 읽기만 하면서.
                 
                 Trying to see what in it could compel a man to remove his own face, just in order to see... to see something. We should have rules for that sort of thing.
-                그 안에 어떤 게 사람에게 얼굴을 스스로 벗겨내게 시켜는지, 그저... 뭐라도 보고 싶어서. 그런 것일지라도 원칙을 세워야만 했어요.
+                그 안에 어떤 게 사람에게 얼굴을 스스로 벗겨내게 시켜는지, 그저... 뭐라도 보고 싶어서. 그런 것일망정 저희한테도 규칙이란 게 있을 테니까요.
                 [[/div]]
                 [[div class="jates"]]
                 I know.
