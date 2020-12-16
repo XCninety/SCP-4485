@@ -347,7 +347,7 @@ SCP-4485 PRIMARY DOCUMENT SCP-4485 주 문서
                 </section>
                 <section>
                     <p class="labeltext">understanding is searching for an empty cup from which to drink air 이해란 공기를 담아마실 빈 컵을 찾는 것</p>
-                    <p class="labeltext">listening is a quality of which only canines find within their expertise 듣기란 강아지들이나 경험 속에서 찾아낼 기술</p>
+                    <p class="labeltext">listening is a quality of which only canines find within their expertise 듣기란 강아지들이나 기술 속에서 찾아낼 자질</p>
                     <p class="labeltext">DADA is missing. DADA is found. DADA가 사라졌다. DADA를 찾아냈다.</p>
                 </section>
                 <section>
