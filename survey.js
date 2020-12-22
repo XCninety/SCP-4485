@@ -14,7 +14,7 @@ $(document).ready(function() {
 	var data;
 	$.ajax({
 		type: "GET",  
-		url: "http://scp-wiki.wdfiles.com/local--files/fragment%3Adark-light-3/names.csv",
+		url: "http://sandbox.scp-wiki.kr/local--files/dark-light/names.csv",
 		dataType: "text",       
 		success: function(response)  
 		{
